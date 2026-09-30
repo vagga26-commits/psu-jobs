@@ -1,0 +1,641 @@
+<title>Sarkari Jobs Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: naukri.com job-search page. White header with search pill, then three columns:
+   filter panel (left), job cards (centre), side cards (right). Single light theme, like the reference site. */
+:root{
+  --bg:#f8f9fa; --card:#ffffff; --ink:#121224; --ink2:#474d6a; --ink3:#717b9e; --muted:#8292b4;
+  --line:#e7e7f1; --line2:#d4d4dc; --blue:#275df5; --blue-soft:#eef2fe; --orange:#f05537;
+  --green:#1a7d4b; --green-soft:#e8f6ee; --red:#d92b2b; --red-soft:#fdecec; --amber:#b25e09; --amber-soft:#fdf3e2;
+  --shadow:0 6px 12px rgba(30,10,58,.04); --font:"Inter",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font:14px/1.45 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+svg.i{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* header */
+.hdr{background:var(--card);box-shadow:0 1px 6px rgba(0,0,0,.06);position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+.hdr-in{max-width:1240px;margin:0 auto;padding-inline:16px;height:72px;display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:baseline;gap:1px;font-weight:700;font-size:26px;letter-spacing:-.02em;color:var(--blue);white-space:nowrap}
+.logo span{color:var(--ink2);font-weight:600;font-size:15px;margin-left:6px;letter-spacing:0}
+.nav{display:flex;gap:24px;font-weight:500;color:var(--ink2)}
+.nav a{color:var(--ink2);padding:24px 0;border-bottom:2px solid transparent}
+.nav a.on{color:var(--ink);border-bottom-color:var(--blue)}
+.hdr-right{margin-left:auto;display:flex;gap:10px;align-items:center}
+.btn-o{border:1px solid var(--blue);color:var(--blue);background:var(--card);border-radius:50px;padding:8px 18px;font-weight:600;font-size:14px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.btn-o[aria-pressed="true"]{background:var(--blue);color:#fff}
+.btn-f{border:0;background:var(--orange);color:#fff;border-radius:50px;padding:9px 18px;font-weight:600;font-size:14px;cursor:pointer}
+
+/* search pill */
+.search-band{max-width:1240px;margin:20px auto 0;padding-inline:16px}
+.pill{display:flex;align-items:center;background:var(--card);border-radius:50px;box-shadow:0 6px 12px rgba(30,10,58,.06);border:1px solid var(--line);padding:6px 6px 6px 20px;gap:0}
+.pill .f{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:8px;padding:0 14px;border-right:1px solid var(--line)}
+.pill .f:first-child{padding-left:0;flex:1.6 1 0}
+.pill .f:nth-child(3){border-right:0}
+.pill input,.pill select{border:0;outline:0;background:transparent;font:500 14px var(--font);color:var(--ink);width:100%;padding:10px 0;min-width:0}
+.pill input::placeholder{color:var(--muted);font-weight:400}
+.pill select{color:var(--ink2);cursor:pointer;appearance:none}
+.pill .go{border:0;background:var(--blue);color:#fff;border-radius:50px;padding:12px 28px;font-weight:600;font-size:15px;cursor:pointer;flex:none}
+
+/* page grid */
+.page{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;grid-template-columns:272px minmax(0,1fr) 300px;gap:24px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}
+
+/* filters */
+.filters{padding:20px 20px 8px;position:sticky;top:calc(88px + env(safe-area-inset-top,0px));max-height:calc(100vh - 104px);overflow:auto;scrollbar-width:thin}
+.f-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.f-head b{font-size:16px}
+.f-head .applied{font-size:12px;color:var(--ink3);font-weight:500;margin-left:6px}
+.linkbtn{border:0;background:none;color:var(--blue);font-weight:600;font-size:13px;cursor:pointer;padding:0}
+.fs{padding:16px 0;border-bottom:1px solid var(--line)}
+.fs:last-child{border-bottom:0}
+.fs h3{margin:0 0 10px;font-size:15px;font-weight:600;color:var(--ink)}
+.opt{display:flex;align-items:center;gap:10px;padding:5px 0;cursor:pointer;color:var(--ink2);font-size:14px}
+.opt input{appearance:none;width:16px;height:16px;border:1.5px solid var(--line2);border-radius:4px;margin:0;flex:none;display:grid;place-items:center;cursor:pointer;background:var(--card)}
+.opt input:checked{background:var(--blue);border-color:var(--blue)}
+.opt input:checked::after{content:"";width:8px;height:4px;border:2px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px)}
+.opt .n{color:var(--muted);font-size:13px;margin-left:auto;font-variant-numeric:tabular-nums}
+.opt .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.more{margin-top:6px}
+.fs select{width:100%;font:500 14px var(--font);color:var(--ink2);border:1px solid var(--line2);border-radius:8px;padding:9px 10px;background:var(--card)}
+
+/* results */
+.res-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:2px 0 14px;flex-wrap:wrap}
+.res-head .count{font-size:14px;font-weight:500;color:var(--ink2);margin:0}
+.res-head .count b{color:var(--ink);font-weight:600}
+.sort{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:50px;padding:6px 14px;font-size:13px;color:var(--ink3)}
+.sort select{border:0;font:600 13px var(--font);color:var(--ink);background:transparent;cursor:pointer;outline:0}
+.fbtn{display:none}
+.done{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:-4px 0 14px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:50px;padding:5px 10px 5px 12px;font-size:13px;color:var(--ink2);cursor:pointer}
+.chip:hover{border-color:var(--ink3)}
+.chip b{font-weight:600;color:var(--ink)}
+.note{font-size:13px;color:var(--ink3);margin:-6px 0 12px}
+
+.tuple{position:relative;cursor:pointer;padding:18px 20px 14px;margin-bottom:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 16px;transition:box-shadow .15s}
+.tuple:hover{box-shadow:0 8px 24px rgba(30,10,58,.09)}
+.t-title{font-size:16px;font-weight:600;color:var(--ink);line-height:1.35;margin:0;text-wrap:balance}
+.t-title a{color:inherit;cursor:pointer}
+[data-job]{cursor:pointer}
+.t-title a::after{content:"";position:absolute;inset:0;border-radius:20px;z-index:1}
+.tuple:hover .t-title a{color:var(--blue)}
+.tuple:focus-within{box-shadow:0 0 0 2px var(--blue)}
+.t-title a:focus-visible{outline:0}
+.save,.tuple .alt{position:relative;z-index:2}
+.t-org{display:flex;align-items:center;flex-wrap:wrap;gap:4px 10px;margin-top:6px}
+.t-org .nm{font-weight:600;color:var(--ink2)}
+.t-org .full{color:var(--ink3);font-size:13px}
+.badge{font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;border:1px solid var(--line);color:var(--ink3);background:var(--bg);white-space:nowrap}
+.badge.lv-Central{color:#1f4cc9;border-color:#d5e0fd;background:var(--blue-soft)}
+.badge.lv-State{color:#7a3fbf;border-color:#e7dbf6;background:#f6f0fd}
+.badge.lv-PSU{color:var(--green);border-color:#cfe9da;background:var(--green-soft)}
+.logo-t{grid-column:2;grid-row:1 / span 2;width:56px;height:56px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:15px;letter-spacing:.02em;overflow:hidden;background:var(--card)}
+.logo-t img,.rl .mini img{width:100%;height:100%;object-fit:contain;padding:6px;background:#fff}
+.meta{grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:center;gap:6px 0;margin-top:12px;color:var(--ink2)}
+.meta > span{display:inline-flex;align-items:center;gap:6px;padding-right:14px;margin-right:14px;border-right:1px solid var(--line);min-width:0}
+.meta > span:last-child{border-right:0}
+.meta svg{color:var(--ink3)}
+.desc{grid-column:1 / -1;display:flex;gap:8px;align-items:flex-start;margin-top:10px;color:var(--ink3);font-size:14px}
+.desc svg{margin-top:2px}
+.tags{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:2px 0;margin-top:8px;font-size:12px;color:var(--ink3)}
+.tags span+span::before{content:"•";margin:0 8px;color:var(--line2)}
+.foot{grid-column:1 / -1;display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;margin-top:12px}
+.ago{font-size:12px;color:var(--ink3);background:var(--bg);border-radius:4px;padding:3px 8px}
+.due{font-size:12px;font-weight:600;border-radius:4px;padding:3px 8px;background:var(--green-soft);color:var(--green)}
+.due.soon{background:var(--amber-soft);color:var(--amber)}
+.due.now{background:var(--red-soft);color:var(--red)}
+.via{font-size:12px;color:var(--ink3)}
+.save{margin-left:auto;border:0;background:none;display:inline-flex;align-items:center;gap:6px;color:var(--ink2);font-weight:500;font-size:13px;cursor:pointer;padding:4px 2px}
+.save[aria-pressed="true"]{color:var(--blue)}
+.save[aria-pressed="true"] svg{fill:var(--blue)}
+.empty{padding:48px 24px;text-align:center;color:var(--ink3)}
+.empty b{display:block;color:var(--ink);font-size:16px;margin-bottom:6px}
+
+.pager{display:flex;justify-content:center;align-items:center;gap:6px;margin:8px 0 0;flex-wrap:wrap}
+.pager button{border:0;background:none;min-width:34px;height:34px;border-radius:50%;font:500 14px var(--font);color:var(--ink2);cursor:pointer}
+.pager button.cur{background:var(--card);color:var(--ink);font-weight:700;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.pager button.nav-b{border-radius:50px;padding:0 14px;color:var(--blue);font-weight:600}
+.pager button:disabled{color:var(--line2);cursor:default}
+
+/* side rail */
+.rail{display:grid;gap:16px;position:sticky;top:calc(88px + env(safe-area-inset-top,0px))}
+.rail .card{padding:18px 20px}
+.rail h2{font-size:15px;font-weight:600;margin:0 0 12px}
+.rl{display:grid;gap:12px}
+.rl a{display:grid;grid-template-columns:36px minmax(0,1fr);gap:10px;align-items:center;color:var(--ink)}
+.rl .mini{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);display:grid;place-items:center;font-size:11px;font-weight:700;overflow:hidden}
+.rl .mini img{padding:3px}
+.rl .tt{font-weight:600;font-size:13px;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.rl .ss{font-size:12px;color:var(--ink3)}
+.rl .ss b{color:var(--red);font-weight:600}
+.orgs{display:flex;flex-wrap:wrap;gap:8px}
+.orgs button{border:1px solid var(--line);background:var(--card);border-radius:50px;padding:6px 12px;font-size:13px;color:var(--ink2);cursor:pointer}
+.orgs button:hover{border-color:var(--blue);color:var(--blue)}
+.orgs button span{color:var(--muted);margin-left:4px}
+.small{font-size:12px;color:var(--ink3);line-height:1.5;margin:0}
+.srcs{display:grid;gap:6px;font-size:13px;color:var(--ink2)}
+.srcs div{display:flex;justify-content:space-between;gap:8px}
+.srcs span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+footer .disclaimer{margin:18px 0 0}
+.hub{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px 28px;border-top:1px solid var(--line);padding-top:24px}
+.hub h2{font-size:13px;font-weight:700;color:var(--ink);margin:0 0 10px}
+.hub ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.hub a{color:var(--ink2);font-size:13px}
+.hub a:hover{color:var(--blue)}
+.intro{max-width:1240px;margin:18px auto 0;padding-inline:16px}
+.intro h1{font-size:22px;font-weight:700;margin:0;text-wrap:balance}
+.intro p{margin:6px 0 0;color:var(--ink2);max-width:90ch}
+.crumbs{max-width:1240px;margin:16px auto 0;padding-inline:16px;font-size:13px;color:var(--ink3);display:flex;flex-wrap:wrap;gap:6px}
+.crumbs a{color:var(--ink3)}.crumbs a:hover{color:var(--blue)}
+.crumbs span[aria-hidden]{color:var(--line2)}
+.lp{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:18px 40px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;align-items:start}
+.lp h2.sec{font-size:16px;margin:24px 0 12px}
+.faq{display:grid;gap:14px}.faq h3{margin:0 0 4px!important}
+@media (max-width:1140px){.lp{grid-template-columns:minmax(0,1fr)}}
+footer{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:0 32px;color:var(--ink3);font-size:12px}
+
+/* drawer + responsive */
+.scrim{display:none}
+@media (max-width:1140px){.page{grid-template-columns:260px minmax(0,1fr)}.rail{display:none}}
+@media (max-width:860px){
+  .hdr-in{height:60px;gap:14px}.nav{display:none}.logo{font-size:22px}.logo span{display:none}
+  .btn-f{display:none}
+  .pill{flex-wrap:wrap;border-radius:18px;padding:10px 12px;gap:8px}
+  .pill .f{flex:1 1 100%!important;border-right:0;border-bottom:1px solid var(--line);padding:0 4px!important}
+  .pill .f:nth-child(3){border-bottom:0}
+  .pill .go{width:100%}
+  .page{grid-template-columns:minmax(0,1fr)}
+  .fbtn{display:inline-flex}
+  .done{display:inline}
+  .filters{position:fixed;inset:0 auto 0 0;width:min(340px,88vw);max-height:none;height:100%;z-index:40;border-radius:0 20px 20px 0;transform:translateX(-105%);transition:transform .2s;padding-top:calc(20px + env(safe-area-inset-top,0px))}
+  body.drawer .filters{transform:none}
+  body.drawer .scrim{display:block;position:fixed;inset:0;background:rgba(18,18,36,.4);z-index:30}
+  .tuple{padding:16px}
+  .logo-t{width:44px;height:44px;font-size:13px}
+}
+
+/* job description page */
+.jdpage{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+.back{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;margin-bottom:14px;color:var(--blue);background:none;border:0;cursor:pointer;padding:0}
+.jd-top{padding:24px 24px 18px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 20px}
+.jd-top h1{font-size:20px;font-weight:700;line-height:1.3;margin:0;text-wrap:balance}
+.jd-top .logo-t{width:72px;height:72px;font-size:18px}
+.jd-top .t-org{margin-top:8px}
+.jd-top .meta{margin-top:14px}
+.jd-bar{grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+.jd-stats{flex:1 1 320px;display:flex;flex-wrap:wrap;gap:6px 0;font-size:13px;color:var(--ink3)}
+.jd-stats span{padding-right:12px;margin-right:12px;border-right:1px solid var(--line)}
+.jd-stats span:last-child{border-right:0}
+.jd-stats b{color:var(--ink2);font-weight:600}
+.jd-actions{margin-left:auto;display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.apply{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;border-radius:50px;padding:11px 26px;font-weight:600;font-size:15px}
+.apply:hover{background:#1d4ed8}
+.apply-note{flex-basis:100%;text-align:right;font-size:12px;color:var(--ink3);margin-top:-4px}
+.jd-card{padding:24px;margin-top:16px}
+.jd-card h2{font-size:16px;font-weight:700;margin:0 0 12px}
+.jd-card h3{font-size:14px;font-weight:600;margin:22px 0 8px;color:var(--ink)}
+.jd-card p,.jd-card li{color:var(--ink2);font-size:14px;line-height:1.6}
+.jd-card p{margin:0}
+.jd-card ul,.jd-card ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.kv{display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr);gap:8px 16px;font-size:14px;margin:4px 0 0}
+.kv dt{color:var(--ink3)}
+.kv dd{margin:0;color:var(--ink);font-weight:500;overflow-wrap:anywhere}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{background:var(--bg);text-align:left;font-weight:600;color:var(--ink2);padding:9px 12px;border-bottom:1px solid var(--line)}
+.tbl td{padding:9px 12px;border-bottom:1px solid var(--line);color:var(--ink2);vertical-align:top}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.n{font-variant-numeric:tabular-nums;font-weight:600;color:var(--ink);white-space:nowrap}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skills span{border:1px solid var(--line);border-radius:50px;padding:5px 12px;font-size:13px;color:var(--ink2)}
+.olinks{display:grid;gap:8px}
+.olinks a{display:flex;align-items:center;gap:8px;font-weight:500;overflow-wrap:anywhere}
+.olinks small{color:var(--ink3);font-weight:400}
+.srcnote{font-size:12px;color:var(--ink3);margin-top:20px;padding-top:14px;border-top:1px solid var(--line)}
+.sim{padding:20px}
+.sim h2{font-size:16px;font-weight:700;margin:0 0 6px}
+.sim a.row{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);color:var(--ink)}
+.sim a.row:last-child{border-bottom:0}
+.sim .tt,.sim .ss{display:block}
+.sim .tt{font-weight:600;font-size:14px;line-height:1.35}
+.sim .ss{font-size:12px;color:var(--ink3);margin-top:4px}
+.sim .logo-t{width:44px;height:44px;font-size:12px;grid-column:2;grid-row:1}
+@media (max-width:1140px){.jdpage{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:860px){
+  .jd-top{padding:18px 16px}.jd-top .logo-t{width:52px;height:52px;font-size:14px}.jd-top h1{font-size:18px}
+  .jd-actions{margin-left:0;width:100%}.apply{flex:1;justify-content:center}.apply-note{text-align:left}
+  .jd-card{padding:18px 16px}.kv{grid-template-columns:minmax(0,1fr)}.kv dt{margin-top:6px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="logo" href="/*HOME*/" aria-label="Sarkari Jobs Board home">sarkari<span>jobs board</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/*HOME*/" class="on" id="nav-jobs">Jobs</a>
+      <a href="/*NAV_PSU*/" id="nav-psu">PSU</a>
+      <a href="/*NAV_CENTRAL*/" id="nav-central">Central Govt</a>
+      <a href="/*NAV_STATE*/" id="nav-state">State Govt</a>
+    </nav>
+    <div class="hdr-right">
+      <button class="btn-o" id="saved-btn" type="button" aria-pressed="false">
+        <svg class="i" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Saved <span id="saved-n">0</span></button>
+      <button class="btn-f" id="closing-btn" type="button">Closing this week</button>
+    </div>
+  </div>
+</header>
+
+<form class="search-band" id="search" role="search">
+  <div class="pill">
+    <label class="f"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" name="q" type="search" placeholder="Enter post / organisation / exam (e.g. apprentice, NTPC, SSC)" aria-label="Keyword"></label>
+    <label class="f"><select id="qsel" name="qual" aria-label="Qualification"><option value="">Select qualification</option></select></label>
+    <label class="f"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      <input id="loc" name="loc" list="states" placeholder="Enter state" aria-label="State"><datalist id="states"></datalist></label>
+    <button class="go" type="submit">Search</button>
+  </div>
+</form>
+
+<!--SEO_INTRO-->
+<div class="scrim" id="scrim"></div>
+<main class="page">
+  <aside class="card filters" id="filters" aria-label="Filters">
+    <div class="f-head"><div><b>All Filters</b><span class="applied" id="applied"></span></div><div style="display:flex;gap:14px"><button class="linkbtn" id="clear" type="button">Clear all</button><button class="linkbtn done" id="done" type="button">Done</button></div></div>
+    <div id="facets"></div>
+    <div class="fs"><h3>Freshness</h3>
+      <select id="fresh" aria-label="Freshness"><option value="">Any time</option><option value="1">Last 1 day</option><option value="3">Last 3 days</option><option value="7">Last 7 days</option><option value="15">Last 15 days</option><option value="30">Last 30 days</option></select></div>
+  </aside>
+
+  <section aria-label="Jobs">
+    <div class="res-head">
+      <p class="count" id="count"></p>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="btn-o fbtn" id="open-f" type="button"><svg class="i" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters</button>
+        <label class="sort">Sort by: <select id="sort" aria-label="Sort"><option value="rel">Relevance</option><option value="date">Date posted</option><option value="due">Closing soon</option><option value="vac">Vacancies</option></select></label>
+      </div>
+    </div>
+    <div class="chips" id="chips"></div>
+    <p class="note" id="note" hidden></p>
+    <div id="list"><!--SEO_LIST--></div>
+    <div class="pager" id="pager"></div>
+  </section>
+
+  <aside class="rail" aria-label="More">
+    <div class="card"><h2>Closing in 3 days</h2><div class="rl" id="rail-due"></div></div>
+    <div class="card"><h2>Top organisations hiring</h2><div class="orgs" id="rail-orgs"></div></div>
+    <div class="card"><h2>Where these jobs come from</h2><div class="srcs" id="rail-src"></div>
+      <p class="small" style="margin-top:12px" id="gen"></p></div>
+  </aside>
+</main>
+<main class="jdpage" id="jdview" hidden></main>
+<footer><!--SEO_LINKS--><p class="disclaimer">Always check eligibility, age limit and fee in the official advertisement before applying. Days left are counted from your device's date.</p></footer>
+
+<script type="application/json" id="jobs-data">/*__DATA__*/</script>
+<script>
+(function(){
+  const boot = raw => {
+  // Hosted site: jobs link to their own crawlable pages. Offline file: jobs open inside this page.
+  const SITE = !!raw.site;
+  const jobAttr = j => SITE && j.page ? `href="${raw.site.root}${j.page}"` : `data-job="${j.id}" role="link" tabindex="0"`;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const fmt = n => n.toLocaleString('en-IN');
+  const today = new Date(); today.setHours(0,0,0,0);
+  const days = d => d ? Math.round((new Date(d+'T00:00:00') - today)/864e5) : null;
+  const dstr = d => new Date(d+'T00:00:00').toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
+  const store = { get(k,d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+                  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+
+  const QUAL = [
+    ['10th / 12th pass', /^(5th|7th|8th|10th|12th|intermediate)$|\b(class (8|10|12)|matric(ulation)?|sslc|hsc|10\+2|xth|xiith|10th|12th|intermediate)\b/i], ['ITI', /\biti\b/i], ['Diploma', /diploma|d\.pharm|dmlt|d\.el\.ed/i],
+    ['B.Tech / B.E', /b\.?\s?tech|b\.arch|\bb\.?e\b|engineering degree|degree in engineering/i], ['Graduate', /graduate|graduation|bachelor|degree|^b\.a$|\bb\.a\b|b\.com|b\.sc|bca|b\.voc|bba|b\.b\.a|bsw|bfsc|b\.lib|bhm/i],
+    ['Post Graduate / MBA', /post graduate|masters|^m\.a$|m\.sc|m\.com|mba|pgdm|mca|msw|m\.lib|m\.p\.ed|mph|^ms$/i],
+    ['M.Tech / PhD', /m\.e\/|m\.tech|m\.phil|ph\.d/i], ['B.Ed / Teaching', /b\.ed|m\.ed|b\.el\.ed|bped/i],
+    ['CA / CS / CMA / Law', /^ca$|^cs$|icwa|icmai|icsi|llb|llm/i],
+    ['Medical / Nursing / Pharma', /mbbs|ms\/md|dnb|bhms|bams|bums|bds|dental|pharma|gnm|mvsc|bvsc|\bdm\b|m\.ch|bpt|bmlt/i]];
+  const LV = {'Central Govt':'Central','State Govt':'State','PSU':'PSU'};
+  const PALETTE = [['#eef2fe','#275df5'],['#e8f6ee','#1a7d4b'],['#fdf3e2','#b25e09'],['#f6f0fd','#7a3fbf'],['#fdecec','#c43d3d'],['#e6f6f8','#0f7d8c'],['#f1f3f7','#474d6a']];
+  const hue = s => { let h = 0; for (const c of s) h = (h*31 + c.charCodeAt(0)) >>> 0; return PALETTE[h % PALETTE.length]; };
+  const LOGOS = raw.logos || {};
+  const logoSrc = j => j.logo_domain ? (LOGOS[j.logo_domain] || `https://www.google.com/s2/favicons?domain=${j.logo_domain}&sz=128`) : null;
+  // logo image with an initials tile underneath; a failed or placeholder-sized icon falls back to the tile
+  const logo = (j, cls) => { const [bg, fg] = hue(j.org), src = logoSrc(j), ini = esc(initials(j.org));
+    return `<div class="${cls}" style="background:${bg};color:${fg}" data-ini="${ini}" aria-hidden="true">${src ? `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ini}</div>`; };
+  document.addEventListener('error', e => { const im = e.target; if (im.tagName === 'IMG' && im.parentElement?.dataset.ini) im.parentElement.textContent = im.parentElement.dataset.ini; }, true);
+  document.addEventListener('load', e => { const im = e.target; if (im.tagName === 'IMG' && im.parentElement?.dataset.ini && im.naturalWidth && im.naturalWidth < 17 && !im.src.startsWith('data:')) im.parentElement.textContent = im.parentElement.dataset.ini; }, true);
+  const initials = s => s.replace(/[^A-Za-z0-9 &]/g,' ').split(/\s+/).filter(Boolean).map(w => /^[A-Z0-9]{2,6}$/.test(w) ? w : w[0]).join('').slice(0,4).toUpperCase();
+
+  // offline file stores each notice's description once (raw.jds) and per-post parts on the job
+  raw.jobs.forEach(j => { if (!j.jd && raw.jds && j.jd_ref !== undefined) j.jd = {...raw.jds[j.jd_ref], ...(j.jd_post || {})}; });
+  const jobs = raw.jobs.map(j => {
+    const left = days(j.last_date), age = j.posted ? -days(j.posted) : null;
+    const t = j.source_types || ['aggregator'];
+    return {...j, left, age,
+      quals: [...new Set(j.qualification.flatMap(q => QUAL.filter(([,rx]) => rx.test(q)).map(([n]) => n)))],
+      postedBy: [t.includes('official') ? 'Company site' : null, t.includes('aggregator') ? 'Job portal' : null].filter(Boolean),
+      locs: j.locations && j.locations.length ? j.locations : ['All India'],
+      hay: [j.title, j.org, j.org_full, j.department, j.level, (j.locations||[]).join(' '), j.qualification.join(' ')].join(' ').toLowerCase()};
+  }).filter(j => j.left === null || j.left >= 0);
+
+  // facets: key, label, value(s) of a job, how many to show before "View more"
+  const FACETS = [
+    ['level', 'Job type', j => [j.level], 3],
+    ['department', 'Department', j => [j.department], 6],
+    ['loc', 'Location', j => j.locs, 6],
+    ['postedBy', 'Posted by', j => j.postedBy, 2],
+    ['qual', 'Education', j => j.quals, 6],
+    ['mode', 'How to apply', j => j.apply_mode ? [j.apply_mode] : [], 3],
+    ['org', 'Organisation', j => [j.org], 6]];
+  const st = { q:'', qsel:'', loc:'', fresh:'', sort:'rel', page:1, saved:false, week:false, sel:{}, open:{} };
+  FACETS.forEach(([k]) => st.sel[k] = new Set());
+  let saved = new Set(store.get('sjb.saved', []));
+
+  // qualification select + state datalist
+  QUAL.forEach(([n]) => $('qsel').append(new Option(n, n)));
+  [...new Set(jobs.flatMap(j => j.locs))].sort().forEach(s => $('states').append(new Option(s)));
+
+  function match(j, skip){
+    if (st.saved && !saved.has(j.id)) return false;
+    if (st.week && !(j.left !== null && j.left <= 7)) return false;
+    if (st.q && !st.q.split(/\s+/).every(w => j.hay.includes(w))) return false;
+    if (st.qsel && !j.quals.includes(st.qsel)) return false;
+    if (st.loc){ const l = st.loc.toLowerCase(); if (!j.locs.some(x => x.toLowerCase().includes(l) || x === 'All India')) return false; }
+    if (st.fresh && !(j.age !== null && j.age <= +st.fresh)) return false;
+    for (const [k,,fn] of FACETS){ if (k === skip || !st.sel[k].size) continue; if (!fn(j).some(v => st.sel[k].has(v))) return false; }
+    return true;
+  }
+  function score(j){
+    let s = 0;
+    if (st.q){ const t = j.title.toLowerCase(), o = (j.org + ' ' + j.org_full).toLowerCase();
+      st.q.split(/\s+/).forEach(w => { if (t.includes(w)) s += 6; if (o.includes(w)) s += 4; }); }
+    s += Math.max(0, 30 - (j.age ?? 30)) / 6;           // fresher first
+    s += j.vacancies ? Math.log10(j.vacancies + 1) : 0;  // bigger drives a little higher
+    return s;
+  }
+  const SORTS = { rel:(a,b)=>score(b)-score(a), date:(a,b)=>(a.age??999)-(b.age??999), due:(a,b)=>(a.left??999)-(b.left??999), vac:(a,b)=>(b.vacancies||0)-(a.vacancies||0) };
+
+  function renderFacets(){
+    $('facets').innerHTML = FACETS.map(([k, label, fn, top]) => {
+      const counts = new Map();
+      jobs.forEach(j => { if (match(j, k)) fn(j).forEach(v => counts.set(v, (counts.get(v)||0) + 1)); });
+      st.sel[k].forEach(v => { if (!counts.has(v)) counts.set(v, 0); });
+      let rows = [...counts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+      if (!rows.length) return '';
+      const all = rows.length, open = st.open[k];
+      if (!open) rows = rows.filter((r,i) => i < top || st.sel[k].has(r[0]));
+      return `<div class="fs"><h3>${label}</h3>${rows.map(([v,n]) => `<label class="opt"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${st.sel[k].has(v)?'checked':''}><span class="t" title="${esc(v)}">${esc(v)}</span><span class="n">(${fmt(n)})</span></label>`).join('')}
+        ${all > top ? `<button class="linkbtn more" type="button" data-more="${k}">${open ? 'View less' : `View more (${all - top})`}</button>` : ''}</div>`;
+    }).join('');
+  }
+
+  function tuple(j){
+    const [bg, fg] = hue(j.org), lv = LV[j.level] || 'Central';
+    const cls = j.left === null ? '' : j.left <= 3 ? 'now' : j.left <= 7 ? 'soon' : '';
+    const due = j.left === null ? (j.status === 'Ongoing' ? 'Ongoing' : 'Last date not stated') : j.left === 0 ? 'Closes today' : `${j.left} day${j.left>1?'s':''} left`;
+    const ago = j.age === null ? '' : j.age <= 0 ? 'Today' : j.age >= 30 ? '30+ Days Ago' : `${j.age} Day${j.age>1?'s':''} Ago`;
+    const quals = j.quals.length ? j.quals.slice(0,2).join(', ') + (j.quals.length > 2 ? ' +' + (j.quals.length-2) : '') : 'See notice';
+    const href = esc(j.official_url || j.url);
+    const via = j.postedBy.length === 2 ? 'Company site + job portal' : j.postedBy[0] === 'Company site' ? 'Company site' : 'Job portal';
+    return `<article class="card tuple">
+      <h2 class="t-title"><a ${jobAttr(j)} title="View job description">${esc(j.title)}</a></h2>
+      ${logo(j, 'logo-t')}
+      <div class="t-org"><span class="nm">${esc(j.org)}</span>${j.org_full && j.org_full !== j.org ? `<span class="full">${esc(j.org_full)}</span>` : ''}<span class="badge lv-${lv}">${esc(j.level)}</span></div>
+      <div class="meta">
+        <span title="Education"><svg class="i" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>${esc(quals)}</span>
+        <span title="Vacancies"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.6.8 2.6 2.5 3 5.2"/></svg>${j.vacancies ? fmt(j.vacancies) + ' post' + (j.vacancies>1?'s':'') : 'Posts not stated'}</span>
+        <span title="Location"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(j.locs.join(', '))}</span>
+      </div>
+      <div class="desc"><svg class="i" viewBox="0 0 24 24"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg>
+        <span>${esc(j.department)}${j.sector && j.department === 'Public Sector Undertakings' ? ' · ' + esc(j.sector) : ''} · ${j.last_date ? 'Last date ' + dstr(j.last_date) : 'Last date not stated'}${j.apply_mode ? ' · Apply ' + esc(j.apply_mode.toLowerCase()) : ''}${j.notice_title ? ' · ' + ((j.siblings||[]).length + 1 + (j.more_posts||0)) + ' posts in this notice' : ''}</span></div>
+      ${j.qualification.length ? `<div class="tags">${j.qualification.slice(0,8).map(q => `<span>${esc(q)}</span>`).join('')}</div>` : ''}
+      <div class="foot">${ago ? `<span class="ago">${ago}</span>` : ''}<span class="due ${cls}">${due}</span><span class="via">via ${via}</span>
+        <button class="save" type="button" data-save="${j.id}" aria-pressed="${saved.has(j.id)}"><svg class="i" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>${saved.has(j.id) ? 'Saved' : 'Save'}</button></div>
+    </article>`;
+  }
+
+  function render(){
+    const r = jobs.filter(j => match(j)).sort(SORTS[st.sort]);
+    const per = 20, pages = Math.max(1, Math.ceil(r.length / per));
+    st.page = Math.min(st.page, pages);
+    const from = (st.page-1)*per, slice = r.slice(from, from + per);
+    const what = st.saved ? 'saved jobs' : st.q ? `"${esc(st.q)}" jobs` : 'government jobs';
+    $('count').innerHTML = r.length ? `${from+1} - ${from+slice.length} of <b>${fmt(r.length)}</b> ${what}` : `0 ${what}`;
+    $('list').innerHTML = slice.length ? slice.map(tuple).join('') :
+      `<div class="card empty"><b>No jobs match these filters</b>Remove a filter or try a broader keyword.</div>`;
+    // applied chips
+    const chips = [];
+    if (st.q) chips.push(['q', '', st.q]);
+    if (st.qsel) chips.push(['qsel', '', st.qsel]);
+    if (st.loc) chips.push(['loc', '', st.loc]);
+    if (st.week) chips.push(['week', '', 'Closing this week']);
+    if (st.saved) chips.push(['saved', '', 'Saved only']);
+    FACETS.forEach(([k]) => st.sel[k].forEach(v => chips.push(['f', k, v])));
+    $('chips').innerHTML = chips.map(([t,k,v]) => `<button class="chip" type="button" data-chip="${t}" data-k="${k}" data-v="${esc(v)}"><b>${esc(v)}</b><svg class="i" viewBox="0 0 24 24" aria-label="Remove"><path d="M6 6l12 12M18 6 6 18"/></svg></button>`).join('');
+    const nApplied = chips.length + (st.fresh ? 1 : 0);
+    $('applied').textContent = nApplied ? `Applied (${nApplied})` : '';
+    $('note').hidden = !st.loc; $('note').textContent = st.loc ? `Includes all-India notices open to candidates from ${st.loc}.` : '';
+    // pager
+    let pg = '';
+    if (pages > 1){
+      pg += `<button class="nav-b" data-p="${st.page-1}" ${st.page===1?'disabled':''}>Previous</button>`;
+      for (let p = 1; p <= pages; p++){
+        if (p === 1 || p === pages || Math.abs(p - st.page) <= 2) pg += `<button class="${p===st.page?'cur':''}" data-p="${p}">${p}</button>`;
+        else if (Math.abs(p - st.page) === 3) pg += '<span style="color:var(--muted)">…</span>';
+      }
+      pg += `<button class="nav-b" data-p="${st.page+1}" ${st.page===pages?'disabled':''}>Next</button>`;
+    }
+    $('pager').innerHTML = pg;
+    $('saved-n').textContent = saved.size;
+    $('saved-btn').setAttribute('aria-pressed', st.saved);
+    if (!SITE) document.querySelectorAll('.nav a').forEach(a => a.classList.remove('on'));
+    const lv = [...st.sel.level];
+    if (!SITE) $(lv.length === 1 ? {'PSU':'nav-psu','Central Govt':'nav-central','State Govt':'nav-state'}[lv[0]] : 'nav-jobs').classList.add('on');
+    renderFacets();
+  }
+
+  // rail
+  const soon = jobs.filter(j => j.left !== null && j.left <= 3).sort((a,b) => a.left - b.left || (b.vacancies||0) - (a.vacancies||0)).slice(0,6);
+  $('rail-due').innerHTML = soon.length ? soon.map(j => { return `<a ${jobAttr(j)}>${logo(j, 'mini')}<span><span class="tt">${esc(j.title)}</span><span class="ss">${esc(j.org)} · <b>${j.left===0?'today':j.left+'d left'}</b></span></span></a>`; }).join('') : '<p class="small">Nothing closes in the next 3 days.</p>';
+  const oc = {}; jobs.forEach(j => oc[j.org] = (oc[j.org]||0) + 1);
+  $('rail-orgs').innerHTML = Object.entries(oc).sort((a,b) => b[1]-a[1]).slice(0,12).map(([o,n]) => `<button type="button" data-org="${esc(o)}">${esc(o)}<span>${n}</span></button>`).join('');
+  const sm = {}; raw.sources.forEach(s => { const k = s.kind === 'official' ? 'Company career sites' : 'Job portals'; sm[k] = (sm[k]||0) + s.rows; });
+  $('rail-src').innerHTML = Object.entries(sm).map(([k,n]) => `<div><span>${k}</span><span>${fmt(n)} rows</span></div>`).join('') + `<div><span>After merging duplicates</span><span>${fmt(jobs.length)} jobs</span></div>`;
+  $('gen').textContent = 'Last crawl ' + new Date(raw.generated_at).toLocaleString('en-IN',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'}) + ' IST';
+
+  // events
+  const go = () => { st.page = 1; render(); };
+  $('search').addEventListener('submit', e => { e.preventDefault(); st.q = $('q').value.trim().toLowerCase(); st.qsel = $('qsel').value; st.loc = $('loc').value.trim(); go(); window.scrollTo({top:0}); });
+  $('q').addEventListener('input', () => { st.q = $('q').value.trim().toLowerCase(); go(); });
+  $('qsel').addEventListener('change', () => { st.qsel = $('qsel').value; go(); });
+  $('loc').addEventListener('change', () => { st.loc = $('loc').value.trim(); go(); });
+  $('fresh').addEventListener('change', () => { st.fresh = $('fresh').value; go(); });
+  $('sort').addEventListener('change', () => { st.sort = $('sort').value; go(); });
+  $('facets').addEventListener('change', e => { const t = e.target; if (!t.dataset.k) return; t.checked ? st.sel[t.dataset.k].add(t.value) : st.sel[t.dataset.k].delete(t.value); go(); });
+  $('facets').addEventListener('click', e => { const b = e.target.closest('[data-more]'); if (b){ st.open[b.dataset.more] = !st.open[b.dataset.more]; renderFacets(); } });
+  $('chips').addEventListener('click', e => { const c = e.target.closest('[data-chip]'); if (!c) return;
+    const t = c.dataset.chip;
+    if (t === 'f') st.sel[c.dataset.k].delete(c.dataset.v);
+    else if (t === 'week') st.week = false; else if (t === 'saved') st.saved = false;
+    else { st[t] = ''; $(t).value = ''; }
+    go(); });
+  $('clear').addEventListener('click', () => { FACETS.forEach(([k]) => st.sel[k].clear()); Object.assign(st, {q:'',qsel:'',loc:'',fresh:'',week:false,saved:false}); ['q','qsel','loc','fresh'].forEach(id => $(id).value = ''); go(); });
+  $('list').addEventListener('click', e => { const b = e.target.closest('[data-save]'); if (!b) return; const id = b.dataset.save;
+    saved.has(id) ? saved.delete(id) : saved.add(id); store.set('sjb.saved', [...saved]); if (st.saved) render(); else { b.setAttribute('aria-pressed', saved.has(id)); b.lastChild.textContent = saved.has(id) ? 'Saved' : 'Save'; $('saved-n').textContent = saved.size; } });
+  $('pager').addEventListener('click', e => { const b = e.target.closest('[data-p]'); if (!b || b.disabled) return; st.page = +b.dataset.p; render(); window.scrollTo({top:0}); });
+  $('saved-btn').addEventListener('click', () => { st.saved = !st.saved; go(); });
+  $('closing-btn').addEventListener('click', () => { st.week = true; st.sort = 'due'; $('sort').value = 'due'; go(); });
+  $('rail-orgs').addEventListener('click', e => { const b = e.target.closest('[data-org]'); if (!b) return; st.sel.org.clear(); st.sel.org.add(b.dataset.org); go(); window.scrollTo({top:0}); });
+  const navLv = {'nav-jobs':null,'nav-psu':'PSU','nav-central':'Central Govt','nav-state':'State Govt'};
+  if (!SITE) Object.keys(navLv).forEach(id => $(id).addEventListener('click', e => { e.preventDefault(); st.sel.level.clear(); if (navLv[id]) st.sel.level.add(navLv[id]); go(); }));
+  const drawer = on => document.body.classList.toggle('drawer', on);
+  $('open-f').addEventListener('click', () => drawer(true));
+  $('scrim').addEventListener('click', () => drawer(false));
+  $('done').addEventListener('click', () => drawer(false));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') drawer(false); });
+  // ---------- job description page ----------
+  const byId = new Map(jobs.map(j => [j.id, j]));
+  const APPLY_NOTE = {portal:'Opens the official application portal', notification:'Opens the official notification', form:'Opens the official application form', website:"Opens the organisation's official website", 'company page':"Opens the notice on the organisation's website"};
+  const list = (title, arr, ordered) => arr && arr.length ? `<h3>${title}</h3><${ordered?'ol':'ul'}>${arr.map(x => `<li>${esc(x)}</li>`).join('')}</${ordered?'ol':'ul'}>` : '';
+  const host = u => { try { return new URL(u).hostname.replace(/^www\./,''); } catch(e) { return ''; } };
+  let lastScroll = 0;
+
+  function jdView(j){
+    const jd = j.jd || {}, apply = jd.apply_url || j.official_url || null;
+    const left = j.left === null ? (j.status === 'Ongoing' ? 'Ongoing' : 'Not stated') : j.left === 0 ? 'Closes today' : `${j.left} day${j.left>1?'s':''} left`;
+    const ago = j.age === null ? '—' : j.age <= 0 ? 'Today' : `${j.age} day${j.age>1?'s':''} ago`;
+    const quals = j.quals.length ? j.quals.join(', ') : 'See notice';
+    const dates = Object.entries(jd.dates || {});
+    const site = (jd.links || []).find(l => /official_website/.test(l.key));
+    const sibIds = new Set((j.siblings || []).map(x => x.id));
+    const similar = jobs.filter(x => x.id !== j.id && !sibIds.has(x.id) && (x.org === j.org || x.department === j.department)).sort((a,b) => (a.org === j.org ? -1 : 0) - (b.org === j.org ? -1 : 0) || (a.left??999) - (b.left??999)).slice(0,6);
+    const isSaved = saved.has(j.id);
+    return `<div>
+      <button class="back" type="button" id="jd-back"><svg class="i" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>Back to results</button>
+      <section class="card jd-top">
+        <h1>${esc(j.title)}</h1>
+        ${logo(j, 'logo-t')}
+        <div class="t-org"><span class="nm">${esc(j.org)}</span>${j.org_full && j.org_full !== j.org ? `<span class="full">${esc(j.org_full)}</span>` : ''}<span class="badge lv-${LV[j.level]||'Central'}">${esc(j.level)}</span></div>
+        <div class="meta">
+          <span><svg class="i" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>${esc(quals)}</span>
+          <span><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/></svg>${j.vacancies ? fmt(j.vacancies) + ' post' + (j.vacancies>1?'s':'') : 'Posts not stated'}</span>
+          <span><svg class="i" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(j.locs.join(', '))}</span>
+          ${jd.pay ? `<span><svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg>${esc(jd.pay.length > 60 ? jd.pay.slice(0,60) + '…' : jd.pay)}</span>` : ''}
+        </div>
+        <div class="jd-bar">
+          <div class="jd-stats"><span>Posted: <b>${ago}</b></span><span>Last date: <b>${j.last_date ? dstr(j.last_date) : 'Not stated'}</b></span><span>Status: <b style="color:${j.left!==null&&j.left<=3?'var(--red)':'inherit'}">${left}</b></span>${j.apply_mode ? `<span>Mode: <b>${esc(j.apply_mode)}</b></span>` : ''}</div>
+          <div class="jd-actions">
+            <button class="btn-o" type="button" id="jd-save" aria-pressed="${isSaved}"><svg class="i" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>${isSaved ? 'Saved' : 'Save'}</button>
+            ${apply ? `<a class="apply" id="jd-apply" href="${esc(apply)}" target="_blank" rel="noopener">Apply Now<svg class="i" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></a>` : ''}
+            ${apply ? `<span class="apply-note">${APPLY_NOTE[jd.apply_kind] || 'Opens the original site'} · ${esc(host(apply))}</span>` : ''}
+          </div>
+        </div>
+      </section>
+
+      <section class="card jd-card">
+        <h2>Job description</h2>
+        ${jd.summary ? `<p>${esc(jd.summary)}</p>` : `<p>The full notice is on the organisation's site. Use Apply Now to open it.</p>`}
+        <h3>Key details</h3>
+        <dl class="kv">
+          ${jd.advt_no ? `<dt>Advertisement</dt><dd>${esc(jd.advt_no)}</dd>` : ''}
+          <dt>Organisation</dt><dd>${esc(j.org_full || j.org)}</dd>
+          <dt>Job type</dt><dd>${esc(j.level)}</dd>
+          <dt>Department</dt><dd>${esc(j.department)}${j.sector && j.department === 'Public Sector Undertakings' ? ' · ' + esc(j.sector) : ''}</dd>
+          <dt>Location</dt><dd>${esc(j.locs.join(', '))}</dd>
+          ${jd.pay ? `<dt>Pay / stipend</dt><dd>${esc(jd.pay)}</dd>` : ''}
+        </dl>
+        ${dates.length ? `<h3>Important dates</h3><div class="tbl-wrap"><table class="tbl"><tbody>${dates.map(([k,v]) => `<tr><td>${esc(k.replace(/_/g,' ').replace(/^./, c => c.toUpperCase()))}</td><td class="n">${esc(v)}</td></tr>`).join('')}</tbody></table></div>` : ''}
+        ${jd.vacancy && jd.vacancy.length ? `<h3>Vacancy details</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Post</th><th>Posts</th><th>Qualification</th></tr></thead><tbody>${jd.vacancy.map(v => `<tr><td>${esc(v.post||'')}</td><td class="n">${esc(v.count ?? '')}</td><td>${esc(v.qualification||'')}</td></tr>`).join('')}</tbody></table></div>` : ''}
+        ${list('Eligibility', jd.eligibility)}
+        ${list('Age limit', jd.age_limit)}
+        ${list('Application fee', jd.application_fee)}
+        ${list('Selection process', jd.selection_process)}
+        ${list('How to apply', jd.how_to_apply, true)}
+        ${j.qualification.length ? `<h3>Education</h3><div class="skills">${j.qualification.map(q => `<span>${esc(q)}</span>`).join('')}</div>` : ''}
+        ${(jd.links||[]).length ? `<h3>Official links</h3><div class="olinks">${jd.links.map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M10 14 21 3M15 3h6v6M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>${esc(l.label)} <small>${esc(host(l.href))}</small></a>`).join('')}</div>` : ''}
+        ${(jd.contacts||[]).length ? `<h3>Contact</h3><ul>${jd.contacts.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}
+        <p class="srcnote">Details compiled from ${j.postedBy.includes('Job portal') ? `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(host(j.url))}</a>` : 'the organisation\'s website'}${j.official_url ? ` and <a href="${esc(j.official_url)}" target="_blank" rel="noopener">${esc(host(j.official_url))}</a>` : ''}. Check the official notification for eligibility, age and fee before you apply.</p>
+      </section>
+
+      ${(j.siblings || []).length ? `<section class="card jd-card sim"><h2>Other posts in this notice</h2>
+        <p class="small" style="margin:0 0 6px">${esc(j.notice_title)}${j.notice_vacancies ? ' · ' + fmt(j.notice_vacancies) + ' posts in total' : ''}</p>
+        ${j.siblings.filter(x => byId.has(x.id)).map(x => `<a class="row" ${jobAttr(byId.get(x.id))}><span><span class="tt">${esc(x.title)}</span><span class="ss">${x.vacancies ? fmt(x.vacancies) + ' post' + (x.vacancies > 1 ? 's' : '') : 'Posts not stated'}</span></span></a>`).join('')}
+        ${j.more_posts ? `<p class="small" style="margin-top:10px">…and ${j.more_posts} more posts – see the official notification.</p>` : ''}</section>` : ''}
+      <section class="card jd-card">
+        <h2>About the organisation</h2>
+        <p><b style="color:var(--ink)">${esc(j.org_full || j.org)}</b> · ${esc(j.level)} · ${esc(j.department)}${j.sector ? ' · ' + esc(j.sector) : ''}</p>
+        ${site ? `<p style="margin-top:8px">Website: <a href="${esc(site.href)}" target="_blank" rel="noopener">${esc(host(site.href))}</a></p>` : ''}
+        <p style="margin-top:8px">${fmt(jobs.filter(x => x.org === j.org).length)} open notice${jobs.filter(x => x.org === j.org).length > 1 ? 's' : ''} from this organisation on the board.</p>
+      </section>
+    </div>
+    <aside class="card sim" aria-label="Similar jobs"><h2>Jobs you might be interested in</h2>
+      ${similar.map(x => `<a class="row" ${jobAttr(x)}><span><span class="tt">${esc(x.title)}</span><span class="ss">${esc(x.org)} · ${esc(x.locs.join(', '))}</span><span class="ss">${x.last_date ? 'Last date ' + dstr(x.last_date) : ''}</span></span>${logo(x, 'logo-t')}</a>`).join('') || '<p class="small">No similar jobs right now.</p>'}
+    </aside>`;
+  }
+
+  // In-page navigation. Job links carry data-job="<id>" (no href) and clicks are handled here
+  // so the page never navigates (sandboxed previews turn real navigation into an "open link" prompt).
+  // History is updated when the host allows it; otherwise the page still works without it.
+  // Only touch the address bar when the page is the top window (e.g. GitHub Pages). Inside an embedded
+  // preview the host watches URL changes and link clicks, so the page stays purely in-memory there.
+  const embedded = (() => { try { return window.top !== window.self; } catch(e) { return true; } })();
+  const tryHistory = (fn) => { if (embedded) return; try { fn(); } catch(e) {} };
+  function showJob(id, push){
+    const j = byId.get(id), jdv = $('jdview');
+    if (!j) return showList(false);
+    if (jdv.hidden) lastScroll = window.scrollY;
+    jdv.innerHTML = jdView(j); jdv.dataset.id = j.id; jdv.hidden = false;
+    document.querySelector('.page').hidden = true; $('search').hidden = true; drawer(false);
+    document.title = `${j.title} – ${j.org} | Sarkari Jobs Board`;
+    if (push) tryHistory(() => history.pushState({job: j.id}, '', '#job-' + j.id));
+    window.scrollTo({top:0});
+  }
+  function showList(push){
+    const jdv = $('jdview');
+    if (jdv.hidden) return;
+    jdv.hidden = true; jdv.innerHTML = ''; document.querySelector('.page').hidden = false; $('search').hidden = false;
+    document.title = 'Sarkari Jobs Board';
+    if (push) tryHistory(() => history.pushState({job: null}, '', location.pathname + location.search));
+    render(); window.scrollTo({top:lastScroll});
+  }
+  const openFrom = el => { const id = el && el.dataset.job; if (id) showJob(id, true); };
+  document.addEventListener('click', e => { const a = e.target.closest('[data-job]'); if (a){ e.preventDefault(); openFrom(a); } });
+  document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches && e.target.matches('[data-job]')){ e.preventDefault(); openFrom(e.target); } });
+  $('jdview').addEventListener('click', e => {
+    if (e.target.closest('#jd-back')) showList(true);
+    const sv = e.target.closest('#jd-save');
+    if (sv){ const id = $('jdview').dataset.id; saved.has(id) ? saved.delete(id) : saved.add(id); store.set('sjb.saved', [...saved]);
+      sv.setAttribute('aria-pressed', saved.has(id)); sv.lastChild.textContent = saved.has(id) ? 'Saved' : 'Save'; $('saved-n').textContent = saved.size; }
+  });
+  // browser Back/Forward, and deep links like …#job-<id>
+  const fromLocation = () => { const m = (location.hash || '').match(/^#job-([a-f0-9]+)$/); m ? showJob(m[1], false) : showList(false); };
+  window.addEventListener('popstate', fromLocation);
+  window.addEventListener('hashchange', fromLocation);
+
+  try {
+    const P = new URLSearchParams(location.search);
+    if (P.get('q')) { st.q = P.get('q').trim().toLowerCase(); $('q').value = P.get('q'); }
+    if (P.get('loc')) { st.loc = P.get('loc').trim(); $('loc').value = st.loc; }
+    if (P.get('qual')) { st.qsel = P.get('qual'); $('qsel').value = st.qsel; }
+    if (P.get('level')) st.sel.level.add(P.get('level'));
+    if (P.get('dept')) st.sel.department.add(P.get('dept'));
+  } catch(e) {}
+  render();
+  fromLocation();
+  };
+  // Hosted site: the job list loads from assets/jobs.json after the first paint (the page already
+  // shows pre-rendered jobs). Offline file: everything is embedded.
+  const cfg = JSON.parse(document.getElementById('jobs-data').textContent);
+  if (cfg.src) fetch(cfg.src).then(r => r.json()).then(d => boot({...d, site: cfg.site})).catch(() => {});
+  else boot(cfg);
+})();
+</script>

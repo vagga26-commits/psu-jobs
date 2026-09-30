@@ -1,0 +1,114 @@
+# Sources the crawler visits. Two kinds:
+#   aggregator – tabular listing pages (FreeJobAlert-style). Parsed by header names.
+#   official   – a PSU's own careers page. Parsed with a keyword heuristic that
+#                harvests recruitment/advertisement links and any dates near them.
+# Add a source by appending an entry; no code change needed for either kind.
+
+aggregators:
+  # category = department hint used when the organisation name doesn't decide it
+  # state    = location for every row on that page (state pages)
+  - {name: "FreeJobAlert – PSU",      url: "https://www.freejobalert.com/psu-jobs/",            parser: table, category: PSU}
+  - {name: "FreeJobAlert – Bank",     url: "https://www.freejobalert.com/bank-jobs/",           parser: table, category: "Banking & Finance", only_known_orgs: true}
+  - {name: "FreeJobAlert – Govt Jobs", url: "https://www.freejobalert.com/government-jobs/",    parser: table, category: "Central Govt"}
+  - {name: "FreeJobAlert – Latest",   url: "https://www.freejobalert.com/latest-notifications/", parser: table}
+  - {name: "FreeJobAlert – Railway",  url: "https://www.freejobalert.com/railway-jobs/",        parser: table, category: Railway}
+  - {name: "FreeJobAlert – Defence",  url: "https://www.freejobalert.com/police-defence-jobs/", parser: table, category: "Defence & Police"}
+  - {name: "FreeJobAlert – Teaching", url: "https://www.freejobalert.com/teaching-faculty-jobs/", parser: table, category: "Teaching & Research"}
+  # state pages (slugs follow FreeJobAlert's pattern; a 404 is logged and skipped)
+  - {name: "FreeJobAlert – Uttar Pradesh", url: "https://www.freejobalert.com/up-government-jobs/", parser: table, category: "State Govt", state: "Uttar Pradesh"}
+  - {name: "FreeJobAlert – Rajasthan", url: "https://www.freejobalert.com/rajasthan-government-jobs/", parser: table, category: "State Govt", state: "Rajasthan"}
+  - {name: "FreeJobAlert – Maharashtra", url: "https://www.freejobalert.com/maharashtra-government-jobs/", parser: table, category: "State Govt", state: "Maharashtra"}
+  - {name: "FreeJobAlert – Karnataka", url: "https://www.freejobalert.com/karnataka-government-jobs/", parser: table, category: "State Govt", state: "Karnataka"}
+  - {name: "FreeJobAlert – Madhya Pradesh", url: "https://www.freejobalert.com/mp-government-jobs/", parser: table, category: "State Govt", state: "Madhya Pradesh"}
+  - {name: "FreeJobAlert – Tamil Nadu", url: "https://www.freejobalert.com/tn-government-jobs/", parser: table, category: "State Govt", state: "Tamil Nadu"}
+  - {name: "FreeJobAlert – West Bengal", url: "https://www.freejobalert.com/wb-government-jobs/", parser: table, category: "State Govt", state: "West Bengal"}
+  - {name: "FreeJobAlert – Gujarat", url: "https://www.freejobalert.com/gujarat-government-jobs/", parser: table, category: "State Govt", state: "Gujarat"}
+  - {name: "FreeJobAlert – Telangana", url: "https://www.freejobalert.com/telangana-government-jobs/", parser: table, category: "State Govt", state: "Telangana"}
+  - {name: "FreeJobAlert – Kerala", url: "https://www.freejobalert.com/kerala-government-jobs/", parser: table, category: "State Govt", state: "Kerala"}
+  - {name: "FreeJobAlert – Haryana", url: "https://www.freejobalert.com/haryana-government-jobs/", parser: table, category: "State Govt", state: "Haryana"}
+  - {name: "FreeJobAlert – Bihar", url: "https://www.freejobalert.com/bihar-government-jobs/", parser: table, category: "State Govt", state: "Bihar"}
+  - {name: "FreeJobAlert – Andhra Pradesh", url: "https://www.freejobalert.com/ap-government-jobs/", parser: table, category: "State Govt", state: "Andhra Pradesh"}
+  - {name: "FreeJobAlert – Odisha", url: "https://www.freejobalert.com/odisha-government-jobs/", parser: table, category: "State Govt", state: "Odisha"}
+  - {name: "FreeJobAlert – Punjab", url: "https://www.freejobalert.com/punjab-government-jobs/", parser: table, category: "State Govt", state: "Punjab"}
+  - {name: "FreeJobAlert – Delhi", url: "https://www.freejobalert.com/delhi-government-jobs/", parser: table, category: "State Govt", state: "Delhi"}
+  - {name: "FreeJobAlert – Assam", url: "https://www.freejobalert.com/assam-government-jobs/", parser: table, category: "State Govt", state: "Assam"}
+  - {name: "FreeJobAlert – Jharkhand", url: "https://www.freejobalert.com/jharkhand-government-jobs/", parser: table, category: "State Govt", state: "Jharkhand"}
+  - {name: "FreeJobAlert – Uttarakhand", url: "https://www.freejobalert.com/uttarakhand-government-jobs/", parser: table, category: "State Govt", state: "Uttarakhand"}
+  - {name: "FreeJobAlert – Himachal Pradesh", url: "https://www.freejobalert.com/hp-government-jobs/", parser: table, category: "State Govt", state: "Himachal Pradesh"}
+  - {name: "FreeJobAlert – Chhattisgarh", url: "https://www.freejobalert.com/chhattisgarh-government-jobs/", parser: table, category: "State Govt", state: "Chhattisgarh"}
+  - {name: "FreeJobAlert – Jammu and Kashmir", url: "https://www.freejobalert.com/jk-government-jobs/", parser: table, category: "State Govt", state: "Jammu and Kashmir"}
+  - {name: "FreeJobAlert – Goa", url: "https://www.freejobalert.com/goa-government-jobs/", parser: table, category: "State Govt", state: "Goa"}
+
+  # ---- link-list aggregators (titles only; last dates come from each detail page, cached in data/jd.json)
+  - {name: "SarkariResult – Latest Jobs", url: "https://www.sarkariresult.com/latestjob/", parser: links}
+  - {name: "SarkariExam – Online Forms", url: "https://www.sarkariexam.com/category/top-online-form/", parser: links}
+  - {name: "Sarkari Naukri Blog", url: "https://www.sarkarinaukriblog.com/", parser: links, include: "/20\\d\\d/"}
+  - {name: "FreshersNow – Govt Jobs", url: "https://www.freshersnow.com/government-jobs/", parser: links}
+  - {name: "Adda247 – Govt Jobs", url: "https://www.adda247.com/jobs/", parser: links, include: "/jobs/"}
+  - {name: "Testbook – Govt Jobs", url: "https://testbook.com/govt-jobs", parser: links}
+  - {name: "Jagran Josh – Govt Jobs", url: "https://www.jagranjosh.com/government-jobs", parser: links}
+  - {name: "Freshersworld – Govt Jobs", url: "https://www.freshersworld.com/government-jobs", parser: links}
+  # JavaScript-rendered portals: plain HTML fetch returns no listings. Kept here, switched off,
+  # until an API/RSS or headless-browser fetch is added.
+  - {name: "Naukri – Govt Jobs", url: "https://www.naukri.com/government-jobs", parser: links, enabled: false}
+  - {name: "Employment News", url: "https://www.employmentnews.gov.in/NewEmp/Home.aspx", parser: links, enabled: false}
+  - {name: "National Career Service", url: "https://www.ncs.gov.in/", parser: links, enabled: false}
+
+official:
+  - {org: NTPC,   url: "https://careers.ntpc.co.in/recruitment/"}
+  - {org: ONGC,   url: "https://www.ongcindia.com/web/eng/careers/recruitment-notice"}
+  - {org: IOCL,   url: "https://iocl.com/latest-job-opening"}
+  - {org: BHEL,   url: "https://careers.bhel.in/bhel/jsp/"}
+  - {org: SAIL,   url: "https://sailcareers.com/"}
+  - {org: GAIL,   url: "https://gailonline.com/CRApplyingGail.html"}
+  - {org: BEL,    url: "https://bel-india.in/job-notifications/"}
+  - {org: HAL,    url: "https://hal-india.co.in/career"}
+  - {org: POWERGRID, url: "https://www.powergrid.in/job-opportunities"}
+  - {org: Coal India, url: "https://www.coalindia.in/career-cil/jobs-coal-india/"}
+  - {org: BPCL,   url: "https://www.bharatpetroleum.in/careers/current-openings.aspx"}
+  - {org: HPCL,   url: "https://jobs.hpcl.co.in/Recruit_New/recruitmentlist.jsp"}
+  - {org: NHPC,   url: "http://www.nhpcindia.com/Default.aspx?id=182&lg=eng&CatId=5"}
+  - {org: AAI,    url: "https://www.aai.aero/en/careers/recruitment"}
+  - {org: RITES,  url: "https://www.rites.com/Career"}
+  - {org: REC,    url: "https://recindia.nic.in/career"}
+  - {org: PFC,    url: "https://www.pfcindia.com/Home/VS/11"}
+  - {org: NLC,    url: "https://www.nlcindia.in/new_website/careers/careers.htm"}
+  - {org: Oil India, url: "https://www.oil-india.com/Current_openNew"}
+  - {org: EIL,    url: "https://recruitment.eil.co.in/"}
+  - {org: IRCON,  url: "https://www.ircon.org/index.php?option=com_content&view=article&id=145&Itemid=459&lang=en"}
+  - {org: Mazagon Dock, url: "https://mazagondock.in/Career"}
+  - {org: Cochin Shipyard, url: "https://cochinshipyard.in/career"}
+  - {org: SBI,    url: "https://sbi.co.in/web/careers/current-openings"}
+  # ---- central recruitment boards
+  - {org: UPSC,   url: "https://upsc.gov.in/recruitment/recruitment-advertisement"}
+  - {org: SSC,    url: "https://ssc.gov.in/", enabled: false}   # JS app
+  - {org: RRB,    url: "https://www.rrbcdg.gov.in/"}
+  - {org: IBPS,   url: "https://www.ibps.in/"}
+  - {org: DSSSB,  url: "https://dsssb.delhi.gov.in/"}
+  # ---- state public service commissions and subordinate service boards
+  - {org: UPPSC,  url: "https://uppsc.up.nic.in/"}
+  - {org: UPSSSC, url: "https://upsssc.gov.in/"}
+  - {org: BPSC,   url: "https://bpsc.bihar.gov.in/"}
+  - {org: RPSC,   url: "https://rpsc.rajasthan.gov.in/"}
+  - {org: RSSB,   url: "https://rssb.rajasthan.gov.in/"}
+  - {org: MPPSC,  url: "https://mppsc.mp.gov.in/"}
+  - {org: MPESB,  url: "https://esb.mp.gov.in/"}
+  - {org: CGPSC,  url: "https://psc.cg.gov.in/"}
+  - {org: MPSC,   url: "https://mpsc.gov.in/"}
+  - {org: GPSC,   url: "https://gpsc.gujarat.gov.in/"}
+  - {org: TNPSC,  url: "https://www.tnpsc.gov.in/"}
+  - {org: KPSC,   url: "https://kpsc.kar.nic.in/"}
+  - {org: Kerala PSC, url: "https://www.keralapsc.gov.in/"}
+  - {org: APPSC,  url: "https://psc.ap.gov.in/"}
+  - {org: TGPSC,  url: "https://www.tspsc.gov.in/"}
+  - {org: WBPSC,  url: "https://psc.wb.gov.in/"}
+  - {org: OPSC,   url: "https://www.opsc.gov.in/"}
+  - {org: JPSC,   url: "https://www.jpsc.gov.in/"}
+  - {org: JSSC,   url: "https://jssc.jharkhand.gov.in/"}
+  - {org: HPSC,   url: "https://hpsc.gov.in/"}
+  - {org: HSSC,   url: "https://hssc.gov.in/"}
+  - {org: PPSC,   url: "https://ppsc.gov.in/"}
+  - {org: HPPSC,  url: "https://www.hppsc.hp.gov.in/"}
+  - {org: UKPSC,  url: "https://psc.uk.gov.in/"}
+  - {org: UKSSSC, url: "https://sssc.uk.gov.in/"}
+  - {org: APSC,   url: "https://apsc.nic.in/"}

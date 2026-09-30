@@ -1,0 +1,52 @@
+name: Crawl PSU jobs
+
+on:
+  schedule:
+    - cron: "17 0,6,12 * * *"   # 05:47, 11:47, 17:47 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency: { group: crawl, cancel-in-progress: false }
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q tests
+      - run: python crawler/crawl.py
+      - run: python crawler/fetch_details.py
+      - run: python crawler/fetch_logos.py
+      # SITE_URL: your custom domain if you set one (Settings → Secrets and variables → Actions → Variables),
+      # otherwise the GitHub Pages address.
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: python crawler/build_site.py
+        env:
+          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: Notify search engines (optional keys)
+        run: python crawler/ping_indexing.py
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          GOOGLE_INDEXING_SA: ${{ secrets.GOOGLE_INDEXING_SA }}
+        continue-on-error: true
+      - name: Commit updated data
+        run: |
+          git config user.name  "psu-jobs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet || git commit -m "data: crawl $(date -u +%FT%RZ)"
+          git push

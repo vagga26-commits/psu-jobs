@@ -1,0 +1,248 @@
+<title>PSU Naukri Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a recruitment-notice register. Summary strip, sticky filter bar, then a dense list of notices ordered by last date, each row led by a days-left stamp. */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#152036; --muted:#5b6679; --line:#dde2ea;
+  --accent:#0d5c63; --accent-soft:#e1efef;
+  --urgent:#c2410c; --urgent-soft:#fdebe1; --warn:#a16207; --warn-soft:#fbf1d6; --ok:#2f6b3a; --ok-soft:#e5f1e5;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1520; --surface:#161e2c; --ink:#e7ecf3; --muted:#9aa6b8; --line:#273246;
+  --accent:#5cc2c9; --accent-soft:#16333a;
+  --urgent:#fb8a55; --urgent-soft:#3a1f14; --warn:#e7b94c; --warn-soft:#352b12; --ok:#7fc58b; --ok-soft:#18301d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1520; --surface:#161e2c; --ink:#e7ecf3; --muted:#9aa6b8; --line:#273246;
+  --accent:#5cc2c9; --accent-soft:#16333a;
+  --urgent:#fb8a55; --urgent-soft:#3a1f14; --warn:#e7b94c; --warn-soft:#352b12; --ok:#7fc58b; --ok-soft:#18301d; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 60px}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.brand h1{font:800 clamp(30px,5vw,46px)/1 var(--display);font-stretch:78%;letter-spacing:-.01em;margin:0;text-wrap:balance}
+.brand p{margin:6px 0 0;color:var(--muted);max-width:60ch}
+.stamp{font:500 12px/1.4 var(--mono);color:var(--muted);text-align:right}
+.stamp b{color:var(--ink);font-weight:500}
+
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:20px 0}
+.summary div{background:var(--surface);padding:12px 16px}
+.summary .n{font:700 28px/1.1 var(--display);font-stretch:85%;font-variant-numeric:tabular-nums}
+.summary .l{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.summary .urg .n{color:var(--urgent)}
+@media (max-width:640px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:grid;grid-template-columns:minmax(0,1fr);gap:10px;border-bottom:1px solid var(--line)}
+.row1{display:flex;flex-wrap:wrap;gap:10px}
+.search{flex:1 1 260px;min-width:0;position:relative}
+.search input{width:100%;font:inherit;padding:10px 12px 10px 36px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--muted);stroke-width:2}
+select{font:inherit;font-size:15px;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);min-width:0;max-width:100%}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.chip{flex:none;font:600 13px/1 var(--body);padding:8px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .c{font-family:var(--mono);font-weight:500;opacity:.65;margin-left:4px}
+
+.row2{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:2px;gap:2px;max-width:100%;overflow-x:auto}
+.seg-label{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.seg button{flex:none;font:600 14px/1 var(--body);border:0;background:none;color:var(--ink);padding:8px 11px;border-radius:6px;cursor:pointer}
+.seg button .c{font-family:var(--mono);font-weight:500;font-size:12px;opacity:.65;margin-left:4px}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.via{font-size:12px;font-weight:700;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.via.off{border-color:var(--accent);color:var(--accent)}
+.via.both{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.alt{font-size:13px;white-space:nowrap}
+.src-group{display:grid;gap:6px}
+.src-group h3{margin:0;font:600 13px var(--body);color:var(--ink)}
+.meta-line{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:14px;margin:14px 0 8px}
+button.link{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;padding:0;text-decoration:underline}
+
+.list{display:grid;gap:8px}
+.job{display:grid;grid-template-columns:78px minmax(0,1fr) auto;gap:4px 16px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.due{grid-row:span 2;text-align:center;border-radius:8px;padding:8px 4px;background:var(--ok-soft);color:var(--ok)}
+.due .d{font:800 24px/1 var(--display);font-stretch:80%;font-variant-numeric:tabular-nums;display:block}
+.due .u{font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.due.soon{background:var(--warn-soft);color:var(--warn)}
+.due.now{background:var(--urgent-soft);color:var(--urgent)}
+.head{min-width:0}
+.org{font:700 13px/1.3 var(--display);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.org span{font:400 13px var(--body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.title{font:600 18px/1.3 var(--body);margin:2px 0 0;text-wrap:balance}
+.go{align-self:center;grid-row:span 2;font-weight:700;white-space:nowrap;text-decoration:none;border:1px solid var(--accent);padding:8px 12px;border-radius:8px}
+.go:hover{background:var(--accent-soft)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:var(--muted);align-items:center;min-width:0}
+.facts .mono{font-family:var(--mono);font-size:13px;color:var(--ink)}
+.q{display:inline-flex;flex-wrap:wrap;gap:4px}
+.q i{font-style:normal;font-size:12px;padding:2px 7px;border-radius:4px;background:var(--bg);border:1px solid var(--line);color:var(--ink)}
+.tag{font-size:12px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+@media (max-width:620px){
+  .job{grid-template-columns:62px minmax(0,1fr)}
+  .due{grid-row:span 3}
+  .go{grid-row:auto;grid-column:2;justify-self:start;padding:6px 10px;order:3;margin-top:6px}
+  .facts{order:2}
+  .stamp{text-align:left}
+}
+.empty{padding:40px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
+footer{margin-top:36px;color:var(--muted);font-size:14px;display:grid;gap:8px}
+footer h2{font:700 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:0}
+.src{display:flex;flex-wrap:wrap;gap:6px}
+.src span{font:500 12px var(--mono);padding:3px 8px;border:1px solid var(--line);border-radius:4px}
+.src .bad{opacity:.55;text-decoration:line-through}
+@media (prefers-reduced-motion:no-preference){.job{transition:border-color .15s}.job:hover{border-color:var(--muted)}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>PSU Naukri Board</h1>
+      <p>Open recruitment notices from India's public sector undertakings, PSU banks and central financial institutions, crawled and merged into one list.</p>
+    </div>
+    <div class="stamp">Last crawl<br><b id="gen">–</b></div>
+  </header>
+
+  <section class="summary" aria-label="Summary">
+    <div><div class="n" id="s-open">0</div><div class="l">Open notices</div></div>
+    <div class="urg"><div class="n" id="s-week">0</div><div class="l">Close within 7 days</div></div>
+    <div><div class="n" id="s-orgs">0</div><div class="l">Organisations</div></div>
+    <div><div class="n" id="s-vac">0</div><div class="l">Declared vacancies</div></div>
+  </section>
+
+  <div class="filters">
+    <div class="row1">
+      <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search posts, PSUs, degrees…" aria-label="Search"></label>
+      <select id="qual" aria-label="Qualification"><option value="">Any qualification</option></select>
+      <select id="mode" aria-label="How to apply"><option value="">Any apply mode</option><option>Online</option><option>Offline</option><option>Walk-in</option></select>
+      <select id="sort" aria-label="Sort"><option value="due">Closing soonest</option><option value="new">Newest posted</option><option value="vac">Most vacancies</option></select>
+    </div>
+    <div class="row2">
+      <span class="seg-label" id="via-label">Found on</span>
+      <div class="seg" id="via" role="group" aria-labelledby="via-label"></div>
+    </div>
+    <div class="chips" id="sectors" role="group" aria-label="Sector"></div>
+  </div>
+
+  <div class="meta-line"><span id="shown"></span><button class="link" id="reset" type="button" hidden>Clear filters</button></div>
+  <div class="list" id="list"></div>
+
+  <footer>
+    <h2>Sources this crawl</h2>
+    <div class="src-group"><h3>Company career sites</h3><div class="src" id="srcs-off"></div></div>
+    <div class="src-group"><h3>Job aggregators</h3><div class="src" id="srcs-agg"></div></div>
+    <p>Always confirm eligibility, age limits and fees on the organisation's official advertisement before applying. Days left are counted against your device's date. Company-site notices without a last date stay listed for 45 days after posting (60 if the site marks them ongoing).</p>
+  </footer>
+</div>
+
+<script type="application/json" id="jobs-data">/*__DATA__*/</script>
+<script>
+(function(){
+  const raw = JSON.parse(document.getElementById('jobs-data').textContent);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const DAY = 864e5;
+  const daysLeft = d => d ? Math.round((new Date(d+'T00:00:00') - today)/DAY) : null;
+  const jobs = raw.jobs.map(j => ({...j, left: daysLeft(j.last_date)})).filter(j => j.left === null || j.left >= 0);
+
+  // Qualification buckets: aggregators list raw degrees; group them into levels people search by.
+  const LEVELS = [
+    ['10th / 12th', /^(10th|12th)$/i], ['ITI', /^iti$/i], ['Diploma', /diploma|d\.pharm/i],
+    ['Engineering (B.E/B.Tech/M.Tech)', /b\.tech|m\.e|m\.tech|b\.arch/i],
+    ['Graduate', /graduate|bachelor|b\.a$|b\.com|b\.sc|bca|b\.voc/i],
+    ['Post Graduate / MBA', /post graduate|masters|m\.a$|m\.sc|m\.com|mba|pgdm|mca|msw|m\.phil|ph\.d/i],
+    ['CA / CS / CMA / Law', /^ca$|^cs$|icwa|icmai|icsi|llb|llm/i],
+    ['Medical / Pharmacy / Nursing', /mbbs|ms\/md|dnb|bhms|pharma|gnm|mvsc/i]];
+  jobs.forEach(j => j.levels = [...new Set(j.qualification.flatMap(q => LEVELS.filter(([,rx]) => rx.test(q)).map(([n]) => n)))]);
+
+  const $ = id => document.getElementById(id);
+  const fmt = n => n.toLocaleString('en-IN');
+  const dstr = d => d ? new Date(d+'T00:00:00').toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) : '—';
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  const g = new Date(raw.generated_at);
+  $('gen').textContent = g.toLocaleString('en-IN',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'}) + ' IST';
+  $('s-open').textContent = fmt(jobs.length);
+  $('s-week').textContent = fmt(jobs.filter(j => j.left !== null && j.left <= 7).length);
+  $('s-orgs').textContent = fmt(new Set(jobs.map(j => j.org)).size);
+  $('s-vac').textContent = fmt(jobs.reduce((a,j) => a + (j.vacancies||0), 0));
+
+  LEVELS.forEach(([n]) => { const o = document.createElement('option'); o.textContent = n; $('qual').append(o); });
+
+  const counts = {}; jobs.forEach(j => counts[j.sector] = (counts[j.sector]||0) + 1);
+  const sectors = ['All', ...Object.keys(counts).sort((a,b) => counts[b]-counts[a])];
+  let sector = 'All';
+  try { const s = localStorage.getItem('psu.sector'); if (s && sectors.includes(s)) sector = s; } catch(e){}
+  sectors.forEach(s => {
+    const b = document.createElement('button'); b.type='button'; b.className='chip'; b.dataset.s = s;
+    b.innerHTML = esc(s) + '<span class="c">' + (s==='All' ? jobs.length : counts[s]) + '</span>';
+    b.onclick = () => { sector = s; try{localStorage.setItem('psu.sector', s)}catch(e){} render(); };
+    $('sectors').append(b);
+  });
+
+  // Source filter: company career site vs job aggregator
+  jobs.forEach(j => { const t = j.source_types || ['aggregator']; j.off = t.includes('official'); j.agg = t.includes('aggregator'); });
+  const VIA = [
+    ['all', 'All', () => true],
+    ['official', 'Company sites', j => j.off],
+    ['aggregator', 'Aggregators', j => j.agg],
+    ['both', 'On both', j => j.off && j.agg]];
+  let via = 'all';
+  try { const v = localStorage.getItem('psu.via'); if (VIA.some(x => x[0] === v)) via = v; } catch(e){}
+  VIA.forEach(([k, label, fn]) => {
+    const b = document.createElement('button'); b.type = 'button'; b.dataset.v = k;
+    b.innerHTML = esc(label) + '<span class="c">' + jobs.filter(fn).length + '</span>';
+    b.title = {all:'Every notice', official:'Listed on the PSU\'s own careers page', aggregator:'Listed on a job portal', both:'Listed on the company site and a job portal'}[k];
+    b.onclick = () => { via = k; try{localStorage.setItem('psu.via', k)}catch(e){} render(); };
+    $('via').append(b);
+  });
+
+  const srcMap = {};
+  raw.sources.forEach(s => { const k = s.source; const c = srcMap[k]; srcMap[k] = c ? {...c, ok: c.ok || s.ok, rows: Math.max(c.rows, s.rows), url: c.url || s.url} : {...s}; });
+  const srcChip = s => `<span class="${s.ok?'':'bad'}" title="${esc(s.url)}">${esc(s.source)} · ${s.rows}</span>`;
+  const srcs = Object.values(srcMap);
+  $('srcs-off').innerHTML = srcs.filter(s => s.kind === 'official').map(srcChip).join('') || '<span>None this crawl</span>';
+  $('srcs-agg').innerHTML = srcs.filter(s => s.kind !== 'official').map(srcChip).join('');
+
+  function render(){
+    document.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.s === sector));
+    document.querySelectorAll('#via button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === via));
+    const viaFn = VIA.find(x => x[0] === via)[2];
+    const q = $('q').value.trim().toLowerCase(), qual = $('qual').value, mode = $('mode').value, sort = $('sort').value;
+    let r = jobs.filter(j =>
+      viaFn(j) && (sector==='All' || j.sector===sector) && (!qual || j.levels.includes(qual)) && (!mode || j.apply_mode===mode) &&
+      (!q || [j.org, j.org_full, j.title, j.qualification.join(' '), j.sector].join(' ').toLowerCase().includes(q)));
+    const by = {due:(a,b)=>(a.left??1e9)-(b.left??1e9), new:(a,b)=>(b.posted||'').localeCompare(a.posted||''), vac:(a,b)=>(b.vacancies||0)-(a.vacancies||0)};
+    r.sort(by[sort]);
+    $('reset').hidden = !(q||qual||mode||sector!=='All'||via!=='all');
+    $('shown').textContent = `${r.length} of ${jobs.length} notices`;
+    $('list').innerHTML = r.length ? r.map(j => {
+      const cls = j.left===null ? '' : j.left<=3 ? 'now' : j.left<=7 ? 'soon' : '';
+      const due = j.left===null ? `<span class="d">—</span><span class="u">${j.status==='Ongoing'?'ongoing':'no date'}</span>` :
+        j.left===0 ? '<span class="d">0</span><span class="u">today</span>' : `<span class="d">${j.left}</span><span class="u">day${j.left===1?'':'s'} left</span>`;
+      return `<article class="job">
+        <div class="due ${cls}" title="Last date ${dstr(j.last_date)}">${due}</div>
+        <div class="head"><div class="org">${esc(j.org)} ${j.org_full!==j.org?`<span>· ${esc(j.org_full)}</span>`:''}</div>
+          <h3 class="title">${esc(j.title)}</h3></div>
+        <a class="go" href="${esc(j.official_url||j.url)}" target="_blank" rel="noopener">${j.off?'Official notice':'Details'} →</a>
+        <div class="facts">
+          <span class="via ${j.off&&j.agg?'both':j.off?'off':''}" title="${esc(j.sources.join(', '))}">${j.off&&j.agg?'Company site + aggregator':j.off?'Company site':'Aggregator'}</span>
+          <span>Last date <span class="mono">${j.last_date?dstr(j.last_date):'not stated'}</span></span>
+          ${j.vacancies?`<span><span class="mono">${fmt(j.vacancies)}</span> post${j.vacancies>1?'s':''}</span>`:''}
+          ${j.apply_mode?`<span class="tag">${esc(j.apply_mode)}</span>`:''}
+          ${j.off&&j.agg&&j.url&&j.url!==j.official_url?`<a class="alt" href="${esc(j.url)}" target="_blank" rel="noopener">Aggregator summary</a>`:''}
+          ${j.qualification.length?`<span class="q">${j.qualification.map(x=>`<i>${esc(x)}</i>`).join('')}</span>`:''}
+        </div></article>`;
+    }).join('') : '<div class="empty">No open notices match these filters. Try a broader qualification or clear the search.</div>';
+  }
+  ['q','qual','mode','sort'].forEach(id => $(id).addEventListener('input', render));
+  $('reset').onclick = () => { $('q').value=''; $('qual').value=''; $('mode').value=''; sector='All'; via='all'; try{localStorage.removeItem('psu.sector');localStorage.removeItem('psu.via')}catch(e){} render(); };
+  render();
+})();
+</script>
