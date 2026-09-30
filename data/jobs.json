@@ -1,174 +1,650 @@
 {
- "generated_at": "2026-09-30T11:42:53+00:00",
- "count": 339,
+ "generated_at": "2026-09-30T15:51:29+00:00",
+ "count": 376,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
    "kind": "aggregator",
    "url": "https://www.freejobalert.com/psu-jobs/",
-   "ok": true,
-   "rows": 110
+   "ok": false,
+   "rows": 0
   },
   {
    "source": "FreeJobAlert – Bank",
    "kind": "aggregator",
    "url": "https://www.freejobalert.com/bank-jobs/",
-   "ok": true,
-   "rows": 5
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "SBI careers",
-   "kind": "official",
-   "url": "https://sbi.bank.in/web/careers/current-openings",
-   "ok": true,
-   "rows": 5
+   "source": "FreeJobAlert – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/government-jobs/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "CSL careers",
-   "kind": "official",
-   "url": "https://cochinshipyard.in/career",
-   "ok": true,
-   "rows": 8
+   "source": "FreeJobAlert – Latest",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/latest-notifications/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "AAI careers",
-   "kind": "official",
-   "url": "https://www.aai.aero/en/careers/recruitment",
+   "source": "FreeJobAlert – Railway",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/railway-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Defence",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Teaching",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/teaching-faculty-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Uttar Pradesh",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/up-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Rajasthan",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/rajasthan-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Maharashtra",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/maharashtra-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Karnataka",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/karnataka-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Madhya Pradesh",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/mp-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Tamil Nadu",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/tn-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – West Bengal",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/wb-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Gujarat",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/gujarat-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Telangana",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/telangana-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Kerala",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/kerala-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Haryana",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/haryana-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Bihar",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/bihar-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Andhra Pradesh",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/ap-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Odisha",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/odisha-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Punjab",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/punjab-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Delhi",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/delhi-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Assam",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/assam-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Jharkhand",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/jharkhand-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Uttarakhand",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/uttarakhand-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Himachal Pradesh",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/hp-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Chhattisgarh",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/chhattisgarh-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Jammu and Kashmir",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/jk-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "FreeJobAlert – Goa",
+   "kind": "aggregator",
+   "url": "https://www.freejobalert.com/goa-government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "SarkariResult – Latest Jobs",
+   "kind": "aggregator",
+   "url": "https://www.sarkariresult.com/latestjob/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "SarkariExam – Online Forms",
+   "kind": "aggregator",
+   "url": "https://www.sarkariexam.com/category/top-online-form/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Sarkari Naukri Blog",
+   "kind": "aggregator",
+   "url": "https://www.sarkarinaukriblog.com/",
    "ok": true,
-   "rows": 10
+   "rows": 0
+  },
+  {
+   "source": "FreshersNow – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://www.freshersnow.com/government-jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Adda247 – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://www.adda247.com/jobs/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Testbook – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://testbook.com/govt-jobs",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Jagran Josh – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://www.jagranjosh.com/government-jobs",
+   "ok": true,
+   "rows": 0
+  },
+  {
+   "source": "Freshersworld – Govt Jobs",
+   "kind": "aggregator",
+   "url": "https://www.freshersworld.com/government-jobs",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "NTPC careers",
+   "kind": "official",
+   "url": "https://careers.ntpc.co.in/recruitment/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "ONGC careers",
+   "kind": "official",
+   "url": "https://www.ongcindia.com/web/eng/careers/recruitment-notice",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "IOCL careers",
+   "kind": "official",
+   "url": "https://iocl.com/latest-job-opening",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "BHEL careers",
+   "kind": "official",
+   "url": "https://careers.bhel.in/bhel/jsp/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "SAIL careers",
+   "kind": "official",
+   "url": "https://sailcareers.com/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "GAIL careers",
+   "kind": "official",
+   "url": "https://gailonline.com/CRApplyingGail.html",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "BEL careers",
+   "kind": "official",
+   "url": "https://bel-india.in/job-notifications/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "HAL careers",
+   "kind": "official",
+   "url": "https://hal-india.co.in/career",
+   "ok": true,
+   "rows": 0
   },
   {
    "source": "POWERGRID careers",
    "kind": "official",
    "url": "https://www.powergrid.in/job-opportunities",
    "ok": true,
-   "rows": 3
+   "rows": 228
   },
   {
-   "source": "IOCL careers",
+   "source": "Coal India careers",
    "kind": "official",
-   "url": "https://iocl.com/latest-job-opening",
-   "ok": true,
-   "rows": 4
+   "url": "https://www.coalindia.in/career-cil/jobs-coal-india/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Govt Jobs",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/government-jobs/",
-   "ok": true,
-   "rows": 44
+   "source": "BPCL careers",
+   "kind": "official",
+   "url": "https://www.bharatpetroleum.in/careers/current-openings.aspx",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Defence",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/latest-notifications/",
-   "ok": true,
-   "rows": 13
+   "source": "HPCL careers",
+   "kind": "official",
+   "url": "https://jobs.hpcl.co.in/Recruit_New/recruitmentlist.jsp",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Railway",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/latest-notifications/",
-   "ok": true,
-   "rows": 14
+   "source": "NHPC careers",
+   "kind": "official",
+   "url": "http://www.nhpcindia.com/Default.aspx?id=182&lg=eng&CatId=5",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Teaching",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/teaching-faculty-jobs/",
-   "ok": true,
-   "rows": 30
+   "source": "AAI careers",
+   "kind": "official",
+   "url": "https://www.aai.aero/en/careers/recruitment",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – State Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/state-government-jobs/",
-   "ok": true,
-   "rows": 54
+   "source": "RITES careers",
+   "kind": "official",
+   "url": "https://www.rites.com/Career",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – UP Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/up-government-jobs/",
-   "ok": true,
-   "rows": 13
+   "source": "REC careers",
+   "kind": "official",
+   "url": "https://recindia.nic.in/career",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Rajasthan Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/rajasthan-government-jobs/",
-   "ok": true,
-   "rows": 4
+   "source": "PFC careers",
+   "kind": "official",
+   "url": "https://www.pfcindia.com/Home/VS/11",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Maharashtra Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/maharashtra-government-jobs/",
+   "source": "NLC careers",
+   "kind": "official",
+   "url": "https://www.nlcindia.in/new_website/careers/careers.htm",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Oil India careers",
+   "kind": "official",
+   "url": "https://www.oil-india.com/Current_openNew",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "EIL careers",
+   "kind": "official",
+   "url": "https://recruitment.eil.co.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "IRCON careers",
+   "kind": "official",
+   "url": "https://www.ircon.org/index.php?option=com_content&view=article&id=145&Itemid=459&lang=en",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Mazagon Dock careers",
+   "kind": "official",
+   "url": "https://mazagondock.in/Career",
    "ok": true,
    "rows": 6
   },
   {
-   "source": "FreeJobAlert – Karnataka Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/karnataka-government-jobs/",
+   "source": "Cochin Shipyard careers",
+   "kind": "official",
+   "url": "https://cochinshipyard.in/career",
+   "ok": true,
+   "rows": 2
+  },
+  {
+   "source": "SBI careers",
+   "kind": "official",
+   "url": "https://sbi.co.in/web/careers/current-openings",
+   "ok": true,
+   "rows": 62
+  },
+  {
+   "source": "UPSC careers",
+   "kind": "official",
+   "url": "https://upsc.gov.in/recruitment/recruitment-advertisement",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "RRB careers",
+   "kind": "official",
+   "url": "https://www.rrbcdg.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "IBPS careers",
+   "kind": "official",
+   "url": "https://www.ibps.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "DSSSB careers",
+   "kind": "official",
+   "url": "https://dsssb.delhi.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "UPPSC careers",
+   "kind": "official",
+   "url": "https://uppsc.up.nic.in/",
+   "ok": true,
+   "rows": 43
+  },
+  {
+   "source": "UPSSSC careers",
+   "kind": "official",
+   "url": "https://upsssc.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "BPSC careers",
+   "kind": "official",
+   "url": "https://bpsc.bihar.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "RPSC careers",
+   "kind": "official",
+   "url": "https://rpsc.rajasthan.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "RSSB careers",
+   "kind": "official",
+   "url": "https://rssb.rajasthan.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "MPPSC careers",
+   "kind": "official",
+   "url": "https://mppsc.mp.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "MPESB careers",
+   "kind": "official",
+   "url": "https://esb.mp.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "CGPSC careers",
+   "kind": "official",
+   "url": "https://psc.cg.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "MPSC careers",
+   "kind": "official",
+   "url": "https://mpsc.gov.in/",
+   "ok": true,
+   "rows": 0
+  },
+  {
+   "source": "GPSC careers",
+   "kind": "official",
+   "url": "https://gpsc.gujarat.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "TNPSC careers",
+   "kind": "official",
+   "url": "https://www.tnpsc.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "KPSC careers",
+   "kind": "official",
+   "url": "https://kpsc.kar.nic.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "Kerala PSC careers",
+   "kind": "official",
+   "url": "https://www.keralapsc.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "APPSC careers",
+   "kind": "official",
+   "url": "https://psc.ap.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "TGPSC careers",
+   "kind": "official",
+   "url": "https://www.tspsc.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "WBPSC careers",
+   "kind": "official",
+   "url": "https://psc.wb.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "OPSC careers",
+   "kind": "official",
+   "url": "https://www.opsc.gov.in/",
+   "ok": true,
+   "rows": 3
+  },
+  {
+   "source": "JPSC careers",
+   "kind": "official",
+   "url": "https://www.jpsc.gov.in/",
+   "ok": true,
+   "rows": 50
+  },
+  {
+   "source": "JSSC careers",
+   "kind": "official",
+   "url": "https://jssc.jharkhand.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "HPSC careers",
+   "kind": "official",
+   "url": "https://hpsc.gov.in/",
+   "ok": false,
+   "rows": 0
+  },
+  {
+   "source": "HSSC careers",
+   "kind": "official",
+   "url": "https://hssc.gov.in/",
    "ok": true,
    "rows": 9
   },
   {
-   "source": "FreeJobAlert – MP Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/mp-government-jobs/",
-   "ok": true,
-   "rows": 5
+   "source": "PPSC careers",
+   "kind": "official",
+   "url": "https://ppsc.gov.in/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – TN Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/tn-government-jobs/",
-   "ok": true,
-   "rows": 3
+   "source": "HPPSC careers",
+   "kind": "official",
+   "url": "https://www.hppsc.hp.gov.in/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – WB Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/wb-government-jobs/",
-   "ok": true,
-   "rows": 3
+   "source": "UKPSC careers",
+   "kind": "official",
+   "url": "https://psc.uk.gov.in/",
+   "ok": false,
+   "rows": 0
   },
   {
-   "source": "FreeJobAlert – Gujarat Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/gujarat-government-jobs/",
+   "source": "UKSSSC careers",
+   "kind": "official",
+   "url": "https://sssc.uk.gov.in/",
    "ok": true,
-   "rows": 7
+   "rows": 13
   },
   {
-   "source": "FreeJobAlert – Telangana Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/telangana-government-jobs/",
-   "ok": true,
-   "rows": 6
-  },
-  {
-   "source": "FreeJobAlert – Kerala Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/kerala-government-jobs/",
-   "ok": true,
-   "rows": 9
-  },
-  {
-   "source": "FreeJobAlert – Haryana Govt",
-   "kind": "aggregator",
-   "url": "https://www.freejobalert.com/haryana-government-jobs/",
-   "ok": true,
-   "rows": 3
-  },
-  {
-   "source": "SarkariExam – Online Forms",
-   "kind": "aggregator",
-   "url": "https://www.sarkariexam.com/category/top-online-form/",
-   "ok": true,
-   "rows": 47
+   "source": "APSC careers",
+   "kind": "official",
+   "url": "https://apsc.nic.in/",
+   "ok": false,
+   "rows": 0
   }
  ],
  "jobs": [
@@ -4388,6 +4864,41 @@
    ],
    "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
    "first_seen": "2026-09-30"
+  },
+  {
+   "id": "39bd071cc406",
+   "org": "SBI",
+   "org_full": "State Bank of India",
+   "sector": "Banking & Insurance",
+   "level": "PSU",
+   "department": "Banking & Finance",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "sbi.co.in",
+   "title": "APPLY ONLINE (16.09.2026 to 06.10.2026)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": "Online",
+   "posted": "2026-09-16",
+   "last_date": "2026-10-06",
+   "status": null,
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "sources": [
+    "SBI careers"
+   ],
+   "hosts": [
+    "recruitment.sbi.bank.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply"
+   ],
+   "alias_ids": []
   },
   {
    "id": "5cce0000cf88",
@@ -9713,6 +10224,41 @@
    "first_seen": "2026-09-30"
   },
   {
+   "id": "37be30148382",
+   "org": "SBI",
+   "org_full": "State Bank of India",
+   "sector": "Banking & Insurance",
+   "level": "PSU",
+   "department": "Banking & Finance",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "sbi.co.in",
+   "title": "APPLY ONLINE (30.09.2026 to 21.10.2026)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": "Online",
+   "posted": "2026-09-30",
+   "last_date": "2026-10-21",
+   "status": null,
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+   "sources": [
+    "SBI careers"
+   ],
+   "hosts": [
+    "recruitment.sbi.bank.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply"
+   ],
+   "alias_ids": []
+  },
+  {
    "id": "70ddcd52e536",
    "org": "Sahitya Akademi",
    "org_full": "Sahitya Akademi",
@@ -11805,6 +12351,37 @@
    "first_seen": "2026-09-30"
   },
   {
+   "id": "3a8a124eb701",
+   "org": "HSSC",
+   "org_full": "HSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "Preference Selection for the various posts under Group-25 against Advt. No. 08/2024. | 2026-07-30",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2030-07-26",
+   "last_date": null,
+   "status": null,
+   "url": "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-b2fdd4d80015/publicNotice",
+   "sources": [
+    "HSSC careers"
+   ],
+   "hosts": [
+    "hssc.gov.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-b2fdd4d80015/publicNotice",
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "9eb42a63aacb",
    "org": "POWERGRID",
    "org_full": "Power Grid Corporation of India",
@@ -11833,6 +12410,1088 @@
     "official"
    ],
    "official_url": "https://www.powergrid.in/job-opportunities",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "8ae919275de7",
+   "org": "POWERGRID",
+   "org_full": "Power Grid Corporation of India",
+   "sector": "Power",
+   "level": "PSU",
+   "department": "Public Sector Undertakings",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "powergrid.in",
+   "title": "Recruitment of Engineer Trainees-2027 through GATE 2027 Advt No. CC/03/2026 dated 24.09.2026",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-09-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://www.powergrid.in/job-opportunities",
+   "sources": [
+    "POWERGRID careers"
+   ],
+   "hosts": [
+    "powergrid.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://www.powergrid.in/job-opportunities",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "35a5c2e645e3",
+   "org": "SBI",
+   "org_full": "State Bank of India",
+   "sector": "Banking & Insurance",
+   "level": "PSU",
+   "department": "Banking & Finance",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "sbi.co.in",
+   "title": "APPLY ONLINE (Online Registration Extended till 05.10.2026)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": "Online",
+   "posted": "2026-10-05",
+   "last_date": null,
+   "status": null,
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-23/apply",
+   "sources": [
+    "SBI careers"
+   ],
+   "hosts": [
+    "recruitment.sbi.bank.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-23/apply",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "278d4b29addd",
+   "org": "SBI",
+   "org_full": "State Bank of India",
+   "sector": "Banking & Insurance",
+   "level": "PSU",
+   "department": "Banking & Finance",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "sbi.co.in",
+   "title": "APPLY ONLINE (Online Registration extended till 28.09.2026)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": "Online",
+   "posted": "2026-09-28",
+   "last_date": null,
+   "status": null,
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-15/apply",
+   "sources": [
+    "SBI careers"
+   ],
+   "hosts": [
+    "recruitment.sbi.bank.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-15/apply",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "8f071ceca973",
+   "org": "UKSSSC",
+   "org_full": "UKSSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "पदनाम-स्नातक स्तरीय(Advt. No.70/UKSSSC/2025)के विभागों की वरीयता(Preference)हेतु क्लिक करें",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-09-17",
+   "last_date": null,
+   "status": null,
+   "url": "https://preference.ssscuk.com/",
+   "sources": [
+    "UKSSSC careers"
+   ],
+   "hosts": [
+    "cdnbbsr.s3waas.gov.in",
+    "preference.ssscuk.com"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://preference.ssscuk.com/",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/20260928380500395.pdf"
+   ],
+   "alias_ids": [
+    "92f89e58ba36"
+   ]
+  },
+  {
+   "id": "a97ec1ab5728",
+   "org": "UKSSSC",
+   "org_full": "UKSSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "पदनाम-वैयत्तिक सहायक/आशुलिपिक(ADVT.-61) की अभिलेख सन्निरीक्षा की सूची हेतु क्लिक करें",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-09-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609241846331091.pdf",
+   "sources": [
+    "UKSSSC careers"
+   ],
+   "hosts": [
+    "cdnbbsr.s3waas.gov.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609241846331091.pdf",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "26ad725a7302",
+   "org": "UKSSSC",
+   "org_full": "UKSSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "पदनाम-स्नातक स्तरीय(Advt. No.70/UKSSSC/2025)के अभिलेख सन्निरीक्षा की तिथि(Document Scrutiny Date) हेतु क्लिक करें",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-09-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609161043609617.pdf",
+   "sources": [
+    "UKSSSC careers"
+   ],
+   "hosts": [
+    "cdnbbsr.s3waas.gov.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609161043609617.pdf",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "ae5e53723120",
+   "org": "UKSSSC",
+   "org_full": "UKSSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "पदनाम-स्नातक स्तरीय(Advt. No.70/UKSSSC/2025)के अभिलेख सन्निरीक्षा की औपबंधिक श्रेष्ठता सूची हेतु क्लिक करें",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-09-03",
+   "last_date": null,
+   "status": null,
+   "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609031164484980.pdf",
+   "sources": [
+    "UKSSSC careers"
+   ],
+   "hosts": [
+    "cdnbbsr.s3waas.gov.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609031164484980.pdf",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "edff9404e353",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. A-10/E-1/2023 U.P. KHADI AND VILLAGE INDUSTRIES BOARD..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-07",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS6RJBmylW1m0",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS6RJBmylW1m0",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVSxWBHfEFcfBI"
+   ],
+   "alias_ids": []
+  },
+  {
+   "id": "752e8c10b9d5",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING DOWNLOAD MARKSHEET & CUT OFF FOR ADVT. NO. D-5-E-1-2025, [S-10-..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-06",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS1AzHz/uiCOF",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS1AzHz/uiCOF",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "989791ae1eba",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-2/E-1/2025, DIRECTORATE OF MEDICAL AND HEALTH SERVI..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-05",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnlXedvdii+mr",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnlXedvdii+mr",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlT7Z9nwCD5P+"
+   ],
+   "alias_ids": []
+  },
+  {
+   "id": "fc2bbf2a54f1",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REAGARDING DOCUMENTS FOR APPOINTMENT FOR ADVT. NO. A-4/E-1/2025, COMPUTER..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-05",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUng3eJkJCe7CV",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUng3eJkJCe7CV",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "1e5508e9a3e6",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "FORMAT OF PREFERENCE SHEET FOR ADVT. NO. A-1/E-1/2025, COMBINED STATE/UPPER SUBO..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnvJhwqdrfyIn",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnvJhwqdrfyIn",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "bcf9106d6ece",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "DETAILS OF POSTS FOR ADVT. NO. A-1/E-1/2025, COMBINED STATE/UPPER SUBORDINATE SE..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnkrFe/wUUPPd",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnkrFe/wUUPPd",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "274d356f0acf",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "LIST OF PROVISIONALLY SELECTED CANDIDATES IN ADVT. NO. A-5/E-1/2025,\nASSISTANT ..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-18",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjLL4PcUughPB",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjLL4PcUughPB",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlSPaXqLdKVhI",
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOngpAmDJbFNDU"
+   ],
+   "alias_ids": []
+  },
+  {
+   "id": "0f4db5e1d49f",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "LIST OF CANDIDATES PROVISIONALLY QUALIFIED FOR INTERVIEW IN ADVT. NO.\nA-1/E-1/2..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-17",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjKltRtnq0cgK",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjKltRtnq0cgK",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "5e513beee344",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-6/E-1/2025, DIRECTORATE OF AYURVEDA UTTAR PRADESH, ..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-12-19",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjI+X70XaoE7Y",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjI+X70XaoE7Y",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjKKsih8bLTaq"
+   ],
+   "alias_ids": []
+  },
+  {
+   "id": "8826ac6102ea",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "SUPPLEMENTRY LIST OF SELECTED CANDIDATES IN ADVT. NO. A-7/E-1/2021, U.P. TECHNIC..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-15",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjPpW5M5/1HwO",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjPpW5M5/1HwO",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "09f4bc058b34",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING FOR ADVT NO. A-10/E-1/2025, ASSISTANT TOWN PLANNER (SPL. RECT.)..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-03",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvQwhX2clRPNl",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvQwhX2clRPNl",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "2fdc071786c4",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "LIST OF CANDIDATES PROVISIONALLY QUALIFIED FOR MAINS IN ADVT. NO.\nA-10/E-1/2025..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-09",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvfvuznPEhL/S",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvfvuznPEhL/S",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "eb7dd7ae3c6b",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT.NO. A-2-E-1-2020, REGIONAL INSPECTOR (TECHNICAL) EXAM-2020",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-02",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlbow8bdLZJ6R",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlbow8bdLZJ6R",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "eef8cc169465",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT.NO. D-2/E-1/2024, Reader Rachna Shareer, S-9/04 U.P. AYUSH..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-02",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlb0J6t8q6LXg",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlb0J6t8q6LXg",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "0c1904078fca",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT.NO. D-5/E-1/2025, DEPUTY SECRETARY (I.T.), S-10/04 U.P. PU..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-02",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlUPg+9/fLH/E",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlUPg+9/fLH/E",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "399095c2d9ec",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "LIST OF PROVISIONALLY SELECTED CANDIDATES IN ADVT. NO. A-4/E-1/2025,\nCOMPUTER A..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-01",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOnigkngtaMhJ7",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOnigkngtaMhJ7",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "66db1d99126c",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING OF ADVT NO: D-6/E-1/2025, UTTAR PRADESH LEGISLATIVE DEPARTMENT ..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-26",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkC/gT4ITeNgrXkVJ6dwkRn",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkC/gT4ITeNgrXkVJ6dwkRn",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "f633dbc450e2",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-6/E-1/2025, UTTAR PRADESH LIVESTOCK DEPARTMENT, VET..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-03",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagm1I38phqc5aj9szEEFmvLl",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagm1I38phqc5aj9szEEFmvLl",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "1ee944356de4",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-2/E-1/2024, ASSISTANT ARCHITECT, S-06/01 (PUBLIC WO..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-12-17",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagktt06NhTTxwivFUuvsdMCE",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagktt06NhTTxwivFUuvsdMCE",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "99e6102938a5",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-6/E-1/2025, FOOD SAFETY AND DRUG ADMINISTRATION UTT..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-12-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagldpN1/ndg4XQJWpYXr4Ud3",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagldpN1/ndg4XQJWpYXr4Ud3",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "91de6fe5a93e",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. D-6/E-1/2025, DIRECTORATE GENERAL OF FAMILY WELFARE U..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-04",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnFvgVqjblDZARklky4+2Ju",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnFvgVqjblDZARklky4+2Ju",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "ab46e684b8da",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "CLICK HERE TO DOWNLOAD DISTRICT INFORMATION SLIP FOR  ADVT NO. A-10/E-1/2025, ASSISTANT TOWN PLANNER (SPL. RECT.) (MAIN.) EXAM.-2025, (EXAM. DATED-06/10/2026).",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-06",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "27434e9a6cdf",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Medical & Health",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "19 Dec 2026 NOTICE REGARDING ADVT. NO. D-6/E-1/2025, DIRECTORATE OF AYURVEDA UTTAR PRADESH, MEDICAL OFFICER COMMUNITY HEALTH (AYURVEDIC AND UNANI) S-09/06",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-12-19",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjLeu0vVyodfJ",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjLeu0vVyodfJ",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "71a609cd8379",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "20 Dec 2026 NOTICE REGARDING ADVT. NO. D-6/E-1/2025, DIRECTORATE OF AYURVEDA UTTAR PRADESH, CHIKITSA ADHIKARI (AYURVED) S-09/05",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-12-20",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjAwR0kJ5346+",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjAwR0kJ5346+",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "98ef2503d537",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "07 Oct 2026 NOTICE REGARDING ADVT. NO. A-10/E-1/2023 U.P. KHADI AND VILLAGE INDUSTRIES BOARD, PRASHIKSHAK (BAMBOO AND CANE)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-07",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS65iHgDlesR9",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS65iHgDlesR9",
+   "first_seen": "2026-09-30",
+   "also_urls": [
+    "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS23O8vbJznB0"
+   ],
+   "alias_ids": []
+  },
+  {
+   "id": "d0eb6e0c5b1e",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "06 Oct 2026 NOTICE REGARDING DOWNLOAD MARKSHEET & CUT OFF FOR ADVT. NO. D-5-E-1-2025, [S-10-04]",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-06",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS16F+sPZaXj8",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS16F+sPZaXj8",
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "28deb2d61e26",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "05 Oct 2026 NOTICE REGARDING ADVT. NO. D-2/E-1/2025, DIRECTORATE OF MEDICAL AND HEALTH SERVICES UTTAR PRADESH, FILARIA CONTROL OFFICER, S-06/01(CUT OFF)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-05",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUngRHocPuog4h",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUngRHocPuog4h",
    "first_seen": "2026-09-30"
   }
  ]
