@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-01T07:26:55+00:00",
- "count": 330,
+ "generated_at": "2026-10-01T14:47:05+00:00",
+ "count": 334,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 43
+   "rows": 47
   },
   {
    "source": "UPSSSC careers",
@@ -11967,6 +11967,130 @@
    "first_seen": "2026-09-30",
    "also_urls": [],
    "alias_ids": []
+  },
+  {
+   "id": "7273715dd8d1",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. A-7/E-1/2021, U.P. TECH. EDU.(TCHG.) SER. EXAM.-2021,..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-15",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS80zm9an0/v9",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS80zm9an0/v9",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "1eb4dea84446",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING INTERVIEW HAS BEEN POSTPONED, FOR ADVT.NO. D-1/E-1/2026, MEDICA..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-03",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVSzKiYTL+slYC",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVSzKiYTL+slYC",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "9c1a3963d5b5",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "15 Oct 2026 NOTICE REGARDING ADVT. NO. A-7/E-1/2021, U.P. TECH. EDU.(TCHG.) SER. EXAM.-2021, TEXTILE CHEM.",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-15",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVSzAOSApcTxp/",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVSzAOSApcTxp/",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "ab8d7cec9131",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Teaching & Research",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "03 Oct 2026 NOTICE REGARDING INTERVIEW HAS BEEN POSTPONED, FOR ADVT.NO. D-1/E-1/2026, MEDICAL EDUCATION DEPARTMENT U.P. (ALLOPATHY)/ PROFESSOR NEUROLOGY, S-08/16",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-03",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS3TmQKgCKRaX",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS3TmQKgCKRaX",
+   "first_seen": "2026-10-01"
   }
  ]
 }
