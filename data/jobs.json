@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-30T15:51:29+00:00",
- "count": 376,
+ "generated_at": "2026-10-01T07:26:55+00:00",
+ "count": 330,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": true,
+   "ok": false,
    "rows": 0
   },
   {
@@ -648,1591 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "71abf140012f",
-   "org": "AAI",
-   "org_full": "Airports Authority of India",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aai.aero",
-   "title": "Graduate & Diploma Apprentice",
-   "qualification": [
-    "Any Graduate",
-    "B.Tech/B.E",
-    "Diploma"
-   ],
-   "vacancies": 9,
-   "apply_mode": "Online",
-   "posted": "2026-09-07",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aai-apprentice-recruitment-2026-apply-online-for-09-graduate-and-diploma-apprentice-posts-3066612",
-   "sources": [
-    "AAI careers",
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "aai.aero",
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.aai.aero/en/recruitment/release/740868"
-   ],
-   "official_url": "https://www.aai.aero/en/recruitment/release/740868",
-   "alias_ids": [
-    "921982a3c4a7"
-   ]
-  },
-  {
-   "id": "dcc4671e2e26",
-   "org": "AAI",
-   "org_full": "Airports Authority of India",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aai.aero",
-   "title": "Apprentice (Western Region)",
-   "qualification": [
-    "B.Tech/B.E",
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": "2026-08-04",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aai-wr-apprentice-recruitment-2026-3061343",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "168a0348f5cf",
-   "org": "APS Bengdubi",
-   "org_full": "APS Bengdubi",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Headmaster / Headmistress",
-   "qualification": [
-    "Any Graduate",
-    "B.Ed",
-    "M.Ed"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-29",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aps-bengdubi-recruitment-2026-apply-offline-for-headmaster-headmistress-posts-3068198",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a6aa06813670",
-   "org": "Arunachal Pradesh PSC",
-   "org_full": "Arunachal Pradesh PSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Arunachal Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Veterinary Officer, Agriculture Development Officer and More",
-   "qualification": [
-    "B.Sc",
-    "B.Tech/B.E",
-    "BVSC"
-   ],
-   "vacancies": 155,
-   "apply_mode": "Online",
-   "posted": "2026-09-02",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/arunachal-pradesh-psc-recruitment-2026-apply-online-for-155-veterinary-officer-agriculture-development-officer-and-more-posts-3065832",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "23b60fcf79a7",
-   "org": "BEML",
-   "org_full": "BEML Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bemlindia.in",
-   "title": "Chief General Manager",
-   "qualification": [
-    "Any Post Graduate",
-    "MBA/PGDM",
-    "PG Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-19",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/beml-chief-general-manager-recruitment-2026-apply-online-3068374",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8911d7a6b458",
-   "org": "BGSSL",
-   "org_full": "BGSSL",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Apprentice, Executive and More",
-   "qualification": [
-    "Any Graduate",
-    "B.Com",
-    "12TH",
-    "M.Com",
-    "MBA/PGDM"
-   ],
-   "vacancies": 1949,
-   "apply_mode": "Online",
-   "posted": "2026-09-04",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bgssl-recruitment-2026-apply-online-for-1949-apprentice-executive-and-more-posts-3066285",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4f1acc111ef6",
-   "org": "BSA KGBV Gorakhpur",
-   "org_full": "BSA KGBV Gorakhpur",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "PGT, Peon and More",
-   "qualification": [
-    "B.A",
-    "B.Com",
-    "B.Ed",
-    "B.Sc",
-    "12TH",
-    "8TH"
-   ],
-   "vacancies": 132,
-   "apply_mode": "Offline",
-   "posted": "2026-09-15",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bsa-kgbv-gorakhpur-recruitment-2026-apply-offline-for-132-pgt-peon-and-more-posts-3067713",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "d5af12e7f311",
-   "org": "Bank of Baroda",
-   "org_full": "Bank of Baroda",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bankofbaroda.in",
-   "title": "FLC Counsellor",
-   "qualification": [
-    "Any Graduate",
-    "M.A",
-    "M.Sc",
-    "MVSC",
-    "MSW"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-25",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bank-of-baroda-flc-counsellor-recruitment-2026-apply-offline-3069409",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "90ee15d329bf",
-   "org": "CONCOR",
-   "org_full": "Container Corporation of India",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "concorindia.co.in",
-   "title": "Management Trainee & Assistant Officer",
-   "qualification": [
-    "B.Tech/B.E",
-    "MBA/PGDM"
-   ],
-   "vacancies": 77,
-   "apply_mode": "Online",
-   "posted": "2026-08-25",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/concor-recruitment-2026-apply-online-for-77-management-trainee-and-assistant-officer-posts-3064451",
-   "sources": [
-    "FreeJobAlert – PSU",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/concor-mt-assistant-officer-2026/"
-   ],
-   "alias_ids": [
-    "90b8c51568da"
-   ]
-  },
-  {
-   "id": "3f612e750774",
-   "org": "CPCL",
-   "org_full": "Chennai Petroleum Corporation Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cpcl.co.in",
-   "title": "Junior Engineering Assistant",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": 60,
-   "apply_mode": "Online",
-   "posted": "2026-08-14",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cpcl-junior-engineering-assistant-recruitment-2026-apply-online-for-60-posts-3063135",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "50dd4acb480d",
-   "org": "DCPU Begusarai",
-   "org_full": "DCPU Begusarai",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Bihar"
-   ],
-   "logo_domain": null,
-   "title": "Support Person",
-   "qualification": [
-    "Diploma",
-    "MSW",
-    "Any Graduate"
-   ],
-   "vacancies": 30,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/dcpu-begusarai-support-person-recruitment-2026-apply-online-for-30-posts-3067857",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "35a9a365f4e4",
-   "org": "DIAT",
-   "org_full": "DIAT",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "diat.ac.in",
-   "title": "Senior Research Fellow, Junior Research Fellow, Project Assistant",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Phil/Ph.D",
-    "Any Graduate"
-   ],
-   "vacancies": 7,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/diat-recruitment-2026-apply-online-for-junior-research-fellow-project-assistant-and-more-posts-3068095",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "b1bc791dce9f",
-   "org": "District Court Yadgir",
-   "org_full": "District Court Yadgir",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "Typist, Typist Copyist",
-   "qualification": [
-    "10TH",
-    "Diploma"
-   ],
-   "vacancies": 9,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/district-court-yadgir-recruitment-2026-apply-online-for-typist-typist-copyist-posts-3067023",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "bcea9b7f27b7",
-   "org": "GAIL",
-   "org_full": "GAIL (India) Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "gailonline.com",
-   "title": "Medical Consultant",
-   "qualification": [
-    "MS/MD"
-   ],
-   "vacancies": null,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-10",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gail-medical-consultant-recruitment-2026-walkin-3067248",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "44961192736b",
-   "org": "GAIL",
-   "org_full": "GAIL (India) Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "gailonline.com",
-   "title": "Part-Time Visiting Medical Consultant",
-   "qualification": [
-    "MS/MD"
-   ],
-   "vacancies": null,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-10",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gail-part-time-visiting-medical-consultant-recruitment-2026-walkin-3067241",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "cd0714d48628",
-   "org": "Gadag DC Office",
-   "org_full": "Gadag DC Office",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "Pourakarmika",
-   "qualification": [
-    "Other"
-   ],
-   "vacancies": 154,
-   "apply_mode": "Offline",
-   "posted": "2026-09-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gadag-pourakarmika-recruitment-2026-apply-offline-for-154-posts-3067938",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "aa1ac5d81ca1",
-   "org": "Govt Medical College & Hospital Narayanpet",
-   "org_full": "Govt Medical College & Hospital Narayanpet",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Telangana"
-   ],
-   "logo_domain": null,
-   "title": "DEO, Record Clerk / Assistant and More",
-   "qualification": [
-    "Any Graduate",
-    "B.Sc",
-    "Diploma",
-    "ITI",
-    "10TH",
-    "8TH",
-    "DMLT"
-   ],
-   "vacancies": 149,
-   "apply_mode": "Offline",
-   "posted": "2026-09-22",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/govt-medical-college-hospital-narayanpet-recruitment-2026-apply-offline-for-149-deo-record-clerk-record-assistant-and-more-posts-3068887",
-   "sources": [
-    "FreeJobAlert – Telangana Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "c7f8af53fc7c",
-   "org": "HAL",
-   "org_full": "Hindustan Aeronautics Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "hal-india.co.in",
-   "title": "Visiting Consultant (Neuro Surgeon)",
-   "qualification": [
-    "MBBS"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-16",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hal-visiting-consultant-neuro-surgeon-recruitment-2026-apply-offline-3067893",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "575803be9251",
-   "org": "HAL",
-   "org_full": "Hindustan Aeronautics Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "hal-india.co.in",
-   "title": "Visiting Consultant",
-   "qualification": [
-    "MS/MD",
-    "DNB"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-04",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hal-recruitment-2026-apply-offline-for-visiting-consultant-posts-3066209",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8b8940d2467b",
-   "org": "HPSCB",
-   "org_full": "HPSCB",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "hpscb.com",
-   "title": "Cooperative Intern",
-   "qualification": [
-    "MBA/PGDM"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Offline",
-   "posted": "2026-09-07",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hpscb-cooperative-intern-recruitment-2026-apply-offline-3066530",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ec370a694091",
-   "org": "IIM Kozhikode",
-   "org_full": "IIM Kozhikode",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Kerala"
-   ],
-   "logo_domain": "iimk.ac.in",
-   "title": "Assistant Professor",
-   "qualification": [
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 28,
-   "apply_mode": "Online",
-   "posted": "2026-08-19",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/iim-kozhikode-assistant-professor-recruitment-2026-apply-online-for-28-posts-3063631",
-   "sources": [
-    "FreeJobAlert – Kerala Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "daa831f79d54",
-   "org": "IIT ISM Dhanbad",
-   "org_full": "IIT ISM Dhanbad",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "iitism.ac.in",
-   "title": "Associate Professor / Professor",
-   "qualification": [
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 60,
-   "apply_mode": "Online",
-   "posted": "2026-07-13",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/iit-ism-dhanbad-associate-professor-professor-recruitment-2026-apply-online-for-60-posts-3058016",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "2712d88481ec",
-   "org": "IIT Tirupati",
-   "org_full": "IIT Tirupati",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": "iittp.ac.in",
-   "title": "Non Teaching (Security Officer, Counsellor and More)",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech",
-    "Any Post Graduate",
-    "B.Sc",
-    "MCA",
-    "ITI",
-    "Diploma"
-   ],
-   "vacancies": 13,
-   "apply_mode": "Online",
-   "posted": "2026-08-31",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/iit-tirupati-non-teaching-recruitment-2026-apply-online-for-13-security-officer-counsellor-and-more-posts-3065510",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4c3c2384277f",
-   "org": "IOCL",
-   "org_full": "Indian Oil Corporation Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "iocl.com",
-   "title": "Research Associate",
-   "qualification": [
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/iocl-research-associate-recruitment-2026-apply-online-3068108",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "3be7f75f71c0",
-   "org": "IRFC",
-   "org_full": "Indian Railway Finance Corporation",
-   "sector": "Finance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "irfc.co.in",
-   "title": "Head of Internal Audit",
-   "qualification": [
-    "MBA/PGDM",
-    "CA"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-08-26",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/irfc-head-of-internal-audit-hia-recruitment-2026-apply-offline-3064694",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "73c89058cf3f",
-   "org": "ISRO SAC",
-   "org_full": "ISRO SAC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "isro.gov.in",
-   "title": "Junior Research Fellow, Research Associate and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Sc",
-    "M.E/M.Tech",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 48,
-   "apply_mode": "Online",
-   "posted": "2026-09-10",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/isro-sac-recruitment-2026-apply-online-for-48-junior-research-fellow-research-associate-and-more-posts-3067084",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "d5454beae4d8",
-   "org": "Indbank",
-   "org_full": "Indbank Merchant Banking Services",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indbankonline.com",
-   "title": "Merchant Banking Head",
-   "qualification": [
-    "CA",
-    "CS",
-    "LLB",
-    "MBA/PGDM"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-08-12",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/indbank-merchant-banking-head-recruitment-2026-apply-offline-3062557",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "cbf8fb44d01e",
-   "org": "JSSC",
-   "org_full": "JSSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "10+2 Inter Level JILCCE",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": null,
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.sarkariexam.com/jharkhand-jssc-102-inter-level-jilcce-2026/",
-   "sources": [
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "1ca09f277bb9",
-   "org": "Jalaun Anganwadi",
-   "org_full": "Jalaun Anganwadi",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Uttar Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Anganwadi Worker and Helper",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": 110,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/jalaun-up-anganwadi-recruitment-2026-apply-online-for-110-anganwadi-worker-and-helper-posts-3067458",
-   "sources": [
-    "FreeJobAlert – UP Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8559de2af329",
-   "org": "Jawahar Navodaya Vidyalaya",
-   "org_full": "Jawahar Navodaya Vidyalaya",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "navodaya.gov.in",
-   "title": "TGT, Hostel Superintendent and More",
-   "qualification": [
-    "B.Ed",
-    "Any Graduate"
-   ],
-   "vacancies": 5,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/jawahar-navodaya-vidyalaya-recruitment-2026-walkin-for-tgt-hostel-superintendent-and-more-posts-3067934",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "61bc9236f3ea",
-   "org": "KEA",
-   "org_full": "KEA",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "Electrician, Water Supply Operator and More (Kalyana Karnataka)",
-   "qualification": [
-    "ITI",
-    "10TH"
-   ],
-   "vacancies": 210,
-   "apply_mode": "Online",
-   "posted": "2026-09-12",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/kea-kalyana-karnataka-recruitment-2026-apply-online-for-210-electrician-water-supply-operator-and-more-posts-3067512",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "9f79c0779d89",
-   "org": "KVIC",
-   "org_full": "KVIC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "kvic.gov.in",
-   "title": "Young Professional, Advisor and Senior Consultant",
-   "qualification": [
-    "Any Post Graduate",
-    "CA",
-    "LLM",
-    "M.Com",
-    "M.Sc"
-   ],
-   "vacancies": 50,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/kvic-recruitment-2026-apply-online-for-50-young-professional-advisor-and-senior-consultant-posts-3068220",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "7b22eb3a0b75",
-   "org": "MP High Court",
-   "org_full": "MP High Court",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "Madhya Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Assistant",
-   "qualification": [
-    "Any Graduate",
-    "Diploma"
-   ],
-   "vacancies": 1174,
-   "apply_mode": "Online",
-   "posted": "2026-08-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mp-high-court-assistant-recruitment-2026-apply-online-for-1174-posts-3063205",
-   "sources": [
-    "FreeJobAlert – MP Govt",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/mp-high-court-assistant-grade-iii-online-form-2026/"
-   ],
-   "alias_ids": [
-    "1c28953a2245"
-   ]
-  },
-  {
-   "id": "8d2e89e683bf",
-   "org": "NABFINS",
-   "org_full": "NABARD Financial Services",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "nabfins.org",
-   "title": "Customer Service Officer",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": "2026-09-21",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/nabfins-customer-service-officer-recruitment-2026-3068690",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "2a1d527794d4",
-   "org": "NIC",
-   "org_full": "NIC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "nic.in",
-   "title": "Scientific / Technical Assistant",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Sc",
-    "MCA",
-    "MS"
-   ],
-   "vacancies": 376,
-   "apply_mode": "Online",
-   "posted": "2026-09-01",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/nic-scientific-technical-assistant-recruitment-2026-apply-online-for-376-posts-3064655",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/nic-scientific-technical-assistant-2026/"
-   ],
-   "alias_ids": [
-    "c50b59f96319"
-   ]
-  },
-  {
-   "id": "ca769b462abf",
-   "org": "Narayanpet ICDS",
-   "org_full": "Narayanpet ICDS",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Telangana"
-   ],
-   "logo_domain": null,
-   "title": "Anganwadi Teacher & Helper",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": 65,
-   "apply_mode": "Online",
-   "posted": "2026-09-15",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/narayanpet-icds-anganwadi-recruitment-2026-apply-online-for-65-anganwadi-teacher-and-helper-posts-3067754",
-   "sources": [
-    "FreeJobAlert – Telangana Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "1fde8c4b9af6",
-   "org": "National Book Trust",
-   "org_full": "National Book Trust",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "nbtindia.gov.in",
-   "title": "Editorial Assistant",
-   "qualification": [
-    "Any Post Graduate",
-    "Any Graduate"
-   ],
-   "vacancies": 17,
-   "apply_mode": "Online",
-   "posted": "2026-09-21",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/national-book-trust-editorial-assistant-recruitment-2026-apply-online-for-17-posts-3068445",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "9fa09590a494",
-   "org": "Nirmal Anganwadi",
-   "org_full": "Nirmal Anganwadi",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Telangana"
-   ],
-   "logo_domain": null,
-   "title": "Anganwadi Teacher",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": 89,
-   "apply_mode": "Online",
-   "posted": "2026-09-15",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/telangana-anganwadi-recruitment-2026-apply-online-for-89-anganwadi-teacher-in-nirmal-district-3067751",
-   "sources": [
-    "FreeJobAlert – Telangana Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "59e21c935344",
-   "org": "RITES",
-   "org_full": "RITES Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rites.com",
-   "title": "Assistant Manager, DGM",
-   "qualification": [
-    "B.Arch",
-    "B.Tech/B.E",
-    "M.E/M.Tech"
-   ],
-   "vacancies": 12,
-   "apply_mode": "Online",
-   "posted": "2026-09-04",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rites-engineering-professionals-recruitment-2026-apply-online-for-12-assistant-manager-dgm-posts-3066230",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "344563e870ce",
-   "org": "RITES",
-   "org_full": "RITES Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rites.com",
-   "title": "General Manager, Joint General Manager and More",
-   "qualification": [
-    "B.Arch",
-    "B.Tech/B.E",
-    "M.E/M.Tech"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-01",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rites-recruitment-2026-apply-online-for-general-manager-joint-general-manager-and-more-posts-3065749",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "06ccbe2039a3",
-   "org": "RRC WR",
-   "org_full": "RRC WR",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "Sports Quota",
-   "qualification": [
-    "Any Graduate",
-    "ITI"
-   ],
-   "vacancies": 64,
-   "apply_mode": "Online",
-   "posted": "2026-09-01",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rrc-wr-sports-quota-recruitment-2026-apply-online-for-64-posts-3064914",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "5d3f18b8c7a1",
-   "org": "SAIL",
-   "org_full": "Steel Authority of India Ltd",
-   "sector": "Mining & Steel",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sail.co.in",
-   "title": "Advisor / Consultant",
-   "qualification": [
-    "B.Tech/B.E",
-    "Diploma",
-    "CA",
-    "ICWA"
-   ],
-   "vacancies": 14,
-   "apply_mode": "Offline",
-   "posted": "2026-09-16",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sail-iisco-steel-plant-advisor-consultant-recruitment-2026-apply-offline-for-14-posts-3067863",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "23839d935e3a",
-   "org": "SSC",
-   "org_full": "SSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "ssc.gov.in",
-   "title": "Sub-Inspector in Delhi Police and CAPFs",
-   "qualification": [
-    "Any Graduate",
-    "B.Sc",
-    "Diploma"
-   ],
-   "vacancies": 1871,
-   "apply_mode": null,
-   "posted": "2026-09-10",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ssc-cpo-si-capf-recruitment-2026-3067208",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/ssc-cpo-si-capf-2026/"
-   ],
-   "alias_ids": [
-    "0ff8feb4a19f"
-   ]
-  },
-  {
-   "id": "3b57d81f2a4f",
-   "org": "STPI",
-   "org_full": "STPI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "stpi.in",
-   "title": "Apprentice Trainee",
-   "qualification": [
-    "Any Bachelors Degree",
-    "B.Tech/B.E"
-   ],
-   "vacancies": 15,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/stpi-apprentice-trainee-recruitment-2026-apply-online-for-15-posts-3067983",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "bc497e41d8bf",
-   "org": "TIFR",
-   "org_full": "TIFR",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "tifr.res.in",
-   "title": "Trade Apprentice",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-07",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/tifr-trade-apprentice-recruitment-2026-walkin-for-10-posts-3066282",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "df66c790866b",
-   "org": "ULB Haryana",
-   "org_full": "ULB Haryana",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Haryana"
-   ],
-   "logo_domain": null,
-   "title": "Taxation & Sanitation Experts",
-   "qualification": [
-    "B.Sc",
-    "B.Tech/B.E",
-    "CA",
-    "MBA/PGDM"
-   ],
-   "vacancies": 195,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-09-30",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ulb-haryana-recruitment-2026-apply-online-for-195-taxation-and-sanitation-experts-posts-3067046",
-   "sources": [
-    "FreeJobAlert – Haryana Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "70828f16902c",
    "org": "AAI",
@@ -12379,7 +10794,9 @@
     "official"
    ],
    "official_url": "https://hssc.gov.in/file/ac1f23cd-9f7f-1923-819f-b2fdd4d80015/publicNotice",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "9eb42a63aacb",
@@ -12441,7 +10858,9 @@
     "official"
    ],
    "official_url": "https://www.powergrid.in/job-opportunities",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "35a5c2e645e3",
@@ -12472,7 +10891,9 @@
     "official"
    ],
    "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-23/apply",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "278d4b29addd",
@@ -12503,7 +10924,9 @@
     "official"
    ],
    "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-15/apply",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "8f071ceca973",
@@ -12537,7 +10960,8 @@
    "official_url": "https://preference.ssscuk.com/",
    "first_seen": "2026-09-30",
    "also_urls": [
-    "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/20260928380500395.pdf"
+    "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/20260928380500395.pdf",
+    "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/20260902867083960.pdf"
    ],
    "alias_ids": [
     "92f89e58ba36"
@@ -12572,7 +10996,9 @@
     "official"
    ],
    "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609241846331091.pdf",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "26ad725a7302",
@@ -12603,7 +11029,9 @@
     "official"
    ],
    "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609161043609617.pdf",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "ae5e53723120",
@@ -12634,7 +11062,9 @@
     "official"
    ],
    "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/09/202609031164484980.pdf",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "edff9404e353",
@@ -12700,7 +11130,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS1AzHz/uiCOF",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "989791ae1eba",
@@ -12766,7 +11198,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUng3eJkJCe7CV",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "1e5508e9a3e6",
@@ -12797,7 +11231,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnvJhwqdrfyIn",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "bcf9106d6ece",
@@ -12828,7 +11264,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmNKfqXmoSUnkrFe/wUUPPd",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "274d356f0acf",
@@ -12895,7 +11333,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjKltRtnq0cgK",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "5e513beee344",
@@ -12961,7 +11401,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnQ0/TjMEfCjPpW5M5/1HwO",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "09f4bc058b34",
@@ -12992,7 +11434,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvQwhX2clRPNl",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "2fdc071786c4",
@@ -13023,7 +11467,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBaglFjifabMvCvfvuznPEhL/S",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "eb7dd7ae3c6b",
@@ -13054,7 +11500,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlbow8bdLZJ6R",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "eef8cc169465",
@@ -13085,7 +11533,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlb0J6t8q6LXg",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "0c1904078fca",
@@ -13116,7 +11566,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlUPg+9/fLH/E",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "399095c2d9ec",
@@ -13147,7 +11599,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOnigkngtaMhJ7",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "66db1d99126c",
@@ -13178,7 +11632,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkC/gT4ITeNgrXkVJ6dwkRn",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "f633dbc450e2",
@@ -13209,7 +11665,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagm1I38phqc5aj9szEEFmvLl",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "1ee944356de4",
@@ -13240,7 +11698,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagktt06NhTTxwivFUuvsdMCE",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "99e6102938a5",
@@ -13271,7 +11731,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagldpN1/ndg4XQJWpYXr4Ud3",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "91de6fe5a93e",
@@ -13302,7 +11764,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnFvgVqjblDZARklky4+2Ju",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "ab46e684b8da",
@@ -13333,7 +11797,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=dc",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "27434e9a6cdf",
@@ -13364,7 +11830,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjLeu0vVyodfJ",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "71a609cd8379",
@@ -13395,7 +11863,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnQ0/TjMEfCjAwR0kJ5346+",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "98ef2503d537",
@@ -13461,7 +11931,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS16F+sPZaXj8",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "28deb2d61e26",
@@ -13492,7 +11964,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUngRHocPuog4h",
-   "first_seen": "2026-09-30"
+   "first_seen": "2026-09-30",
+   "also_urls": [],
+   "alias_ids": []
   }
  ]
 }
