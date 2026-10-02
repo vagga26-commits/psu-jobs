@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T07:07:31+00:00",
+ "generated_at": "2026-10-02T14:04:48+00:00",
  "count": 323,
  "sources": [
   {
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
