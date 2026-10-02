@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-01T14:47:05+00:00",
- "count": 334,
+ "generated_at": "2026-10-02T07:07:31+00:00",
+ "count": 323,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": true,
+   "ok": false,
    "rows": 0
   },
   {
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 47
+   "rows": 44
   },
   {
    "source": "UPSSSC careers",
@@ -648,406 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "70828f16902c",
-   "org": "AAI",
-   "org_full": "Airports Authority of India",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aai.aero",
-   "title": "Consultant",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": 39,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aai-consultant-recruitment-2026-apply-online-for-39-posts-3067900",
-   "sources": [
-    "AAI careers",
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "aai.aero",
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.aai.aero/en/recruitment/release/744118"
-   ],
-   "official_url": "https://www.aai.aero/en/recruitment/release/744118",
-   "alias_ids": [
-    "bffd31234abc"
-   ]
-  },
-  {
-   "id": "bf45ba403ef5",
-   "org": "AP High Court",
-   "org_full": "AP High Court",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Civil Judge",
-   "qualification": [
-    "Other"
-   ],
-   "vacancies": 16,
-   "apply_mode": null,
-   "posted": "2026-09-17",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ap-high-court-civil-judge-recruitment-2026-3068027",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "21975dbeae26",
-   "org": "BHAVINI",
-   "org_full": "Bharatiya Nabhikiya Vidyut Nigam Ltd",
-   "sector": "Power",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bhavini.nic.in",
-   "title": "Trade Apprentice",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 50,
-   "apply_mode": "Online",
-   "posted": "2026-09-15",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bhavini-trade-apprentice-recruitment-2026-apply-online-for-50-posts-3067692",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4a903e9fc060",
-   "org": "BHU",
-   "org_full": "BHU",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Non Teaching Various Post",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": null,
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.sarkariexam.com/bhu-non-teaching-various-post-2026/",
-   "sources": [
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "d5c8865e91d8",
-   "org": "Bank of Baroda",
-   "org_full": "Bank of Baroda",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bankofbaroda.in",
-   "title": "Wealth Executive, Credit Analyst",
-   "qualification": [
-    "Any Graduate",
-    "CA"
-   ],
-   "vacancies": 1100,
-   "apply_mode": "Online",
-   "posted": "2026-09-04",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bank-of-baroda-so-recruitment-2026-apply-online-for-1100-wealth-executive-credit-analyst-posts-3066180",
-   "sources": [
-    "FreeJobAlert – PSU",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/bank-of-baroda-so-2026/"
-   ],
-   "alias_ids": [
-    "b00d1799e743"
-   ]
-  },
-  {
-   "id": "ab135720a0fd",
-   "org": "CSL",
-   "org_full": "Cochin Shipyard Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cochinshipyard.in",
-   "title": "Female Hostel Superintendent / Warden",
-   "qualification": [
-    "Any Graduate",
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/csl-female-hostel-superintendent-warden-recruitment-2026-apply-online-3067996",
-   "sources": [
-    "CSL careers",
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "cochinshipyard.in",
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://cochinshipyard.in/careerdetail/career_locations/818"
-   ],
-   "official_url": "https://cochinshipyard.in/careerdetail/career_locations/818",
-   "alias_ids": [
-    "c5c35b46cfee"
-   ]
-  },
-  {
-   "id": "1ae8c98b4e7e",
-   "org": "CSL",
-   "org_full": "Cochin Shipyard Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cochinshipyard.in",
-   "title": "Faculty",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/csl-faculty-recruitment-2026-apply-online-3067970",
-   "sources": [
-    "CSL careers",
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "cochinshipyard.in",
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://cochinshipyard.in/careerdetail/career_locations/817"
-   ],
-   "official_url": "https://cochinshipyard.in/careerdetail/career_locations/817",
-   "alias_ids": [
-    "ca075549be10"
-   ]
-  },
-  {
-   "id": "5146a74b4327",
-   "org": "CSL",
-   "org_full": "Cochin Shipyard Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cochinshipyard.in",
-   "title": "Officer",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/csl-officer-recruitment-2026-apply-online-3067937",
-   "sources": [
-    "CSL careers",
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "cochinshipyard.in",
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://cochinshipyard.in/careerdetail/career_locations/816"
-   ],
-   "official_url": "https://cochinshipyard.in/careerdetail/career_locations/816",
-   "alias_ids": [
-    "d156ab2087fa"
-   ]
-  },
-  {
-   "id": "00eac8f2be0e",
-   "org": "GMSH Chandigarh",
-   "org_full": "GMSH Chandigarh",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Chandigarh"
-   ],
-   "logo_domain": null,
-   "title": "Specialist",
-   "qualification": [
-    "MBBS"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-29",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gmsh-chandigarh-specialist-recruitment-2026-walkin-for-10-posts-3070062",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8f57b0d9231a",
-   "org": "HAL",
-   "org_full": "Hindustan Aeronautics Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "hal-india.co.in",
-   "title": "Consultant",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hal-consultant-recruitment-2026-apply-offline-3068423",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "b1f2ede49d9c",
-   "org": "SIDBI",
-   "org_full": "Small Industries Development Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sidbi.in",
-   "title": "Project Manager / Project Coordinator",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-01",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sidbi-recruitment-2026-apply-online-for-project-manager-project-coordinator-posts-3067366",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "e8147f31cb98",
    "org": "HLL",
@@ -11997,7 +11597,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVS80zm9an0/v9",
-   "first_seen": "2026-10-01"
+   "first_seen": "2026-10-01",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "1eb4dea84446",
@@ -12028,7 +11630,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnr4uATu7lVSzKiYTL+slYC",
-   "first_seen": "2026-10-01"
+   "first_seen": "2026-10-01",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "9c1a3963d5b5",
@@ -12059,7 +11663,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVSzAOSApcTxp/",
-   "first_seen": "2026-10-01"
+   "first_seen": "2026-10-01",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "ab8d7cec9131",
@@ -12090,7 +11696,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagnr4uATu7lVS3TmQKgCKRaX",
-   "first_seen": "2026-10-01"
+   "first_seen": "2026-10-01",
+   "also_urls": [],
+   "alias_ids": []
   }
  ]
 }
