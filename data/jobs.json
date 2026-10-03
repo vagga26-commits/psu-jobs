@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-02T14:04:48+00:00",
- "count": 323,
+ "generated_at": "2026-10-03T06:44:12+00:00",
+ "count": 321,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 44
+   "rows": 41
   },
   {
    "source": "UPSSSC careers",
@@ -648,83 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "e8147f31cb98",
-   "org": "HLL",
-   "org_full": "HLL Lifecare Ltd",
-   "sector": "Health & Chemicals",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "lifecarehll.com",
-   "title": "Pharmacist and Assistant Pharmacist",
-   "qualification": [
-    "B.Pharma",
-    "D.Pharm"
-   ],
-   "vacancies": null,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-02",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hll-recruitment-2026-walkin-for-pharmacist-and-assistant-pharmacist-posts-3069767",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "58566cef429a",
-   "org": "UPSC",
-   "org_full": "UPSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "upsc.gov.in",
-   "title": "Specialist, Assistant Professor and More",
-   "qualification": [
-    "DNB",
-    "LLB",
-    "M.Phil/Ph.D",
-    "MS/MD",
-    "PG Diploma"
-   ],
-   "vacancies": 212,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-02",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upsc-recruitment-2026-apply-online-for-212-specialist-assistant-professor-and-more-posts-3067335",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/upsc-various-post-2026/"
-   ],
-   "alias_ids": [
-    "45dc244efb54"
-   ]
-  },
   {
    "id": "665182387d72",
    "org": "CSL",
