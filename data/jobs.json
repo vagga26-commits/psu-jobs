@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-06T07:42:29+00:00",
- "count": 274,
+ "generated_at": "2026-10-07T07:25:39+00:00",
+ "count": 260,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -329,7 +329,7 @@
    "kind": "official",
    "url": "https://www.powergrid.in/job-opportunities",
    "ok": true,
-   "rows": 228
+   "rows": 229
   },
   {
    "source": "Coal India careers",
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 34
+   "rows": 31
   },
   {
    "source": "UPSSSC careers",
@@ -587,8 +587,8 @@
    "source": "JPSC careers",
    "kind": "official",
    "url": "https://www.jpsc.gov.in/",
-   "ok": true,
-   "rows": 50
+   "ok": false,
+   "rows": 0
   },
   {
    "source": "JSSC careers",
@@ -648,591 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "d662b484245e",
-   "org": "ANGRAU",
-   "org_full": "ANGRAU",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": "angrau.ac.in",
-   "title": "Physical Director",
-   "qualification": [
-    "M.P.Ed"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/angrau-physical-director-recruitment-2026-walkin-3069865",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ffe9d49d74a5",
-   "org": "BEL",
-   "org_full": "Bharat Electronics Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bel-india.in",
-   "title": "Senior Deputy General Manager",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 6,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bel-senior-deputy-general-manager-recruitment-2026-apply-online-for-06-posts-3067844",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "6c4de9142d12",
-   "org": "BMC",
-   "org_full": "BMC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Maharashtra"
-   ],
-   "logo_domain": null,
-   "title": "Special Medical Consultant (Intensivist)",
-   "qualification": [
-    "DNB",
-    "MS/MD",
-    "PG Diploma"
-   ],
-   "vacancies": 3,
-   "apply_mode": "Offline",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bmc-recruitment-2026-apply-offline-for-special-medical-consultant-intensivist-posts-3069104",
-   "sources": [
-    "FreeJobAlert – Maharashtra Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "3ee0da68ec28",
-   "org": "DRDO DYSL SM",
-   "org_full": "DRDO DYSL SM",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "drdo.gov.in",
-   "title": "Junior Research Fellow",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/drdo-dysl-sm-junior-research-fellow-recruitment-2026-walkin-3066925",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "7933b40bff2d",
-   "org": "GSRTC",
-   "org_full": "GSRTC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "Gujarat"
-   ],
-   "logo_domain": "gsrtc.in",
-   "title": "Helper",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 2510,
-   "apply_mode": "Online",
-   "posted": "2026-09-07",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gsrtc-helper-recruitment-2026-apply-online-for-2510-posts-3066630",
-   "sources": [
-    "FreeJobAlert – Gujarat Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "30d59fa27426",
-   "org": "Hanumakonda Anganwadi",
-   "org_full": "Hanumakonda Anganwadi",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Telangana"
-   ],
-   "logo_domain": null,
-   "title": "Anganwadi Teacher",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": 55,
-   "apply_mode": "Online",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hanumakonda-anganwadi-teacher-recruitment-2026-apply-online-for-55-posts-3069100",
-   "sources": [
-    "FreeJobAlert – Telangana Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "d566627266df",
-   "org": "IBPS",
-   "org_full": "IBPS",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Hindi Officer",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": null,
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.sarkariexam.com/ibps-hindi-officer-2026/",
-   "sources": [
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "26732eb1c12f",
-   "org": "ITDA Gumla",
-   "org_full": "ITDA Gumla",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "TGT",
-   "qualification": [
-    "B.A",
-    "B.Ed"
-   ],
-   "vacancies": 20,
-   "apply_mode": "Offline",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/itda-gumla-tgt-recruitment-2026-apply-offline-for-20-posts-3069650",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "046ad11709d0",
-   "org": "JMI",
-   "org_full": "JMI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "jmi.ac.in",
-   "title": "Professor, Associate Professor and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "Any Masters Degree",
-    "M.E/M.Tech",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 46,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/jmi-teaching-recruitment-2026-apply-online-for-46-professor-associate-professor-and-more-posts-3068062",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "56095fb96df1",
-   "org": "MPESB",
-   "org_full": "MPESB",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Madhya Pradesh"
-   ],
-   "logo_domain": "esb.mp.gov.in",
-   "title": "MP Police Constable",
-   "qualification": [
-    "10TH",
-    "8TH"
-   ],
-   "vacancies": 7500,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mp-police-constable-recruitment-2026-apply-online-for-7500-posts-3067040",
-   "sources": [
-    "FreeJobAlert – MP Govt",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/mpesb-mp-police-gd-constable-2026/"
-   ],
-   "alias_ids": [
-    "303fa00d0819"
-   ]
-  },
-  {
-   "id": "145681fcf766",
-   "org": "RCFL",
-   "org_full": "Rashtriya Chemicals & Fertilizers Ltd",
-   "sector": "Health & Chemicals",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rcfltd.com",
-   "title": "Assistant Officer",
-   "qualification": [
-    "Any Graduate",
-    "Any Post Graduate",
-    "B.Voc"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Online",
-   "posted": "2026-09-10",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rcfl-assistant-officer-recruitment-2026-apply-online-for-10-posts-3067150",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "9a8699b11fea",
-   "org": "SBI",
-   "org_full": "State Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sbi.co.in",
-   "title": "Marketing Executive, Faculty and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Phil/Ph.D",
-    "M.Sc",
-    "MBA/PGDM",
-    "MCA"
-   ],
-   "vacancies": 7,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sbi-sco-recruitment-2026-apply-online-for-07-marketing-executive-faculty-and-more-posts-3067922",
-   "sources": [
-    "FreeJobAlert – PSU",
-    "SBI careers"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "recruitment.sbi.bank.in"
-   ],
-   "source_types": [
-    "aggregator",
-    "official"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply"
-   ],
-   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "alias_ids": [
-    "0c915e1ebe9d"
-   ]
-  },
-  {
-   "id": "f072c938a729",
-   "org": "SBI",
-   "org_full": "State Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sbi.co.in",
-   "title": "Specialist Cadre Officers on Contract Basis (Advt CRPD/SCO/2026-27/22)",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": "2026-09-16",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
-   "sources": [
-    "SBI careers"
-   ],
-   "hosts": [
-    "recruitment.sbi.bank.in"
-   ],
-   "source_types": [
-    "official"
-   ],
-   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "39bd071cc406",
-   "org": "SBI",
-   "org_full": "State Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sbi.co.in",
-   "title": "APPLY ONLINE (16.09.2026 to 06.10.2026)",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "sources": [
-    "SBI careers"
-   ],
-   "hosts": [
-    "recruitment.sbi.bank.in"
-   ],
-   "source_types": [
-    "official"
-   ],
-   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply"
-   ],
-   "alias_ids": []
-  },
-  {
-   "id": "5cce0000cf88",
-   "org": "South Eastern Railway",
-   "org_full": "South Eastern Railway",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "Scouts & Guides Quota",
-   "qualification": [
-    "ITI",
-    "12TH"
-   ],
-   "vacancies": 10,
-   "apply_mode": null,
-   "posted": "2026-09-02",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/south-eastern-railway-scouts-and-guides-quota-recruitment-2026-3065884",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "63f1d8872646",
-   "org": "UPSC",
-   "org_full": "UPSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "upsc.gov.in",
-   "title": "Section Officers and Stenographers LDCE",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": "2026-09-17",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upsc-section-officers-and-stenographers-ldce-notification-2026-3067961",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "d10185a52b58",
-   "org": "UPSC",
-   "org_full": "UPSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "upsc.gov.in",
-   "title": "Engineering Services Examination, 2027 (ESE 2027)",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 480,
-   "apply_mode": null,
-   "posted": "2026-09-17",
-   "last_date": "2026-10-06",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upsc-ese-notification-2027-3067925",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/upsc-engineering-services-pre-2027/"
-   ],
-   "alias_ids": [
-    "b820fbfd1d7e"
-   ]
-  },
   {
    "id": "c8a140c4a6ab",
    "org": "APCOB",
@@ -5733,6 +5148,37 @@
    "first_seen": "2026-09-30"
   },
   {
+   "id": "9365ee146e55",
+   "org": "SBI",
+   "org_full": "State Bank of India",
+   "sector": "Banking & Insurance",
+   "level": "PSU",
+   "department": "Banking & Finance",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "sbi.co.in",
+   "title": "APPLY ONLINE (16.10.2026 to 16.10.2026)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": "Online",
+   "posted": null,
+   "last_date": "2026-10-16",
+   "status": null,
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "sources": [
+    "SBI careers"
+   ],
+   "hosts": [
+    "recruitment.sbi.bank.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "c8212c7734cb",
    "org": "UPSC",
    "org_full": "UPSC",
@@ -7759,6 +7205,37 @@
     "aggregator"
    ],
    "first_seen": "2026-09-30"
+  },
+  {
+   "id": "1558900ba3ad",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "CLICK HERE FOR DOWNLOAD INTERVIEW LETTER FOR ADVT. NO. A-1/E-1/2025, COMBINED STATE/UPPER SUBORDINATE SERVICES EXAM.-2025.",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": "2026-10-28",
+   "status": null,
+   "url": "https://uppsc.up.nic.in/CandidatePages/OTRAppForm/Applicant_OtrAuthentication.aspx?WEqGEem9m0+8Y4tNQqJiNYurmbKsjJR/fgSlThSTh6o=",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/CandidatePages/OTRAppForm/Applicant_OtrAuthentication.aspx?WEqGEem9m0+8Y4tNQqJiNYurmbKsjJR/fgSlThSTh6o=",
+   "first_seen": "2026-10-07"
   },
   {
    "id": "d508b08cf602",
@@ -9942,7 +9419,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkIY3nIrO0zxJUy3AgqZ4Ub",
-   "first_seen": "2026-10-06"
+   "first_seen": "2026-10-06",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "d8d072774f6a",
@@ -9973,7 +9452,40 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagkIY3nIrO0zxAYQ8Jqy3+nN",
-   "first_seen": "2026-10-06"
+   "first_seen": "2026-10-06",
+   "also_urls": [],
+   "alias_ids": []
+  },
+  {
+   "id": "6f60e6e84724",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "24 Oct 2026 FORMAT OF PREFERENCE SHEET FOR ADVT. NO. A-1/E-1/2025, COMBINED STATE/UPPER SUBORDINATE SERVICES (M.) EXAM.-2025",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUnrnXz2AYmFXO",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUnrnXz2AYmFXO",
+   "first_seen": "2026-10-07"
   }
  ]
 }
