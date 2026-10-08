@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-07T07:25:39+00:00",
- "count": 260,
+ "generated_at": "2026-10-08T07:30:37+00:00",
+ "count": 245,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -328,8 +328,8 @@
    "source": "POWERGRID careers",
    "kind": "official",
    "url": "https://www.powergrid.in/job-opportunities",
-   "ok": true,
-   "rows": 229
+   "ok": false,
+   "rows": 0
   },
   {
    "source": "Coal India careers",
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 31
+   "rows": 30
   },
   {
    "source": "UPSSSC careers",
@@ -587,8 +587,8 @@
    "source": "JPSC careers",
    "kind": "official",
    "url": "https://www.jpsc.gov.in/",
-   "ok": false,
-   "rows": 0
+   "ok": true,
+   "rows": 50
   },
   {
    "source": "JSSC careers",
@@ -648,590 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "c8a140c4a6ab",
-   "org": "APCOB",
-   "org_full": "APCOB",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Banking & Finance",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": "apcob.org",
-   "title": "Chief Business Development Officer (CBDO)",
-   "qualification": [
-    "Any Graduate",
-    "MBA/PGDM"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Offline",
-   "posted": "2026-09-29",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/apcob-chief-business-development-officer-cbdo-recruitment-2026-apply-offline-3070142",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "098ab451d47f",
-   "org": "APCOB",
-   "org_full": "APCOB",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Banking & Finance",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": "apcob.org",
-   "title": "Faculty",
-   "qualification": [
-    "Any Graduate",
-    "MBA/PGDM",
-    "Diploma"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Offline",
-   "posted": "2026-09-29",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/apcob-faculty-recruitment-2026-apply-offline-3070209",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "24b53f999e9e",
-   "org": "AWEIL",
-   "org_full": "Advanced Weapons & Equipment India Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aweil.in",
-   "title": "Machinist, Turner and More",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 40,
-   "apply_mode": "Offline",
-   "posted": "2026-09-08",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aweil-gsf-kashipur-recruitment-2026-apply-offline-for-40-machinist-turner-and-more-posts-3066807",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "5c60257eed06",
-   "org": "BEML",
-   "org_full": "BEML Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bemlindia.in",
-   "title": "Assistant Manager, Engineer and More",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 13,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/beml-executive-recruitment-2026-apply-online-for-13-assistant-manager-engineer-and-more-posts-3069400",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "294c777f22f6",
-   "org": "Bank of Baroda",
-   "org_full": "Bank of Baroda",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bankofbaroda.in",
-   "title": "Faculty and Financial Literacy Counsellor",
-   "qualification": [
-    "Any Graduate",
-    "Any Post Graduate"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bank-of-baroda-recruitment-2026-apply-offline-for-faculty-and-financial-literacy-counsellor-posts-3069391",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4774d6ad1399",
-   "org": "Central Silk Board",
-   "org_full": "Central Silk Board",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "csb.gov.in",
-   "title": "Young Professional",
-   "qualification": [
-    "CA",
-    "M.Com",
-    "MBA/PGDM"
-   ],
-   "vacancies": 14,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/central-silk-board-young-professional-recruitment-2026-apply-online-for-14-posts-3067013",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a1d0217ffde6",
-   "org": "ESIC Alwar",
-   "org_full": "ESIC Alwar",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "esic.gov.in",
-   "title": "Professor, Assistant Professor and More",
-   "qualification": [
-    "DNB",
-    "M.Phil/Ph.D",
-    "MS/MD"
-   ],
-   "vacancies": 167,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/esic-alwar-recruitment-2026-apply-walkin-for-167-professor-assistant-professor-and-more-posts-3069107",
-   "sources": [
-    "FreeJobAlert – Teaching",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/upessc-up-assistant-professor-2026/"
-   ],
-   "alias_ids": [
-    "378908a9e84d"
-   ]
-  },
-  {
-   "id": "91415b6d9991",
-   "org": "Kerala PSC",
-   "org_full": "Kerala PSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Kerala"
-   ],
-   "logo_domain": "keralapsc.gov.in",
-   "title": "Junior Assistant, Beat Forest Officer and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "Diploma",
-    "12TH",
-    "10TH",
-    "Any Masters Degree",
-    "M.Sc"
-   ],
-   "vacancies": 31,
-   "apply_mode": "Online",
-   "posted": "2026-08-31",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/kerala-psc-recruitment-2026-apply-online-for-31-plumber-assistant-project-engineer-and-more-posts-3065530",
-   "sources": [
-    "FreeJobAlert – Kerala Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "90016bbaf058",
-   "org": "MOIL",
-   "org_full": "MOIL Ltd",
-   "sector": "Mining & Steel",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "moil.nic.in",
-   "title": "Manager",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": 3,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/moil-manager-recruitment-2026-walk-in-for-03-posts-3068417",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a736d71ee956",
-   "org": "Oil India",
-   "org_full": "Oil India Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "oil-india.com",
-   "title": "Contractual Electrician, Contractual Associate Engineer",
-   "qualification": [
-    "10TH",
-    "ITI",
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/oil-india-recruitment-2026-walkin-for-electrician-associate-engineer-posts-3069093",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "7b3945ab9ed5",
-   "org": "RBI",
-   "org_full": "Reserve Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "Central Govt",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rbi.org.in",
-   "title": "Medical Consultant",
-   "qualification": [
-    "MBBS"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rbi-jammu-medical-consultant-recruitment-2026-apply-offline-3068383",
-   "sources": [
-    "FreeJobAlert – Bank"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "95dcb80d9f48",
-   "org": "Raichur District",
-   "org_full": "Raichur District",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "Block Coordinator",
-   "qualification": [
-    "BCA",
-    "B.Sc"
-   ],
-   "vacancies": 7,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/raichur-district-block-coordinator-recruitment-2026-apply-online-3069390",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "c8a14b32fced",
-   "org": "SAIL",
-   "org_full": "Steel Authority of India Ltd",
-   "sector": "Mining & Steel",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "West Bengal"
-   ],
-   "logo_domain": "sail.co.in",
-   "title": "Trade Apprentice",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 200,
-   "apply_mode": "Online",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sail-iisco-trade-apprentice-recruitment-2026-apply-online-for-200-posts-3069661",
-   "sources": [
-    "FreeJobAlert – WB Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "c9add8589af0",
-   "org": "SSC",
-   "org_full": "SSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "ssc.gov.in",
-   "title": "CHSL",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": 2536,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ssc-chsl-recruitment-2026-apply-online-for-2536-posts-3066658",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/ssc-chsl-2026/"
-   ],
-   "alias_ids": [
-    "0df707e66d36"
-   ]
-  },
-  {
-   "id": "479f376e516c",
-   "org": "UKSSSC",
-   "org_full": "UKSSSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Group C Various Posts",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": null,
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.sarkariexam.com/uksssc-group-c-various-posts-2026/",
-   "sources": [
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "3b386318f922",
-   "org": "UPESSC",
-   "org_full": "UPESSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Uttar Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Assistant Professor",
-   "qualification": [
-    "Any Masters Degree",
-    "M.Ed",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 1936,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upessc-assistant-professor-recruitment-2026-apply-online-for-1936-posts-3066873",
-   "sources": [
-    "FreeJobAlert – UP Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "231082e21518",
-   "org": "UPSSSC",
-   "org_full": "UPSSSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Uttar Pradesh"
-   ],
-   "logo_domain": "upsssc.gov.in",
-   "title": "Junior Engineer (Avar Abhiyanta)",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": 134,
-   "apply_mode": "Online",
-   "posted": "2026-08-14",
-   "last_date": "2026-10-07",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upsssc-je-recruitment-2026-apply-online-for-134-junior-engineer-avar-abhiyanta-posts-3063119",
-   "sources": [
-    "FreeJobAlert – UP Govt",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/upsssc-junior-engineer-je-agriculture-2026/"
-   ],
-   "alias_ids": [
-    "708201939adf"
-   ]
-  },
   {
    "id": "b7bbb56c63e8",
    "org": "BMC",
@@ -5176,7 +4592,9 @@
     "official"
    ],
    "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-07",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "c8212c7734cb",
@@ -7235,7 +6653,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/CandidatePages/OTRAppForm/Applicant_OtrAuthentication.aspx?WEqGEem9m0+8Y4tNQqJiNYurmbKsjJR/fgSlThSTh6o=",
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-07",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "d508b08cf602",
@@ -8590,7 +8010,8 @@
    "first_seen": "2026-09-30",
    "also_urls": [
     "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagkgOS6AWCvRlSPaXqLdKVhI",
-    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOngpAmDJbFNDU"
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagnM8dHr1ViOngpAmDJbFNDU",
+    "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgiXC/U69+f+i"
    ],
    "alias_ids": []
   },
@@ -9485,7 +8906,71 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUnrnXz2AYmFXO",
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-07",
+   "also_urls": [],
+   "alias_ids": []
+  },
+  {
+   "id": "2795fd84a717",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Teaching & Research",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "07 Nov 2026 LIST OF PROVISIONALLY SELECTED CANDIDATES IN ADVT. NO. A-5/E-1/2025,\nASSISTANT TEACHER TRAINED GRADUATE (M./F.) EXAM 2025, SUBJECT-SANSKRIT",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-11-07",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgl8x4Q85hp/w",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgl8x4Q85hp/w",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "2cdf23b60a20",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "24 Oct 2026 DETAILS OF POSTS FOR ADVT. NO. A-1/E-1/2025, COMBINED STATE/UPPER SUBORDINATE SERVICES (M.) EXAM.-2025",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUnjA4m2mMmJ93",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmNKfqXmoSUnjA4m2mMmJ93",
+   "first_seen": "2026-10-08"
   }
  ]
 }
