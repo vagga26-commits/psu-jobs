@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-09T07:32:46+00:00",
- "count": 225,
+ "generated_at": "2026-10-10T07:14:34+00:00",
+ "count": 212,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": true,
+   "ok": false,
    "rows": 0
   },
   {
@@ -321,7 +321,7 @@
    "source": "HAL careers",
    "kind": "official",
    "url": "https://hal-india.co.in/career",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 30
+   "rows": 32
   },
   {
    "source": "UPSSSC careers",
@@ -648,615 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "4121d1d54d5c",
-   "org": "BCPL",
-   "org_full": "Brahmaputra Cracker and Polymer Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bcplonline.co.in",
-   "title": "Foreman, Technician & More",
-   "qualification": [
-    "Any Bachelors Degree",
-    "B.Com",
-    "B.Sc",
-    "Diploma",
-    "ITI"
-   ],
-   "vacancies": 24,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bcpl-non-executive-recruitment-2026-apply-online-for-24-foreman-technician-and-more-posts-3066999",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "b0887e1afa47",
-   "org": "C-DAC",
-   "org_full": "C-DAC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Assam"
-   ],
-   "logo_domain": "cdac.in",
-   "title": "Project Manager, Senior Project Engineer, Project Engineer",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech",
-    "M.Phil/Ph.D",
-    "M.Sc",
-    "MCA"
-   ],
-   "vacancies": 27,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/c-dac-recruitment-2026-walkin-for-27-project-manager-senior-project-engineer-project-engineer-posts-3069453",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "bd35314b3fb0",
-   "org": "CGPSC",
-   "org_full": "CGPSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Chhattisgarh"
-   ],
-   "logo_domain": "psc.cg.gov.in",
-   "title": "Microbiologist",
-   "qualification": [
-    "M.Sc"
-   ],
-   "vacancies": 5,
-   "apply_mode": "Online",
-   "posted": "2026-09-12",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cgpsc-microbiologist-recruitment-2026-apply-online-3067561",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "f05bc4f5fc52",
-   "org": "CMHO Bilaspur",
-   "org_full": "CMHO Bilaspur",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Chhattisgarh"
-   ],
-   "logo_domain": null,
-   "title": "Physiotherapist, Psychologist and More",
-   "qualification": [
-    "BDS",
-    "BPT",
-    "M.A",
-    "M.Phil/Ph.D",
-    "M.Sc"
-   ],
-   "vacancies": 13,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-29",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cmho-bilaspur-recruitment-2026-walkin-for-13-physiotherapist-psychologist-and-more-posts-3070224",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "0e7cd02024fd",
-   "org": "CTIL",
-   "org_full": "CTIL",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Young Professionals, Associates and Consultants",
-   "qualification": [
-    "M.A",
-    "M.Sc"
-   ],
-   "vacancies": 5,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ctil-recruitment-2026-apply-online-for-young-professionals-associates-and-consultants-posts-3069958",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "bc1048779ad5",
-   "org": "Central Silk Board",
-   "org_full": "Central Silk Board",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "Assam"
-   ],
-   "logo_domain": "csb.gov.in",
-   "title": "Assistant Engineer, Joint Secretary and More",
-   "qualification": [
-    "Any Bachelors Degree",
-    "Any Masters Degree",
-    "B.Tech/B.E",
-    "CA",
-    "CS",
-    "M.Com",
-    "MBA/PGDM"
-   ],
-   "vacancies": 17,
-   "apply_mode": "Offline",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/central-silk-board-recruitment-2026-apply-offline-for-17-assistant-engineer-joint-secretary-and-more-posts-3067361",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "dae41b1c93bc",
-   "org": "DLSA Kamrup",
-   "org_full": "DLSA Kamrup",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "Assam"
-   ],
-   "logo_domain": "nalsa.gov.in",
-   "title": "Para Legal Volunteers",
-   "qualification": [
-    "10TH"
-   ],
-   "vacancies": 29,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/dlsa-kamrup-para-legal-volunteers-recruitment-2026-apply-online-for-29-posts-3069460",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "5e290deed7a6",
-   "org": "GMRC",
-   "org_full": "GMRC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "gujaratmetrorail.com",
-   "title": "Chief GM / General Manager",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Online",
-   "posted": "2026-09-21",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gmrc-recruitment-2026-apply-online-for-chief-general-manager-general-manager-posts-3068483",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8ebb6e219025",
-   "org": "HMT",
-   "org_full": "HMT Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "hmtindia.com",
-   "title": "Consultant / Young Professional",
-   "qualification": [
-    "Any Post Graduate",
-    "CA",
-    "CS",
-    "ICWA",
-    "Any Graduate",
-    "ICSI"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-24",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hmt-recruitment-2026-apply-offline-for-young-professional-consultant-posts-3069269",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "53d970263674",
-   "org": "ICAR CIRCOT",
-   "org_full": "ICAR CIRCOT",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Maharashtra"
-   ],
-   "logo_domain": "icar.org.in",
-   "title": "Part Time Medical Officer",
-   "qualification": [
-    "MBBS"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/icar-circot-part-time-medical-officer-recruitment-2026-apply-online-3069375",
-   "sources": [
-    "FreeJobAlert – Maharashtra Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "85721bc17751",
-   "org": "IRCTC",
-   "org_full": "Indian Railway Catering & Tourism Corp",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "irctc.co.in",
-   "title": "Hospitality Monitors and Tourism Monitors",
-   "qualification": [
-    "Any Bachelors Degree",
-    "MBA/PGDM",
-    "PG Diploma"
-   ],
-   "vacancies": 28,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/irctc-recruitment-2026-walk-in-for-28-hospitality-monitors-and-tourism-monitors-posts-3067979",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8cafea2561e6",
-   "org": "KSRTC",
-   "org_full": "KSRTC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "Kerala"
-   ],
-   "logo_domain": null,
-   "title": "Assistant Executive Engineer, Chief Engineer",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ksrtc-recruitment-2026-apply-online-for-assistant-executive-engineer-chief-engineer-posts-3069774",
-   "sources": [
-    "FreeJobAlert – Kerala Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "3cd3693d1dde",
-   "org": "Mysore City Corporation",
-   "org_full": "Mysore City Corporation",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "UGD Helper",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": 116,
-   "apply_mode": "Offline",
-   "posted": "2026-09-12",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mysore-city-corporation-ugd-helper-recruitment-2026-apply-offline-for-116-posts-3067616",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "e9b8c307e5d9",
-   "org": "NCRTC",
-   "org_full": "NCRTC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "ncrtc.in",
-   "title": "Supervisor-I and Junior Maintainer",
-   "qualification": [
-    "B.Tech/B.E",
-    "Diploma",
-    "ITI"
-   ],
-   "vacancies": 90,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ncrtc-recruitment-2026-apply-online-for-90-supervisor-and-junior-maintainer-posts-3067341",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "47db9a819789",
-   "org": "Ordnance Factory Ambarnath",
-   "org_full": "Ordnance Factory Ambarnath",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Labour Welfare Officer",
-   "qualification": [
-    "MBA/PGDM",
-    "Diploma"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Offline",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ordnance-factory-ambarnath-labour-welfare-officer-recruitment-2026-apply-offline-3068742",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ed8e6ff9b75e",
-   "org": "Samagra Shiksha DNH DD",
-   "org_full": "Samagra Shiksha DNH DD",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Dadra and Nagar Haveli and Daman and Diu"
-   ],
-   "logo_domain": null,
-   "title": "DEO, Accounts Clerk and More",
-   "qualification": [
-    "12TH",
-    "Any Graduate",
-    "B.Ed",
-    "Diploma",
-    "MBA/PGDM"
-   ],
-   "vacancies": 32,
-   "apply_mode": "Online",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/samagra-shiksha-dnh-dd-recruitment-2026-apply-online-for-32-deo-accounts-clerk-and-more-posts-3069581",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a5e8b13c4c40",
-   "org": "Visakhapatnam Port Authority",
-   "org_full": "Visakhapatnam Port Authority",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "Andhra Pradesh"
-   ],
-   "logo_domain": "vizagport.com",
-   "title": "Deputy Chief Law Officer",
-   "qualification": [
-    "LLB"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Online",
-   "posted": "2026-09-09",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/visakhapatnam-port-authority-deputy-chief-law-officer-recruitment-2026-apply-online-3067004",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "cd868b3f5fc4",
-   "org": "WCD Yadgiri",
-   "org_full": "WCD Yadgiri",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "District Resource Person",
-   "qualification": [
-    "MSW"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Offline",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-09",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/wcd-yadgiri-district-resource-person-recruitment-2026-apply-offline-3069717",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "c4ce0d5246be",
    "org": "Alliance Air",
@@ -7102,6 +6493,37 @@
    "alias_ids": []
   },
   {
+   "id": "0fad1558f415",
+   "org": "UKSSSC",
+   "org_full": "UKSSSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "पदनाम-वैयत्तिक सहायक,आशुलिपिक के अभिलेख सन्निरीक्षा की तिथि हेतु क्लिक करें (Advt 26/UKSSSC/2020 & Advt 61/UKSSSC/2024)",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-09",
+   "last_date": null,
+   "status": null,
+   "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/10/20261009429448115.pdf",
+   "sources": [
+    "UKSSSC careers"
+   ],
+   "hosts": [
+    "cdnbbsr.s3waas.gov.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/10/20261009429448115.pdf",
+   "first_seen": "2026-10-10"
+  },
+  {
    "id": "edff9404e353",
    "org": "UPPSC",
    "org_full": "UPPSC",
@@ -8300,6 +7722,130 @@
    "first_seen": "2026-10-08",
    "also_urls": [],
    "alias_ids": []
+  },
+  {
+   "id": "acb5a3305e1c",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. A-2/E-1/2025, TECHNICAL EDUCATION DEPARTMENT U.P. (PR..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgjrDEVu75rNs",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgjrDEVu75rNs",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "0a656b2aa379",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REAGARDING DOCUMENT VERIFICATION FOR ADVT. NO. A-5/E-1/2025, ASSISTANT TE..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgoeK8STyHwj7",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgoeK8STyHwj7",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "6efbac8f0ec9",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "16 Oct 2026 NOTICE REGARDING ADVT. NO. A-2/E-1/2025, TECHNICAL EDUCATION DEPARTMENT U.P. (PRINCIPAL) EXAM.-2025",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgk0+KswLvP8K",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgk0+KswLvP8K",
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "21d309640f56",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Teaching & Research",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "16 Oct 2026 NOTICE REAGARDING DOCUMENT VERIFICATION FOR ADVT. NO. A-5/E-1/2025, ASSISTANT TEACHER TRAINED GRADUATE (M./F.) EXAM 2025, (SANSKRIT).",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgp+AulZC+met",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgp+AulZC+met",
+   "first_seen": "2026-10-10"
   }
  ]
 }
