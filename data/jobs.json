@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-10T07:14:34+00:00",
- "count": 212,
+ "generated_at": "2026-10-11T07:14:14+00:00",
+ "count": 202,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -321,7 +321,7 @@
    "source": "HAL careers",
    "kind": "official",
    "url": "https://hal-india.co.in/career",
-   "ok": true,
+   "ok": false,
    "rows": 0
   },
   {
@@ -648,345 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "c4ce0d5246be",
-   "org": "Alliance Air",
-   "org_full": "Alliance Air Aviation Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "allianceair.in",
-   "title": "Paramedics",
-   "qualification": [
-    "B.Sc"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/alliance-air-aviation-paramedics-recruitment-2026-apply-offline-3069556",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "22ff337bcb8c",
-   "org": "BPSSC",
-   "org_full": "BPSSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Bihar"
-   ],
-   "logo_domain": null,
-   "title": "Company Commander (Gulma Samadesta)",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": 65,
-   "apply_mode": "Online",
-   "posted": "2026-09-10",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bpssc-company-commander-recruitment-2026-apply-online-for-65-gulma-samadesta-posts-3066636",
-   "sources": [
-    "FreeJobAlert – State Govt",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/bpssc-bihar-police-company-commander-2026/"
-   ],
-   "alias_ids": [
-    "a97534a28a99"
-   ]
-  },
-  {
-   "id": "f1971a4ecdb0",
-   "org": "Exim Bank",
-   "org_full": "Export-Import Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "eximbankindia.in",
-   "title": "Deputy Manager & Manager",
-   "qualification": [
-    "CA",
-    "MBA/PGDM"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-07",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/exim-bank-recruitment-2026-apply-online-for-deputy-manager-and-manager-posts-3066646",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "52ea81312d4b",
-   "org": "HITES",
-   "org_full": "HLL Infra Tech Services Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Chief Manager, Senior Operations Manager, Operations Manager",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech"
-   ],
-   "vacancies": 21,
-   "apply_mode": "Online",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/hites-manager-recruitment-2026-apply-online-for-21-chief-manager-senior-operations-manager-and-operations-manager-posts-3068428",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "260cafcc79bc",
-   "org": "IIIT Delhi",
-   "org_full": "IIIT Delhi",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Delhi"
-   ],
-   "logo_domain": "iiitd.ac.in",
-   "title": "Deputy Administrative Officer",
-   "qualification": [
-    "Any Post Graduate"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Online",
-   "posted": "2026-09-29",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/iiit-delhi-deputy-administrative-officer-recruitment-2026-apply-online-3070099",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "da5e19e09e23",
-   "org": "KGBV Badaun",
-   "org_full": "KGBV Badaun",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "PGT, Peon, Accountant and More",
-   "qualification": [
-    "12TH",
-    "Any Graduate",
-    "B.Ed",
-    "M.A",
-    "M.Sc"
-   ],
-   "vacancies": 76,
-   "apply_mode": "Offline",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/kgbv-badaun-teaching-and-non-teaching-recruitment-2026-apply-offline-for-76-pgt-peon-accountant-and-more-posts-3069635",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "0e1c63c31aae",
-   "org": "MPMRCL",
-   "org_full": "MPMRCL",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "mpmetrorail.com",
-   "title": "General Manager, Deputy General Manager",
-   "qualification": [
-    "Any Graduate",
-    "B.Tech/B.E"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Online",
-   "posted": "2026-09-10",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mpmrcl-recruitment-2026-apply-online-for-general-manager-posts-3067244",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "fd315d97155c",
-   "org": "NAMO Hospital Daman",
-   "org_full": "NAMO Hospital Daman",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Dadra and Nagar Haveli and Daman and Diu"
-   ],
-   "logo_domain": null,
-   "title": "Anaesthetist, Ophthalmic Surgeon and More",
-   "qualification": [
-    "MBBS",
-    "Diploma"
-   ],
-   "vacancies": 8,
-   "apply_mode": "Online",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/namo-hospital-daman-recruitment-2026-apply-online-for-anaesthetist-ophthalmic-surgeon-and-more-posts-3069139",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "f71d81ec410a",
-   "org": "Naval Ship Repair Yard",
-   "org_full": "Naval Ship Repair Yard",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "Andaman and Nicobar"
-   ],
-   "logo_domain": "indiannavy.nic.in",
-   "title": "Apprentice",
-   "qualification": [
-    "ITI"
-   ],
-   "vacancies": 50,
-   "apply_mode": "Online",
-   "posted": "2026-08-17",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/naval-ship-repair-yard-apprentice-recruitment-2026-apply-online-for-50-electrician-machinist-and-more-posts-3062402",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "268877f94917",
-   "org": "Oil India",
-   "org_full": "Oil India Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "oil-india.com",
-   "title": "Deputy Chief Engineer, Economist and More",
-   "qualification": [
-    "Any Post Graduate",
-    "B.Tech/B.E",
-    "M.A",
-    "M.Sc"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-10",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/oil-india-recruitment-2026-apply-online-for-deputy-chief-engineer-economist-and-more-posts-3067409",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "27d37b0511e2",
    "org": "CASDIC DRDO",
@@ -6521,7 +6182,9 @@
     "official"
    ],
    "official_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/10/20261009429448115.pdf",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-10",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "edff9404e353",
@@ -7752,7 +7415,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgjrDEVu75rNs",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-10",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "0a656b2aa379",
@@ -7783,7 +7448,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgoeK8STyHwj7",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-10",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "6efbac8f0ec9",
@@ -7814,7 +7481,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgk0+KswLvP8K",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-10",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "21d309640f56",
@@ -7845,7 +7514,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgp+AulZC+met",
-   "first_seen": "2026-10-10"
+   "first_seen": "2026-10-10",
+   "also_urls": [],
+   "alias_ids": []
   }
  ]
 }
