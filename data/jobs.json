@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-11T07:14:14+00:00",
- "count": 202,
+ "generated_at": "2026-10-12T07:24:41+00:00",
+ "count": 193,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
@@ -321,7 +321,7 @@
    "source": "HAL careers",
    "kind": "official",
    "url": "https://hal-india.co.in/career",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
@@ -587,8 +587,8 @@
    "source": "JPSC careers",
    "kind": "official",
    "url": "https://www.jpsc.gov.in/",
-   "ok": true,
-   "rows": 50
+   "ok": false,
+   "rows": 0
   },
   {
    "source": "JSSC careers",
@@ -648,314 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "27d37b0511e2",
-   "org": "CASDIC DRDO",
-   "org_full": "CASDIC DRDO",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "drdo.gov.in",
-   "title": "Paid Intern",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Sc"
-   ],
-   "vacancies": 30,
-   "apply_mode": "Online",
-   "posted": "2026-09-15",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/casdic-drdo-paid-intern-recruitment-2026-apply-online-for-30-posts-3067768",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ab7b5ac67046",
-   "org": "CSIR CEERI",
-   "org_full": "CSIR CEERI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "csir.res.in",
-   "title": "JRF, Project Assistant and More",
-   "qualification": [
-    "10TH"
-   ],
-   "vacancies": 16,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/csir-ceeri-recruitment-2026-apply-online-for-16-jrf-project-assistant-and-more-posts-3069850",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8c43807dff19",
-   "org": "CWSSU",
-   "org_full": "CWSSU",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Professor, Associate Professor, Assistant Professor",
-   "qualification": [
-    "Any Masters Degree",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 149,
-   "apply_mode": "Online",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cwssu-recruitment-2026-apply-online-for-149-professor-associate-professor-assistant-professor-posts-3068780",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "3de2111bb2c9",
-   "org": "DMRC",
-   "org_full": "DMRC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "delhimetrorail.com",
-   "title": "Head Operations",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Offline",
-   "posted": "2026-09-21",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/dmrc-head-operations-recruitment-2026-apply-offline-3068695",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "aed1a1cf7459",
-   "org": "MAKAUT",
-   "org_full": "MAKAUT",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "West Bengal"
-   ],
-   "logo_domain": "makautwb.ac.in",
-   "title": "Project Associate I",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": 2,
-   "apply_mode": "Online",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/makaut-project-associate-i-recruitment-2026-apply-online-3069675",
-   "sources": [
-    "FreeJobAlert – WB Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "761b45179271",
-   "org": "MECL",
-   "org_full": "Mineral Exploration & Consultancy Ltd",
-   "sector": "Mining & Steel",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "mecl.co.in",
-   "title": "Technician, Assistant and More",
-   "qualification": [
-    "10TH",
-    "Any Graduate",
-    "B.Com",
-    "B.Sc",
-    "BCA",
-    "CA",
-    "Diploma",
-    "ICWA",
-    "ITI"
-   ],
-   "vacancies": 122,
-   "apply_mode": "Online",
-   "posted": "2026-09-02",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mecl-recruitment-2026-apply-online-for-122-technician-assistant-and-more-posts-3065988",
-   "sources": [
-    "FreeJobAlert – PSU",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/mecl-non-executive-2026/"
-   ],
-   "alias_ids": [
-    "bff7cbc5b6e6"
-   ]
-  },
-  {
-   "id": "d73dea2062f8",
-   "org": "RITES",
-   "org_full": "RITES Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rites.com",
-   "title": "Individual Consultant",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rites-individual-consultant-recruitment-2026-apply-online-3069083",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "65038fd28789",
-   "org": "RITES",
-   "org_full": "RITES Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "rites.com",
-   "title": "Individual Consultant",
-   "qualification": [
-    "Any Post Graduate",
-    "B.Tech/B.E",
-    "Diploma"
-   ],
-   "vacancies": 11,
-   "apply_mode": "Online",
-   "posted": "2026-09-15",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rites-individual-consultant-recruitment-2026-apply-online-for-11-posts-3067773",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "362146350c74",
-   "org": "STCL",
-   "org_full": "STCL",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Executive, Senior Executive and More",
-   "qualification": [
-    "MBA/PGDM"
-   ],
-   "vacancies": 15,
-   "apply_mode": "Online",
-   "posted": "2026-09-21",
-   "last_date": "2026-10-11",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/stcl-recruitment-2026-apply-online-for-15-executive-senior-executive-and-more-posts-3068677",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "5c930350ac69",
    "org": "ABV IIITM Gwalior",
