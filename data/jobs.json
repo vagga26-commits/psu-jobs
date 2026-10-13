@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T07:24:41+00:00",
- "count": 193,
+ "generated_at": "2026-10-13T08:13:36+00:00",
+ "count": 179,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -329,7 +329,7 @@
    "kind": "official",
    "url": "https://www.powergrid.in/job-opportunities",
    "ok": true,
-   "rows": 229
+   "rows": 230
   },
   {
    "source": "Coal India careers",
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 32
+   "rows": 35
   },
   {
    "source": "UPSSSC careers",
@@ -587,8 +587,8 @@
    "source": "JPSC careers",
    "kind": "official",
    "url": "https://www.jpsc.gov.in/",
-   "ok": false,
-   "rows": 0
+   "ok": true,
+   "rows": 50
   },
   {
    "source": "JSSC careers",
@@ -648,552 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "5c930350ac69",
-   "org": "ABV IIITM Gwalior",
-   "org_full": "ABV IIITM Gwalior",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Madhya Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Assistant Professor",
-   "qualification": [
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 24,
-   "apply_mode": "Online",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/abv-iiitm-gwalior-assistant-professor-recruitment-2026-apply-online-for-24-posts-3068730",
-   "sources": [
-    "FreeJobAlert – MP Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "c14215928cb1",
-   "org": "AIESL",
-   "org_full": "AI Engineering Services Ltd",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aiesl.in",
-   "title": "Chief Executive Officer",
-   "qualification": [
-    "B.Tech/B.E",
-    "MBA/PGDM"
-   ],
-   "vacancies": 1,
-   "apply_mode": "Offline",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aiesl-chief-executive-officer-recruitment-2026-apply-offline-3068753",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4ce2c3c753a4",
-   "org": "AIIMS Bhopal",
-   "org_full": "AIIMS Bhopal",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Madhya Pradesh"
-   ],
-   "logo_domain": "aiims.edu",
-   "title": "Project Research Scientist-II",
-   "qualification": [
-    "MS/MD",
-    "MBBS",
-    "BDS",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 2,
-   "apply_mode": null,
-   "posted": "2026-09-22",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aiims-bhopal-project-research-scientist-ii-recruitment-2026-3068795",
-   "sources": [
-    "FreeJobAlert – MP Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "8752f169e46f",
-   "org": "Arunachal Pradesh PSC",
-   "org_full": "Arunachal Pradesh PSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Arunachal Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Assistant Public Prosecutor, Sub-Treasury Officer and More",
-   "qualification": [
-    "B.B.A",
-    "B.Com",
-    "LLB"
-   ],
-   "vacancies": 37,
-   "apply_mode": "Online",
-   "posted": "2026-09-10",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/arunachal-pradesh-psc-group-a-and-b-recruitment-2026-apply-online-for-37-assistant-public-prosecutor-sub-treasury-officer-and-more-posts-3067078",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "25b03f49e44c",
-   "org": "BLW",
-   "org_full": "BLW",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "Sports Quota",
-   "qualification": [
-    "Any Graduate",
-    "12TH",
-    "10TH"
-   ],
-   "vacancies": 25,
-   "apply_mode": "Online",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/blw-sports-quota-recruitment-2026-apply-online-for-25-posts-3067470",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "5d9eda554d79",
-   "org": "CMHO Balrampur",
-   "org_full": "CMHO Balrampur",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Chhattisgarh"
-   ],
-   "logo_domain": null,
-   "title": "Staff Nurse, Technical Assistant and More",
-   "qualification": [
-    "Any Graduate",
-    "B.Sc",
-    "MBBS",
-    "Diploma",
-    "12TH",
-    "BAMS",
-    "GNM"
-   ],
-   "vacancies": 60,
-   "apply_mode": "Offline",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cmho-balrampur-recruitment-2026-apply-offline-for-60-staff-nurse-technical-assistant-and-more-posts-3069565",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ae19df2399ee",
-   "org": "CPCL",
-   "org_full": "Chennai Petroleum Corporation Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cpcl.co.in",
-   "title": "Trade, Technician & Graduate Apprentice",
-   "qualification": [
-    "Any Graduate",
-    "B.A",
-    "B.Com",
-    "B.Sc",
-    "B.Tech/B.E",
-    "Diploma",
-    "12TH",
-    "10TH",
-    "MBA/PGDM",
-    "MSW"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cpcl-apprentice-recruitment-2026-apply-online-for-trade-technician-and-graduate-apprentice-posts-3068928",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "f1a38b728dd6",
-   "org": "CPRI",
-   "org_full": "CPRI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cpri.res.in",
-   "title": "Assistant, MTS and More",
-   "qualification": [
-    "Any Graduate",
-    "B.Tech/B.E",
-    "Diploma",
-    "ITI",
-    "10TH"
-   ],
-   "vacancies": 110,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/cpri-recruitment-2026-apply-online-for-110-assistant-mts-and-more-posts-3067640",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "6cf9fa39f1fc",
-   "org": "ECL",
-   "org_full": "Eastern Coalfields Ltd",
-   "sector": "Mining & Steel",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "easterncoal.nic.in",
-   "title": "Medical Dresser (Trainee)",
-   "qualification": [
-    "10TH"
-   ],
-   "vacancies": 31,
-   "apply_mode": "Offline",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/eastern-coalfields-medical-dresser-recruitment-2026-apply-offline-for-31-posts-3069794",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a852018e5dcb",
-   "org": "EIL",
-   "org_full": "Engineers India Ltd",
-   "sector": "Oil & Gas",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "engineersindia.com",
-   "title": "Associate Engineer",
-   "qualification": [
-    "B.Sc",
-    "B.Tech/B.E"
-   ],
-   "vacancies": 20,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/eil-associate-engineer-recruitment-2026-apply-online-for-20-posts-3069514",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "6512301fa026",
-   "org": "GCF Jabalpur",
-   "org_full": "GCF Jabalpur",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Skilled (Experienced) Tradesman",
-   "qualification": [
-    "ITI",
-    "Diploma"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gcf-jabalpur-skilled-experienced-tradesman-recruitment-2026-apply-online-for-10-posts-3069831",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "6b58c9e1182d",
-   "org": "GSSSB",
-   "org_full": "GSSSB",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Gujarat"
-   ],
-   "logo_domain": "gsssb.gujarat.gov.in",
-   "title": "Staff Nurse",
-   "qualification": [
-    "B.Sc",
-    "Diploma"
-   ],
-   "vacancies": 131,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gsssb-staff-nurse-recruitment-2026-apply-online-for-131-posts-3070030",
-   "sources": [
-    "FreeJobAlert – Gujarat Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "467c025dabce",
-   "org": "MPBOU",
-   "org_full": "MPBOU",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Professor, Assistant Professor and More",
-   "qualification": [
-    "Any Masters Degree",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 40,
-   "apply_mode": "Offline",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/mpbou-recruitment-2026-apply-offline-for-19-professor-assistant-professor-and-more-posts-3068160",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "98893351d820",
-   "org": "Munitions India",
-   "org_full": "Munitions India Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "munitionsindia.in",
-   "title": "Director",
-   "qualification": [
-    "B.Tech/B.E"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/munitions-india-director-recruitment-2026-apply-offline-3068362",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "37b29d65f226",
-   "org": "SPM",
-   "org_full": "Security Paper Mill, Narmadapuram (SPMCIL)",
-   "sector": "Other PSU",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "spmcil.com",
-   "title": "Medical Officer, Consultant",
-   "qualification": [
-    "MBBS",
-    "MS/MD"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-11",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/security-paper-mill-narmadapuram-recruitment-2026-apply-offline-for-medical-officer-consultant-posts-3067476",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "42fdc8d7cf94",
-   "org": "STPI",
-   "org_full": "STPI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Administration & Others",
-   "locations": [
-    "Assam"
-   ],
-   "logo_domain": "stpi.in",
-   "title": "Assistant, Administrative Officer and More",
-   "qualification": [
-    "MBA/PGDM",
-    "Diploma",
-    "Any Graduate"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Online",
-   "posted": "2026-08-29",
-   "last_date": "2026-10-12",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/stpi-recruitment-2026-apply-online-for-10-assistant-administrative-officer-and-more-posts-3065261",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "d204b7925a7d",
    "org": "AIIMS Gorakhpur",
@@ -7209,6 +6663,68 @@
    "first_seen": "2026-10-10",
    "also_urls": [],
    "alias_ids": []
+  },
+  {
+   "id": "c1065754e099",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING DOWNLOAD MARKSHEET & CUT OFF FOR ADVT. NO. D-4-E-1-2025, [S-04-..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-19",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgsyE//4wbv3j",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgsyE//4wbv3j",
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "b0e9b9927270",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "19 Oct 2026 NOTICE REGARDING DOWNLOAD MARKSHEET & CUT OFF FOR ADVT. NO. D-4-E-1-2025, [S-04-01]",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-19",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgu3Urm7BhrHO",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgu3Urm7BhrHO",
+   "first_seen": "2026-10-13"
   }
  ]
 }
