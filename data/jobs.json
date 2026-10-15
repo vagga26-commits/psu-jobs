@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-14T06:22:11+00:00",
- "count": 165,
+ "generated_at": "2026-10-15T06:09:30+00:00",
+ "count": 159,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": false,
+   "ok": true,
    "rows": 0
   },
   {
@@ -259,7 +259,7 @@
    "kind": "aggregator",
    "url": "https://www.jagranjosh.com/government-jobs",
    "ok": true,
-   "rows": 0
+   "rows": 1
   },
   {
    "source": "Freshersworld – Govt Jobs",
@@ -637,7 +637,7 @@
    "kind": "official",
    "url": "https://sssc.uk.gov.in/",
    "ok": true,
-   "rows": 13
+   "rows": 14
   },
   {
    "source": "APSC careers",
@@ -648,244 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "083ea4ff0823",
-   "org": "Allahabad University",
-   "org_full": "Allahabad University",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "allduniv.ac.in",
-   "title": "Faculty",
-   "qualification": [
-    "Any Masters Degree"
-   ],
-   "vacancies": 6,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/allahabad-university-faculty-recruitment-2026-walkin-3069973",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "7eda976b97ea",
-   "org": "DRDO DIHAR",
-   "org_full": "DRDO DIHAR",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "drdo.gov.in",
-   "title": "Junior Research Fellow, Research Associate",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech"
-   ],
-   "vacancies": 17,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/drdo-dihar-recruitment-2026-walkin-for-17-junior-research-fellow-research-associate-posts-3069622",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "53881900b60c",
-   "org": "RRB",
-   "org_full": "RRB",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "Paramedical: Pharmacist, Lab Assistant and More",
-   "qualification": [
-    "B.Pharma",
-    "B.Sc"
-   ],
-   "vacancies": 590,
-   "apply_mode": "Online",
-   "posted": "2026-09-23",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rrb-paramedical-recruitment-2026-apply-online-for-560-posts-3066740",
-   "sources": [
-    "FreeJobAlert – Govt Jobs",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/railway-rrb-paramedical-2026/"
-   ],
-   "alias_ids": [
-    "5eddf34c2b98"
-   ]
-  },
-  {
-   "id": "5728ac4dff0a",
-   "org": "SIDBI",
-   "org_full": "Small Industries Development Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sidbi.in",
-   "title": "Assistant Communication Officer and Audit Consultant",
-   "qualification": [
-    "B.Tech/B.E",
-    "CA",
-    "MBA/PGDM"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-24",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sidbi-specialist-recruitment-2026-apply-online-for-assistant-communication-officer-and-audit-consultant-posts-3069216",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "27cf0b9c6238",
-   "org": "UCSL",
-   "org_full": "Udupi Cochin Shipyard Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cochinshipyard.in",
-   "title": "Diploma Apprentice",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ucsl-diploma-apprentice-recruitment-2026-apply-online-3067994",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "a3e358de0131",
-   "org": "UCSL",
-   "org_full": "Udupi Cochin Shipyard Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "cochinshipyard.in",
-   "title": "ITI, Trade & Graduate/Technician Apprentice",
-   "qualification": [
-    "Diploma",
-    "ITI"
-   ],
-   "vacancies": 12,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/ucsl-apprentice-recruitment-2026-apply-online-for-12-iti-trade-graduate-technician-apprentices-posts-3067866",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "66d665c5290b",
-   "org": "WCD Gujarat",
-   "org_full": "WCD Gujarat",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Anganwadi & Social Welfare",
-   "locations": [
-    "Gujarat"
-   ],
-   "logo_domain": null,
-   "title": "Anganwadi Worker and Anganwadi Helper",
-   "qualification": [
-    "12TH",
-    "10TH"
-   ],
-   "vacancies": 6843,
-   "apply_mode": "Online",
-   "posted": "2026-09-21",
-   "last_date": "2026-10-14",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/gujarat-anganwadi-recruitment-2026-apply-online-for-6843-anganwadi-worker-and-helper-posts-3068594",
-   "sources": [
-    "FreeJobAlert – Gujarat Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "2e7bb32a1b85",
    "org": "AIIMS Bhubaneswar",
@@ -4408,6 +4170,36 @@
    "alias_ids": [
     "461b68655ad5"
    ]
+  },
+  {
+   "id": "ce4c760c23cb",
+   "org": "APPSC",
+   "org_full": "APPSC",
+   "sector": null,
+   "level": "State Govt",
+   "department": "UPSC, SSC & PSC",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": "psc.ap.gov.in",
+   "title": "AEE",
+   "qualification": [],
+   "vacancies": 503,
+   "apply_mode": null,
+   "posted": "2026-10-13",
+   "last_date": "2026-11-22",
+   "status": null,
+   "url": "https://www.jagranjosh.com/articles/appsc-aee-notification-2026-out-for-503-assistant-executive-engineer-posts-check-eligibility-vacancy-and-other-details-1800017791-1",
+   "sources": [
+    "Jagran Josh – Govt Jobs"
+   ],
+   "hosts": [
+    "jagranjosh.com"
+   ],
+   "source_types": [
+    "aggregator"
+   ],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "e8749379bdb4",
