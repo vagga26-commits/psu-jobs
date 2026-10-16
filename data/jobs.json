@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-15T06:09:30+00:00",
- "count": 159,
+ "generated_at": "2026-10-16T06:03:27+00:00",
+ "count": 146,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -259,7 +259,7 @@
    "kind": "aggregator",
    "url": "https://www.jagranjosh.com/government-jobs",
    "ok": true,
-   "rows": 1
+   "rows": 0
   },
   {
    "source": "Freshersworld – Govt Jobs",
@@ -329,7 +329,7 @@
    "kind": "official",
    "url": "https://www.powergrid.in/job-opportunities",
    "ok": true,
-   "rows": 230
+   "rows": 231
   },
   {
    "source": "Coal India careers",
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 35
+   "rows": 34
   },
   {
    "source": "UPSSSC careers",
@@ -648,517 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "2e7bb32a1b85",
-   "org": "AIIMS Bhubaneswar",
-   "org_full": "AIIMS Bhubaneswar",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aiims.edu",
-   "title": "Guest Faculty, Guest Counsellor",
-   "qualification": [
-    "Any Post Graduate",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 6,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aiims-bhubaneswar-recruitment-2026-apply-online-for-guest-faculty-guest-counsellor-posts-3069522",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "2eebb3743e9b",
-   "org": "AIIMS Deoghar",
-   "org_full": "AIIMS Deoghar",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "aiims.edu",
-   "title": "Professor, Assistant Professor and More",
-   "qualification": [
-    "DM",
-    "M.Ch",
-    "MBBS",
-    "MS/MD"
-   ],
-   "vacancies": 69,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/aiims-deoghar-recruitment-2026-apply-online-for-69-professor-assistant-professor-and-more-posts-3068122",
-   "sources": [
-    "FreeJobAlert – Teaching"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "2b6b4434e257",
-   "org": "Central Bank",
-   "org_full": "Central Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "centralbankofindia.co.in",
-   "title": "Counselor",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": null,
-   "apply_mode": "Offline",
-   "posted": "2026-09-24",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/central-bank-of-india-counselor-recruitment-2026-apply-offline-3069226",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "b66bf0e97ff8",
-   "org": "DLSA Kokrajhar",
-   "org_full": "DLSA Kokrajhar",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "Assam"
-   ],
-   "logo_domain": "nalsa.gov.in",
-   "title": "Para Legal Volunteer",
-   "qualification": [
-    "10TH"
-   ],
-   "vacancies": 15,
-   "apply_mode": "Offline",
-   "posted": "2026-09-21",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/dlsa-kokrajhar-para-legal-volunteer-recruitment-2026-apply-offline-for-15-posts-3068531",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "26cee0e79420",
-   "org": "DRDO MTRDC",
-   "org_full": "DRDO MTRDC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "drdo.gov.in",
-   "title": "Junior Research Fellow",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech",
-    "M.Phil/Ph.D"
-   ],
-   "vacancies": 3,
-   "apply_mode": "Walk-in",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/drdo-mtrdc-junior-research-fellow-recruitment-2026-walkin-3067896",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "66aade35407e",
-   "org": "Delhi High Court",
-   "org_full": "Delhi High Court",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Judiciary & Legal",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "SPA & PA",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": null,
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.sarkariexam.com/delhi-high-court-spa-and-pa-2026/",
-   "sources": [
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "4d4f3def33d0",
-   "org": "East Central Railway",
-   "org_full": "East Central Railway",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "Instructor",
-   "qualification": [
-    "Other"
-   ],
-   "vacancies": 7,
-   "apply_mode": "Offline",
-   "posted": "2026-09-19",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/east-central-railway-instructor-recruitment-2026-apply-offline-for-07-posts-3068389",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "dffe2f9373ba",
-   "org": "East Central Railway",
-   "org_full": "East Central Railway",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Railway",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "indianrailways.gov.in",
-   "title": "ALP, JE, Station Master and More (GDCE)",
-   "qualification": [
-    "Any Graduate",
-    "Diploma",
-    "ITI",
-    "12TH"
-   ],
-   "vacancies": 1465,
-   "apply_mode": "Online",
-   "posted": "2026-09-17",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/east-central-railway-gdce-recruitment-2026-apply-online-for-1465-alp-je-station-master-and-more-posts-3068040",
-   "sources": [
-    "FreeJobAlert – Railway"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "c8567e9509ed",
-   "org": "Exim Bank",
-   "org_full": "Export-Import Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "eximbankindia.in",
-   "title": "Business Development Officer",
-   "qualification": [
-    "Any Post Graduate",
-    "MBA/PGDM"
-   ],
-   "vacancies": 12,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/exim-bank-business-development-officer-recruitment-2026-apply-online-for-12-posts-3067808",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "e4049bd6e30f",
-   "org": "GRID India",
-   "org_full": "Grid Controller of India Ltd",
-   "sector": "Power",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "grid-india.in",
-   "title": "Executive Trainee",
-   "qualification": [
-    "B.Sc",
-    "B.Tech/B.E"
-   ],
-   "vacancies": 52,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/grid-india-executive-trainee-recruitment-2026-apply-online-for-52-posts-3067891",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "6c33d9568569",
-   "org": "Indian Navy",
-   "org_full": "Indian Navy",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "joinindiannavy.gov.in",
-   "title": "Direct Entry Petty Officer & Chief Petty Officer (Sports Quota)",
-   "qualification": [
-    "12TH"
-   ],
-   "vacancies": null,
-   "apply_mode": null,
-   "posted": "2026-09-21",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/indian-navy-sports-quota-recruitment-2026-3068640",
-   "sources": [
-    "FreeJobAlert – Defence"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "21b2d5705394",
-   "org": "Karnataka Prisons Department",
-   "org_full": "Karnataka Prisons Department",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "Karnataka"
-   ],
-   "logo_domain": null,
-   "title": "Jailor, Warder",
-   "qualification": [
-    "Any Graduate",
-    "Diploma",
-    "10TH"
-   ],
-   "vacancies": 869,
-   "apply_mode": "Online",
-   "posted": "2026-09-22",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/karnataka-prisons-department-recruitment-2026-apply-online-for-869-jailor-warder-posts-3068344",
-   "sources": [
-    "FreeJobAlert – Karnataka Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "01398ccda48a",
-   "org": "PMBI",
-   "org_full": "PMBI",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "janaushadhi.gov.in",
-   "title": "Pharmacist, Executive and More",
-   "qualification": [
-    "B.Pharma",
-    "B.Sc",
-    "B.Tech/B.E",
-    "LLB",
-    "BVSC",
-    "M.Pharma",
-    "M.E/M.Tech",
-    "MBA/PGDM",
-    "MCA"
-   ],
-   "vacancies": 178,
-   "apply_mode": "Offline",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/pmbi-recruitment-2026-apply-offline-for-178-pharmacist-executive-and-more-posts-3066206",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "ee2e4e053335",
-   "org": "SDHM Kerala",
-   "org_full": "SDHM Kerala",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "Kerala"
-   ],
-   "logo_domain": null,
-   "title": "Software Engineer, Junior Developer and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.E/M.Tech",
-    "MBA/PGDM",
-    "MCA"
-   ],
-   "vacancies": 10,
-   "apply_mode": "Online",
-   "posted": "2026-09-28",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/sdhm-keralarecruitment-2026-apply-online-for-10-software-engineer-junior-developer-and-more-posts-3069785",
-   "sources": [
-    "FreeJobAlert – Kerala Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "260fff430fdb",
-   "org": "UPESSC",
-   "org_full": "UPESSC",
-   "sector": null,
-   "level": "State Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "Uttar Pradesh"
-   ],
-   "logo_domain": null,
-   "title": "Primary Assistant Teacher",
-   "qualification": [
-    "B.Ed",
-    "D.El.Ed"
-   ],
-   "vacancies": 12405,
-   "apply_mode": "Online",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-15",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upessc-primary-assistant-teacher-recruitment-2026-apply-online-for-12405-posts-3067782",
-   "sources": [
-    "FreeJobAlert – UP Govt",
-    "SarkariExam – Online Forms"
-   ],
-   "hosts": [
-    "freejobalert.com",
-    "sarkariexam.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30",
-   "also_urls": [
-    "https://www.sarkariexam.com/upessc-prt-assistant-teacher-2026/"
-   ],
-   "alias_ids": [
-    "e5aedc5b16d6"
-   ]
-  },
   {
    "id": "9bc2c93d863d",
    "org": "BEL",
@@ -6035,6 +5524,68 @@
    "first_seen": "2026-10-13",
    "also_urls": [],
    "alias_ids": []
+  },
+  {
+   "id": "038f8c07fb3e",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING DISTRICT SLIP FOR ADVT. NO:- D-6/E-1/2025, HOMEOPATHIC MEDICAL ..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgiIJLpDwLkww",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgiIJLpDwLkww",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "6c1e1cd7458a",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Medical & Health",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "24 Oct 2026 NOTICE REGARDING DISTRICT SLIP FOR ADVT. NO:- D-6/E-1/2025, HOMEOPATHIC MEDICAL OFFICER (DIRECTORATE OF HOMEOPATHY) (S-11/32)/(LABOUR DEPT.)(S-11/31).....",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-24",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgoKqa0jPxtSE",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgoKqa0jPxtSE",
+   "first_seen": "2026-10-16"
   }
  ]
 }
