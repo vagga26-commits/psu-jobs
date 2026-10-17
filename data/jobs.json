@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T06:03:27+00:00",
- "count": 146,
+ "generated_at": "2026-10-17T05:56:37+00:00",
+ "count": 144,
  "sources": [
   {
    "source": "FreeJobAlert – PSU",
@@ -230,7 +230,7 @@
    "source": "Sarkari Naukri Blog",
    "kind": "aggregator",
    "url": "https://www.sarkarinaukriblog.com/",
-   "ok": true,
+   "ok": false,
    "rows": 0
   },
   {
@@ -469,7 +469,7 @@
    "kind": "official",
    "url": "https://uppsc.up.nic.in/",
    "ok": true,
-   "rows": 34
+   "rows": 38
   },
   {
    "source": "UPSSSC careers",
@@ -648,277 +648,6 @@
   }
  ],
  "jobs": [
-  {
-   "id": "9bc2c93d863d",
-   "org": "BEL",
-   "org_full": "Bharat Electronics Ltd",
-   "sector": "Defence & Engineering",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "bel-india.in",
-   "title": "Senior Assistant Engineer",
-   "qualification": [
-    "Diploma"
-   ],
-   "vacancies": 36,
-   "apply_mode": "Offline",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bel-senior-assistant-engineer-recruitment-2026-apply-offline-for-36-posts-3069387",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "f17daf39551a",
-   "org": "BKNMU",
-   "org_full": "BKNMU",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Teaching & Research",
-   "locations": [
-    "Gujarat"
-   ],
-   "logo_domain": null,
-   "title": "Junior Clerk, Assistant Engineer and More",
-   "qualification": [
-    "Any Graduate"
-   ],
-   "vacancies": 11,
-   "apply_mode": "Online",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bknmu-non-teaching-recruitment-2026-apply-online-for-11-junior-clerk-assistant-engineer-and-more-posts-3069394",
-   "sources": [
-    "FreeJobAlert – Gujarat Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "b3ed30f96f8d",
-   "org": "BMHRC",
-   "org_full": "BMHRC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Medical & Health",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Engineer, Officer and More (Group B & C)",
-   "qualification": [
-    "BHM",
-    "B.Sc",
-    "B.Tech/B.E",
-    "Diploma",
-    "ITI",
-    "12TH",
-    "BSW",
-    "M.Sc"
-   ],
-   "vacancies": 66,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/bmhrc-group-b-and-c-recruitment-2026-apply-online-for-66-engineer-officer-and-more-posts-3068127",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "27d39413c1d6",
-   "org": "DRDO DHR&V",
-   "org_full": "DRDO DHR&V",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "Defence & Police",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "drdo.gov.in",
-   "title": "DRDO Chair, Distinguished Fellowships, Fellowships",
-   "qualification": [
-    "Retired Staff"
-   ],
-   "vacancies": 15,
-   "apply_mode": "Offline",
-   "posted": "2026-09-16",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/drdo-dhr-v-recruitment-2026-apply-offline-for-15-drdo-chair-drdo-distinguished-fellowships-drdo-fellowships-posts-3067834",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "436526f004de",
-   "org": "District Panchayat Gariaband",
-   "org_full": "District Panchayat Gariaband",
-   "sector": null,
-   "level": "State Govt",
-   "department": "Municipal & Local Bodies",
-   "locations": [
-    "Chhattisgarh"
-   ],
-   "logo_domain": null,
-   "title": "Program Officer, Assistant Programmer, Accountant",
-   "qualification": [
-    "B.Tech/B.E",
-    "M.Sc",
-    "B.Com",
-    "MBA/PGDM",
-    "MCA"
-   ],
-   "vacancies": 6,
-   "apply_mode": "Offline",
-   "posted": "2026-09-25",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/district-panchayat-gariaband-recruitment-2026-apply-offline-for-program-officer-assistant-programmer-accountant-posts-3069425",
-   "sources": [
-    "FreeJobAlert – State Govt"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "67ad4dedbbff",
-   "org": "RLDA",
-   "org_full": "Rail Land Development Authority",
-   "sector": "Transport & Infra",
-   "level": "PSU",
-   "department": "Public Sector Undertakings",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": null,
-   "title": "Homeopathy Doctor",
-   "qualification": [
-    "BHMS"
-   ],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": "2026-09-18",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/rlda-homeopathy-doctor-recruitment-2026-apply-online-3068186",
-   "sources": [
-    "FreeJobAlert – PSU"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "9365ee146e55",
-   "org": "SBI",
-   "org_full": "State Bank of India",
-   "sector": "Banking & Insurance",
-   "level": "PSU",
-   "department": "Banking & Finance",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "sbi.co.in",
-   "title": "APPLY ONLINE (16.10.2026 to 16.10.2026)",
-   "qualification": [],
-   "vacancies": null,
-   "apply_mode": "Online",
-   "posted": null,
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "sources": [
-    "SBI careers"
-   ],
-   "hosts": [
-    "recruitment.sbi.bank.in"
-   ],
-   "source_types": [
-    "official"
-   ],
-   "official_url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
-   "first_seen": "2026-10-07",
-   "also_urls": [],
-   "alias_ids": []
-  },
-  {
-   "id": "c8212c7734cb",
-   "org": "UPSC",
-   "org_full": "UPSC",
-   "sector": null,
-   "level": "Central Govt",
-   "department": "UPSC, SSC & PSC",
-   "locations": [
-    "All India"
-   ],
-   "logo_domain": "upsc.gov.in",
-   "title": "Junior Technical Officer, Law Officer and More",
-   "qualification": [
-    "B.Tech/B.E",
-    "LLB",
-    "MS/MD",
-    "DM"
-   ],
-   "vacancies": 13,
-   "apply_mode": "Online",
-   "posted": "2026-09-26",
-   "last_date": "2026-10-16",
-   "status": null,
-   "url": "https://www.freejobalert.com/articles/upsc-recruitment-2026-apply-online-for-13-law-officer-jto-and-more-posts-3069529",
-   "sources": [
-    "FreeJobAlert – Govt Jobs"
-   ],
-   "hosts": [
-    "freejobalert.com"
-   ],
-   "source_types": [
-    "aggregator"
-   ],
-   "first_seen": "2026-09-30"
-  },
   {
    "id": "42283a3779ec",
    "org": "Canara Bank",
@@ -5554,7 +5283,9 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgiIJLpDwLkww",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-16",
+   "also_urls": [],
+   "alias_ids": []
   },
   {
    "id": "6c1e1cd7458a",
@@ -5585,7 +5316,195 @@
     "official"
    ],
    "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgoKqa0jPxtSE",
-   "first_seen": "2026-10-16"
+   "first_seen": "2026-10-16",
+   "also_urls": [],
+   "alias_ids": []
+  },
+  {
+   "id": "9b3cc479eef3",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "LIST OF PROVISIONALLY SELECTED CANDIDATES IN ADVT. NO. A-2/E-1/2020,\nREGIONAL I..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-11-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgvOzjioxzzCo",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgvOzjioxzzCo",
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "e042bdd6681f",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING ADVT. NO. A-7/E-1/2021, U.P. TECHNICAL EDUCATION (TEACHING) SER..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-11-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgoWo8RkhUpnV",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgoWo8RkhUpnV",
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "6a68f71c8399",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "NOTICE REGARDING DISTRICT INFORMATION SLIP FOR ADVT. NO:- D-6/E-1/2025 VETTING O..",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-26",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgjJg+um+MX8d",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF_DB.aspx?I4PnQ0tBagmbO3OUZentgjJg+um+MX8d",
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "e2ee42dfb3de",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "16 Nov 2026 LIST OF PROVISIONALLY SELECTED CANDIDATES IN ADVT. NO. A-2/E-1/2020,\nREGIONAL INSPECTOR (TECHNICAL), EXAMINATION-2020",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-11-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgtabLYcZs4Ht",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgtabLYcZs4Ht",
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "23e18d54cc70",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "16 Nov 2026 NOTICE REGARDING ADVT. NO. A-7/E-1/2021, U.P. TECHNICAL EDUCATION (TEACHING) SERVICE EXAM.-2021, LECT. TEXTILE TECHNOLOGY",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-11-16",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentguFArEpoSSYL",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentguFArEpoSSYL",
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "7f36d2f02ba9",
+   "org": "UPPSC",
+   "org_full": "UPPSC",
+   "sector": null,
+   "level": "Central Govt",
+   "department": "Administration & Others",
+   "locations": [
+    "All India"
+   ],
+   "logo_domain": null,
+   "title": "26 Oct 2026 NOTICE REGARDING DISTRICT INFORMATION SLIP FOR ADVT. NO:- D-6/E-1/2025 VETTING OFFICER, S-02/09",
+   "qualification": [],
+   "vacancies": null,
+   "apply_mode": null,
+   "posted": "2026-10-26",
+   "last_date": null,
+   "status": null,
+   "url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgkVNO+35ELXe",
+   "sources": [
+    "UPPSC careers"
+   ],
+   "hosts": [
+    "uppsc.up.nic.in"
+   ],
+   "source_types": [
+    "official"
+   ],
+   "official_url": "https://uppsc.up.nic.in/Open_PDF.aspx?I4PnQ0tBagmbO3OUZentgkVNO+35ELXe",
+   "first_seen": "2026-10-17"
   }
  ]
 }
